@@ -19,7 +19,7 @@ const Header = () => {
 };
 
 const StyledHeader = styled.header`
-  
+  background-color: #000;
 `;
 
 export default Header;
