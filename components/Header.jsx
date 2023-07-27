@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const Header = () => {
   return (
-    <header>
+    <StyledHeader>
       <Link href='/' passHref>Ecommerce</Link>
       <nav>
         <Link href='/' passHref>Home</Link>
@@ -12,7 +12,7 @@ const Header = () => {
         <Link href='/account' passHref>Account</Link>
         <Link href='/cart' passHref>Cart (0)</Link>
       </nav>
-    </header>
+    </StyledHeader>
   );
 };
 
