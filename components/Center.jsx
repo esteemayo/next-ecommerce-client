@@ -6,7 +6,8 @@ const Center = ({ children }) => {
 
 const Container = styled.div`
   max-width: 80rem;
-  margin: 0 2rem;
+  margin: 0 auto;
+  padding: 0 2rem;
 `;
 
 export default Center;
