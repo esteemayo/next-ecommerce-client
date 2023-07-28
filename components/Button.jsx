@@ -38,6 +38,10 @@ const StyledButton = styled.button`
     font-size: 2rem;
     padding: 1rem 2rem;
   `}
+
+  svg {
+    height: 1.6rem;
+  }
 `;
 
 export default Button;
