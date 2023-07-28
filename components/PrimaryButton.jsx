@@ -18,6 +18,11 @@ const Button = styled.button`
   padding: 0.5rem 1.5rem;
   border-radius: 0.5rem;
   cursor: pointer;
+
+  ${({ size }) => size === 'lg' && css`
+    font-size: 2rem;
+    padding: 1rem 2rem;
+  `}
 `;
 
 export default PrimaryButton;
