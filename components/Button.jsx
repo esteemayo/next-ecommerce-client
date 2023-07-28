@@ -19,6 +19,7 @@ const StyledButton = styled.button`
 
   svg {
     height: 1.6rem;
+    margin-right: 0.5rem;
   }
 
   ${({ white, outline }) => white && !outline && css`
