@@ -1,6 +1,6 @@
 'use client';
 
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 const PrimaryButton = ({ children, ...rest }) => {
   return (
