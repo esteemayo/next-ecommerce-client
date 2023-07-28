@@ -22,4 +22,8 @@ const StyledHeader = styled.header`
   background-color: #222;
 `;
 
+const Logo = styled(Link)`
+  
+`;
+
 export default Header;
