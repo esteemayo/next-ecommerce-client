@@ -29,7 +29,7 @@ const Heading = styled.h1`
 `;
 
 const Description = styled.p`
-  
+  color: #aaa;
 `;
 
 export default Featured;
