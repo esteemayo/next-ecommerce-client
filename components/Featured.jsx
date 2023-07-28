@@ -29,6 +29,15 @@ const Container = styled.main`
   color: #fff;
 `;
 
+const Wrapper = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+`;
+
+const Left = styled.div`
+  
+`;
+
 const Heading = styled.h1`
   font-weight: normal;
 `;
