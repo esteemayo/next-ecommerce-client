@@ -42,6 +42,13 @@ const Wrapper = styled.div`
   display: grid;
   grid-template-columns: 0.8fr 1.2fr;
   gap: 4rem;
+
+  & > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
 `;
 
 const Left = styled.div`
