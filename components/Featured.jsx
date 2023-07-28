@@ -60,6 +60,7 @@ const Description = styled.p`
 const Right = styled.div`
   img {
     max-width: 100%;
+    object-fit: cover;
   }
 `;
 
