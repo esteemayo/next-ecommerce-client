@@ -2,6 +2,7 @@
 
 import styled from 'styled-components';
 import Image from 'next/image';
+
 import Center from './Center';
 
 const Featured = () => {
