@@ -17,7 +17,7 @@ const StyledButton = styled.button`
   border-radius: 0.5rem;
   cursor: pointer;
 
-  ${({ white }) => white && css`
+  ${({ white, outline }) => white && !outline && css`
     background-color: var(--clr-white);
     color: var(--clr-primary-black);
   `}
