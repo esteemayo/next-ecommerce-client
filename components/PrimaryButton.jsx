@@ -13,6 +13,7 @@ const Button = styled.button`
   color: #fff;
   padding: 0.5rem 1.5rem;
   border-radius: 0.5rem;
+  cursor: pointer;
 `;
 
 export default PrimaryButton;
