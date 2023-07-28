@@ -21,7 +21,7 @@ const Featured = () => {
               </Description>
               <ButtonContainer>
                 <Button type='button'>Read more</Button>
-                <Button type='button'>Add to cart</Button>
+                <PrimaryButton>Add to cart</PrimaryButton>
               </ButtonContainer>
             </LeftWrapper>
           </Left>
