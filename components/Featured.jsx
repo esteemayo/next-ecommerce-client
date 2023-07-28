@@ -19,7 +19,7 @@ const Featured = () => {
 };
 
 const Container = styled.main`
-  
+  background-color: #222;
 `;
 
 const Heading = styled.h1`
