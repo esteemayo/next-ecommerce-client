@@ -23,7 +23,7 @@ const Home = () => {
 
   return (
     <Container>
-      <Featured />
+      <Featured product={featuredProduct} />
     </Container>
   );
 };
