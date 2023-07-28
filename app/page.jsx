@@ -2,7 +2,9 @@ import styled from 'styled-components';
 
 const Home = () => {
   return (
-    <Container>Home</Container>
+    <Container>
+      <Heading>Pro anywhere</Heading>
+    </Container>
   );
 };
 
