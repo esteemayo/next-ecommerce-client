@@ -23,7 +23,7 @@ const StyledButton = styled.button`
   `}
 
   ${({ primary }) => primary && css`
-    background-color: #5542f6;
+    background-color: var(--clr-primary-blue);
     color: var(--clr-white);
   `}
 
