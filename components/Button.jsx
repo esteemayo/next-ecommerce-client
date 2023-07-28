@@ -37,6 +37,10 @@ const StyledButton = styled.button`
   ${({ size }) => size === 'lg' && css`
     font-size: 2rem;
     padding: 1rem 2rem;
+
+    svg {
+      height: 2rem;
+    }
   `}
 
   svg {
