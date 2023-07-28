@@ -3,6 +3,8 @@
 import Link from 'next/link';
 import styled from 'styled-components';
 
+import Center from './Center';
+
 const Header = () => {
   return (
     <StyledHeader>
