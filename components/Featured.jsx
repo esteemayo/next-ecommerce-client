@@ -20,6 +20,7 @@ const Featured = () => {
 
 const Container = styled.main`
   background-color: #222;
+  color: #fff;
 `;
 
 const Heading = styled.h1`
