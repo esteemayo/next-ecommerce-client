@@ -22,6 +22,12 @@ const StyledButton = styled.button`
     color: var(--clr-primary-black);
   `}
 
+  ${({ white, outline }) => white && outline && css`
+    background-color: transparent;
+    color: var(--clr-white);
+    border: 1px solid var(--clr-white);
+  `}
+
   ${({ primary }) => primary && css`
     background-color: var(--clr-primary-blue);
     color: var(--clr-white);
