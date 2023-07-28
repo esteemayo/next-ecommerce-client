@@ -29,11 +29,8 @@ const StyledHeader = styled.header`
 `;
 
 const Logo = styled(Link)`
-  &:active,
-  &:visited {
-    text-decoration: none;
-    color: #fff;
-  }
+  text-decoration: none;
+  color: #fff;
 `;
 
 const Wrapper = styled.div`
@@ -44,11 +41,8 @@ const Wrapper = styled.div`
 `;
 
 const NavLink = styled(Link)`
-  &:active,
-  &:visited {
-    text-decoration: none;
-    color: #aaa;
-  }
+  text-decoration: none;
+  color: #aaa;
 `;
 
 export default Header;
