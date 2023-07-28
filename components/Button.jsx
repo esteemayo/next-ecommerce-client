@@ -17,6 +17,11 @@ const StyledButton = styled.button`
   border-radius: 0.5rem;
   cursor: pointer;
 
+  ${({ white }) => white && css`
+    background-color: #fff;
+    color: #000;
+  `}
+
   ${({ primary }) => primary && css`
     background-color: #5542f6;
     color: #fff;
