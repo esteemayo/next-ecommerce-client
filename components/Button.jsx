@@ -17,6 +17,10 @@ const StyledButton = styled.button`
   border-radius: 0.5rem;
   cursor: pointer;
 
+  svg {
+    height: 1.6rem;
+  }
+
   ${({ white, outline }) => white && !outline && css`
     background-color: var(--clr-white);
     color: var(--clr-primary-black);
@@ -42,10 +46,6 @@ const StyledButton = styled.button`
       height: 2rem;
     }
   `}
-
-  svg {
-    height: 1.6rem;
-  }
 `;
 
 export default Button;
