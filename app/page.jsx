@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <Container>Home</Container>
   );
 };
 
