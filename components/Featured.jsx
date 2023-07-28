@@ -38,15 +38,6 @@ const Description = styled.p`
   font-size: 1.5rem;
 `;
 
-const Wrapper = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-`;
-
-const Left = styled.div`
-  
-`;
-
 const Right = styled.div`
   
 `;
