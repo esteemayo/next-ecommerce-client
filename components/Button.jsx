@@ -18,13 +18,13 @@ const StyledButton = styled.button`
   cursor: pointer;
 
   ${({ white }) => white && css`
-    background-color: #fff;
+    background-color: var(--clr-white);
     color: #000;
   `}
 
   ${({ primary }) => primary && css`
     background-color: #5542f6;
-    color: #fff;
+    color: var(--clr-white);
   `}
 
   ${({ size }) => size === 'lg' && css`
