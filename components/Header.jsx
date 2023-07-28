@@ -9,14 +9,16 @@ const Header = () => {
   return (
     <StyledHeader>
       <Center>
-        <Logo href='/' passHref>Ecommerce</Logo>
-        <nav>
-          <Link href='/' passHref>Home</Link>
-          <Link href='/products' passHref>All products</Link>
-          <Link href='/categories' passHref>Categories</Link>
-          <Link href='/account' passHref>Account</Link>
-          <Link href='/cart' passHref>Cart (0)</Link>
-        </nav>
+        <Wrapper>
+          <Logo href='/' passHref>Ecommerce</Logo>
+          <nav>
+            <Link href='/' passHref>Home</Link>
+            <Link href='/products' passHref>All products</Link>
+            <Link href='/categories' passHref>Categories</Link>
+            <Link href='/account' passHref>Account</Link>
+            <Link href='/cart' passHref>Cart (0)</Link>
+          </nav>
+        </Wrapper>
       </Center>
     </StyledHeader>
   );
