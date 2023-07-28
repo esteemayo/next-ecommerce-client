@@ -47,7 +47,7 @@ const Container = styled.main`
 
 const Wrapper = styled.div`
   display: grid;
-  grid-template-columns: 0.8fr 1.2fr;
+  grid-template-columns: 0.9fr 1.1fr;
   gap: 4rem;
 
   & > div {
