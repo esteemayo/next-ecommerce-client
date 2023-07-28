@@ -6,7 +6,10 @@ import { createGlobalStyle } from 'styled-components';
 import Header from '@/components/Header';
 import './globals.css';
 
-const roboto = Roboto({ subsets: ['latin'] });
+const roboto = Roboto({
+  weight: ['400'],
+  subsets: ['latin'],
+});
 
 export const metadata = {
   title: 'Create Next App',
