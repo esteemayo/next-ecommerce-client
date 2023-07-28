@@ -45,7 +45,6 @@ export const PATCH = async (request, { params }) => {
 
   try {
     await connectDB();
-    const isAdmin = await getIsAdmin();
 
     if (!productId || typeof productId !== 'string') {
       throw new Error('Invalid ID');
@@ -62,26 +61,24 @@ export const PATCH = async (request, { params }) => {
 
     if (title) updatedProduct.slug = slugify(title, { lower: true });
 
-    if (isAdmin) {
-      const product = await Product.findByIdAndUpdate(
-        productId,
-        { $set: { ...updatedProduct } },
-        {
-          new: true,
-          runValidators: true,
-        },
-      );
+    const product = await Product.findByIdAndUpdate(
+      productId,
+      { $set: { ...updatedProduct } },
+      {
+        new: true,
+        runValidators: true,
+      },
+    );
 
-      if (!product) {
-        return NextResponse.json('No product found with the given ID', {
-          status: 404,
-        });
-      }
-
-      return NextResponse.json(product, {
-        status: 200,
+    if (!product) {
+      return NextResponse.json('No product found with the given ID', {
+        status: 404,
       });
     }
+
+    return NextResponse.json(product, {
+      status: 200,
+    });
   } catch (err) {
     return NextResponse.json(err.message, {
       status: 500,
