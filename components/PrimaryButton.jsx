@@ -7,6 +7,8 @@ const PrimaryButton = ({ children }) => {
 };
 
 const Button = styled.button`
+  border: none;
+  display: inline-block;
   background-color: #5542f6;
 `;
 
