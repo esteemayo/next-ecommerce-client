@@ -60,7 +60,8 @@ const Left = styled.div`
 `;
 
 const LeftWrapper = styled.div`
-  
+  display: flex;
+  align-items: center;
 `;
 
 const Heading = styled.h1`
