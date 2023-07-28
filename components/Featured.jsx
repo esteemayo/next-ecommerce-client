@@ -64,6 +64,10 @@ const Description = styled.p`
   font-size: 1.5rem;
 `;
 
+const Button = styled.button`
+  
+`;
+
 const Right = styled.div`
   img {
     max-width: 100%;
