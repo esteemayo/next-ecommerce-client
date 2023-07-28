@@ -23,7 +23,11 @@ const StyledHeader = styled.header`
 `;
 
 const Logo = styled(Link)`
-  
+  &:active,
+  &:visited {
+    text-decoration: none;
+    color: #fff;
+  }
 `;
 
 export default Header;
