@@ -18,6 +18,13 @@ export const metadata = {
 
 const GlobalStyles = createGlobalStyle`
   /* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
+  :root {
+    --clr-white: #fff;
+    --clr-primary-black: #000;
+    --clr-secondary-black: #222;
+    --clr-primary-blue: #5542f6;
+  }
+
   *,
   *::after,
   *::before {
