@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import Image from 'next/image';
 
 import Center from './Center';
-import PrimaryButton from './PrimaryButton';
+import Button from './Button';
 
 const Featured = () => {
   return (
