@@ -19,10 +19,10 @@ const Featured = () => {
                 vitae eius consequuntur sint quam alias expedita ipsa eum ut at, aut animi, quo reiciendis
                 deleniti totam. Minus!
               </Description>
-              <ButtonContainer>
+              <ButtonWrapper>
                 <Button outline white size='lg'>Read more</Button>
                 <Button primary size='lg'>Add to cart</Button>
-              </ButtonContainer>
+              </ButtonWrapper>
             </LeftWrapper>
           </Left>
           <Right>
@@ -78,7 +78,7 @@ const Description = styled.p`
   font-size: 1.5rem;
 `;
 
-const ButtonContainer = styled.div`
+const ButtonWrapper = styled.div`
   
 `;
 
