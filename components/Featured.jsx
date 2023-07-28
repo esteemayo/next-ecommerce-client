@@ -20,8 +20,8 @@ const Featured = () => {
                 deleniti totam. Minus!
               </Description>
               <ButtonContainer>
-                <Button type='button'>Read more</Button>
-                <PrimaryButton size='lg'>Add to cart</PrimaryButton>
+                <Button>Read more</Button>
+                <Button size='lg'>Add to cart</Button>
               </ButtonContainer>
             </LeftWrapper>
           </Left>
@@ -79,10 +79,6 @@ const Description = styled.p`
 `;
 
 const ButtonContainer = styled.div`
-  
-`;
-
-const Button = styled.button`
   
 `;
 
