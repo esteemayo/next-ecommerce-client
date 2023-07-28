@@ -19,7 +19,7 @@ const StyledButton = styled.button`
 
   ${({ white }) => white && css`
     background-color: var(--clr-white);
-    color: #000;
+    color: var(--clr-primary-black);
   `}
 
   ${({ primary }) => primary && css`
