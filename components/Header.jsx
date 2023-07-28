@@ -37,7 +37,9 @@ const Logo = styled(Link)`
 `;
 
 const Wrapper = styled.div`
-  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 `;
 
 export default Header;
