@@ -5,6 +5,8 @@ import { useState } from 'react';
 import Featured from '@/components/Featured';
 
 const Home = () => {
+  const [featuredProduct, setFeaturedProduct] = useState({});
+
   return (
     <Container>
       <Featured />
