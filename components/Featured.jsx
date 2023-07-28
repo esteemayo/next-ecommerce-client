@@ -20,8 +20,8 @@ const Featured = () => {
                 deleniti totam. Minus!
               </Description>
               <ButtonContainer>
-                <Button>Read more</Button>
-                <Button size='lg'>Add to cart</Button>
+                <Button size='lg'>Read more</Button>
+                <Button primary size='lg'>Add to cart</Button>
               </ButtonContainer>
             </LeftWrapper>
           </Left>
