@@ -19,6 +19,7 @@ const Featured = () => {
 };
 
 const Container = styled.main`
+  padding: 5rem 0;
   background-color: #222;
   color: #fff;
 `;
