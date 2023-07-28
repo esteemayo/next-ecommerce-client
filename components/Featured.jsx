@@ -87,7 +87,7 @@ const Description = styled.p`
 
 const ButtonWrapper = styled.div`
   display: flex;
-  gap: 0.5rem;
+  gap: 1rem;
 `;
 
 const Right = styled.div`
