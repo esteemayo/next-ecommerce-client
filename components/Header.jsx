@@ -28,16 +28,16 @@ const StyledHeader = styled.header`
   background-color: #222;
 `;
 
-const Logo = styled(Link)`
-  text-decoration: none;
-  color: #fff;
-`;
-
 const Wrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 2rem 0;
+`;
+
+const Logo = styled(Link)`
+  text-decoration: none;
+  color: #fff;
 `;
 
 const NavLink = styled(Link)`
