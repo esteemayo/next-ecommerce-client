@@ -38,4 +38,8 @@ const Wrapper = styled.div`
   grid-template-columns: 1fr 1fr;
 `;
 
+const Left = styled.div`
+  
+`;
+
 export default Featured;
