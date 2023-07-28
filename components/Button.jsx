@@ -31,6 +31,7 @@ const StyledButton = styled.button`
   ${({ primary }) => primary && css`
     background-color: var(--clr-primary-blue);
     color: var(--clr-white);
+    border: 1px solid var(--clr-primary-blue);
   `}
 
   ${({ size }) => size === 'lg' && css`
