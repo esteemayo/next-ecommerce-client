@@ -12,7 +12,7 @@ const Button = ({ children, ...rest }) => {
 
 const StyledButton = styled.button`
   border: none;
-  display: inline-block;
+  display: inline-flex;
   padding: 0.5rem 1.5rem;
   border-radius: 0.5rem;
   cursor: pointer;
