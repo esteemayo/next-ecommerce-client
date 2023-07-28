@@ -12,11 +12,11 @@ const Header = () => {
         <Wrapper>
           <Logo href='/' passHref>Ecommerce</Logo>
           <nav>
-            <Link href='/' passHref>Home</Link>
-            <Link href='/products' passHref>All products</Link>
-            <Link href='/categories' passHref>Categories</Link>
-            <Link href='/account' passHref>Account</Link>
-            <Link href='/cart' passHref>Cart (0)</Link>
+            <NavLink href='/' passHref>Home</NavLink>
+            <NavLink href='/products' passHref>All products</NavLink>
+            <NavLink href='/categories' passHref>Categories</NavLink>
+            <NavLink href='/account' passHref>Account</NavLink>
+            <NavLink href='/cart' passHref>Cart (0)</NavLink>
           </nav>
         </Wrapper>
       </Center>
