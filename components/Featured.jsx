@@ -6,12 +6,14 @@ import Center from './Center';
 const Featured = () => {
   return (
     <Container>
-      <Heading>Pro anywhere</Heading>
-      <Description>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quibusdam velit corrupti
-        vitae eius consequuntur sint quam alias expedita ipsa eum ut at, aut animi, quo reiciendis
-        deleniti totam. Minus!
-      </Description>
+      <Center>
+        <Heading>Pro anywhere</Heading>
+        <Description>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quibusdam velit corrupti
+          vitae eius consequuntur sint quam alias expedita ipsa eum ut at, aut animi, quo reiciendis
+          deleniti totam. Minus!
+        </Description>
+      </Center>
     </Container>
   );
 };
