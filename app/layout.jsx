@@ -6,8 +6,6 @@ import { createGlobalStyle } from 'styled-components';
 import Header from '@/components/Header';
 import ToastProvider from '@/providers/ToastProvider';
 
-import './globals.css';
-
 const roboto = Roboto({
   weight: ['400'],
   subsets: ['latin'],
