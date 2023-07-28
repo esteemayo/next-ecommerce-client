@@ -1,21 +1,17 @@
 import { NextResponse } from 'next/server';
 
 import connectDB from '@/utils/db';
-import getIsAdmin from '@/actions/getIsAdmin';
 import Category from '@/models/Category';
 
 export const GET = async (request) => {
   try {
     await connectDB();
-    const isAdmin = await getIsAdmin();
 
-    if (isAdmin) {
-      const categories = await Category.find().sort('-createdAt');
+    const categories = await Category.find().sort('-createdAt');
 
-      return NextResponse.json(categories, {
-        status: 200,
-      });
-    }
+    return NextResponse.json(categories, {
+      status: 200,
+    });
   } catch (err) {
     return NextResponse.json(err.message, {
       status: 500,
