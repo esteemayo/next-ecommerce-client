@@ -1,6 +1,7 @@
 'use client';
 
 import styled from 'styled-components';
+import Featured from '@/components/Featured';
 
 const Home = () => {
   return (
