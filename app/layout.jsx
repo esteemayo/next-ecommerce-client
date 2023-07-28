@@ -4,6 +4,7 @@ import { Roboto } from 'next/font/google';
 import { createGlobalStyle } from 'styled-components';
 
 import Header from '@/components/Header';
+import ToastProvider from '@/providers/ToastProvider';
 import './globals.css';
 
 const roboto = Roboto({
@@ -51,6 +52,7 @@ export default function RootLayout({ children }) {
       <body className={roboto.className}>
         <GlobalStyles />
         <Header />
+        <ToastProvider />
         {children}
       </body>
     </html>
