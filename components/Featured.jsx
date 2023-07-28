@@ -7,13 +7,16 @@ const Featured = () => {
   return (
     <Container>
       <Center>
-        <Wrapper></Wrapper>
-        <Heading>Pro anywhere</Heading>
-        <Description>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quibusdam velit corrupti
-          vitae eius consequuntur sint quam alias expedita ipsa eum ut at, aut animi, quo reiciendis
-          deleniti totam. Minus!
-        </Description>
+        <Wrapper>
+          <Left>
+            <Heading>Pro anywhere</Heading>
+            <Description>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quibusdam velit corrupti
+              vitae eius consequuntur sint quam alias expedita ipsa eum ut at, aut animi, quo reiciendis
+              deleniti totam. Minus!
+            </Description>
+          </Left>
+        </Wrapper>
       </Center>
     </Container>
   );
