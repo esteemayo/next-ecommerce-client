@@ -18,4 +18,8 @@ const Heading = styled.h1`
   
 `;
 
+const Description = styled.p`
+  
+`;
+
 export default Home;
