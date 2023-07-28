@@ -6,4 +6,8 @@ const Home = () => {
   );
 };
 
+const Container = styled.main`
+  
+`;
+
 export default Home;
