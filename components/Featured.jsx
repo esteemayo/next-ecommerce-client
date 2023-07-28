@@ -22,7 +22,7 @@ const Featured = () => {
             <Image
               src='https://dawid-next-ecommerce.s3.amazonaws.com/1678631582100.jpeg'
               width={500}
-              height={500}
+              height={250}
               alt=''
             />
           </Right>
