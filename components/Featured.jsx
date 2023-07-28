@@ -7,6 +7,7 @@ const Featured = () => {
   return (
     <Container>
       <Center>
+        <Wrapper></Wrapper>
         <Heading>Pro anywhere</Heading>
         <Description>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quibusdam velit corrupti
