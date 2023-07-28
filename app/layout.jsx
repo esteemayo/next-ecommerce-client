@@ -17,7 +17,6 @@ export const metadata = {
 }
 
 const GlobalStyles = createGlobalStyle`
-  /* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
   :root {
     --clr-white: #fff;
     --clr-primary-black: #000;
@@ -43,7 +42,6 @@ const GlobalStyles = createGlobalStyle`
   body {
     font-size: 1.6rem;
     color: #222;
-    /* font-family: 'Roboto', sans-serif; */
   }
 `;
 
