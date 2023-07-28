@@ -33,4 +33,8 @@ const Description = styled.p`
   font-size: 1.5rem;
 `;
 
+const Wrapper = styled.div`
+  
+`;
+
 export default Featured;
