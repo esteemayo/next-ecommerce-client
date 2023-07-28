@@ -2,7 +2,7 @@
 
 import styled from 'styled-components';
 
-const PrimaryButton = ({ children }) => {
+const PrimaryButton = ({ children, size }) => {
   return <Button type='button'>{children}</Button>;
 };
 
