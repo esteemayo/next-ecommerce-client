@@ -40,6 +40,10 @@ const Logo = styled(Link)`
   color: #fff;
 `;
 
+const Nav = styled.nav`
+  
+`;
+
 const NavLink = styled(Link)`
   text-decoration: none;
   color: #aaa;
