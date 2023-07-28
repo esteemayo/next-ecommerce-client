@@ -10,4 +10,8 @@ const Container = styled.main`
   
 `;
 
+const Heading = styled.h1`
+  
+`;
+
 export default Home;
