@@ -2,6 +2,7 @@
 
 import styled from 'styled-components';
 import { useState } from 'react';
+
 import Featured from '@/components/Featured';
 
 const Home = () => {
