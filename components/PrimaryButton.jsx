@@ -2,8 +2,12 @@
 
 import styled from 'styled-components';
 
-const PrimaryButton = ({ children, size }) => {
-  return <Button type='button'>{children}</Button>;
+const PrimaryButton = ({ children, ...rest }) => {
+  return (
+    <Button {...rest} type='button'>
+      {children}
+    </Button>
+  );
 };
 
 const Button = styled.button`
