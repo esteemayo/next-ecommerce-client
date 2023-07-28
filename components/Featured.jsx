@@ -18,8 +18,10 @@ const Featured = () => {
                 vitae eius consequuntur sint quam alias expedita ipsa eum ut at, aut animi, quo reiciendis
                 deleniti totam. Minus!
               </Description>
-              <Button type='button'>Read more</Button>
-              <Button type='button'>Add to cart</Button>
+              <ButtonContainer>
+                <Button type='button'>Read more</Button>
+                <Button type='button'>Add to cart</Button>
+              </ButtonContainer>
             </LeftWrapper>
           </Left>
           <Right>
