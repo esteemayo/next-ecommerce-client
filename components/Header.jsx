@@ -43,4 +43,8 @@ const Wrapper = styled.div`
   padding: 2rem 0;
 `;
 
+const NavLink = styled(Link)`
+  
+`;
+
 export default Header;
