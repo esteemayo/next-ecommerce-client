@@ -57,6 +57,10 @@ const Left = styled.div`
   
 `;
 
+const LeftWrapper = styled.div`
+  
+`;
+
 const Heading = styled.h1`
   font-weight: normal;
 `;
