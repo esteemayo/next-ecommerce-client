@@ -34,4 +34,8 @@ const Logo = styled(Link)`
   }
 `;
 
+const Wrapper = styled.div`
+  
+`;
+
 export default Header;
