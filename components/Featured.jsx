@@ -34,7 +34,8 @@ const Description = styled.p`
 `;
 
 const Wrapper = styled.div`
-  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 `;
 
 export default Featured;
