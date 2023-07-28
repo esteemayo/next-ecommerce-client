@@ -88,6 +88,7 @@ const Description = styled.p`
 const ButtonWrapper = styled.div`
   display: flex;
   gap: 1rem;
+  margin-top: 1.5rem;
 `;
 
 const Right = styled.div`
