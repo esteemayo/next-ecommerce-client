@@ -11,13 +11,13 @@ const Header = () => {
       <Center>
         <Wrapper>
           <Logo href='/' passHref>Ecommerce</Logo>
-          <nav>
+          <Nav>
             <NavLink href='/' passHref>Home</NavLink>
             <NavLink href='/products' passHref>All products</NavLink>
             <NavLink href='/categories' passHref>Categories</NavLink>
             <NavLink href='/account' passHref>Account</NavLink>
             <NavLink href='/cart' passHref>Cart (0)</NavLink>
-          </nav>
+          </Nav>
         </Wrapper>
       </Center>
     </StyledHeader>
