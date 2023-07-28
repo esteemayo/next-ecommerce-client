@@ -11,14 +11,16 @@ const Featured = () => {
       <Center>
         <Wrapper>
           <Left>
-            <Heading>Pro anywhere</Heading>
-            <Description>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quibusdam velit corrupti
-              vitae eius consequuntur sint quam alias expedita ipsa eum ut at, aut animi, quo reiciendis
-              deleniti totam. Minus!
-            </Description>
-            <Button type='button'>Read more</Button>
-            <Button type='button'>Add to cart</Button>
+            <LeftWrapper>
+              <Heading>Pro anywhere</Heading>
+              <Description>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quibusdam velit corrupti
+                vitae eius consequuntur sint quam alias expedita ipsa eum ut at, aut animi, quo reiciendis
+                deleniti totam. Minus!
+              </Description>
+              <Button type='button'>Read more</Button>
+              <Button type='button'>Add to cart</Button>
+            </LeftWrapper>
           </Left>
           <Right>
             <Image
