@@ -4,13 +4,13 @@ import styled, { css } from 'styled-components';
 
 const PrimaryButton = ({ children, ...rest }) => {
   return (
-    <Button {...rest} type='button'>
+    <StyledButton {...rest} type='button'>
       {children}
-    </Button>
+    </StyledButton>
   );
 };
 
-const Button = styled.button`
+const StyledButton = styled.button`
   border: none;
   display: inline-block;
   background-color: #5542f6;
