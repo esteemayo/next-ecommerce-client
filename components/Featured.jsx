@@ -32,6 +32,7 @@ const Container = styled.main`
 const Wrapper = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 4rem;
 `;
 
 const Left = styled.div`
