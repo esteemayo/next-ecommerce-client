@@ -28,7 +28,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   html {
-    font-size: 65%;
+    font-size: 62.5%;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
