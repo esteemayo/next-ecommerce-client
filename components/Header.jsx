@@ -6,7 +6,7 @@ import styled from 'styled-components';
 const Header = () => {
   return (
     <StyledHeader>
-      <Link href='/' passHref>Ecommerce</Link>
+      <Logo href='/' passHref>Ecommerce</Logo>
       <nav>
         <Link href='/' passHref>Home</Link>
         <Link href='/products' passHref>All products</Link>
