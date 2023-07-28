@@ -26,14 +26,12 @@ export const POST = async (request) => {
     await connectDB();
     const isAdmin = await getIsAdmin();
 
-    if (isAdmin) {
-      const category = await Category.create({ ...body });
+    const category = await Category.create({ ...body });
 
-      if (category) {
-        return NextResponse.json(category, {
-          status: 201,
-        });
-      }
+    if (category) {
+      return NextResponse.json(category, {
+        status: 201,
+      });
     }
   } catch (err) {
     return NextResponse.json(err.message, {
