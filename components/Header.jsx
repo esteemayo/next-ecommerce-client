@@ -44,7 +44,11 @@ const Wrapper = styled.div`
 `;
 
 const NavLink = styled(Link)`
-  
+  &:active,
+  &:visited {
+    text-decoration: none;
+    color: #aaa;
+  }
 `;
 
 export default Header;
