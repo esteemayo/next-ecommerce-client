@@ -5,7 +5,9 @@ import Featured from '@/components/Featured';
 
 const Home = () => {
   return (
-    <Container>Home</Container>
+    <Container>
+      <Featured />
+    </Container>
   );
 };
 
