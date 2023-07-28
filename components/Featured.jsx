@@ -16,6 +16,7 @@ const Featured = () => {
               deleniti totam. Minus!
             </Description>
           </Left>
+          <Right>Right</Right>
         </Wrapper>
       </Center>
     </Container>
