@@ -1,6 +1,7 @@
 'use client';
 
 import styled from 'styled-components';
+import Center from './Center';
 
 const Featured = () => {
   return (
