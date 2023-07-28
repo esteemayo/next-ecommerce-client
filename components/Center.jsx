@@ -4,4 +4,8 @@ const Center = ({ children }) => {
   return <div>{children}</div>;
 };
 
+const Container = styled.div`
+  
+`;
+
 export default Center;
