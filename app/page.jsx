@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 
 import Featured from '@/components/Featured';
 import NewProducts from '@/components/NewProducts';
+import ClientOnly from '@/components/ClientOnly';
 
 import { getProductById } from '@/services/productService';
 
