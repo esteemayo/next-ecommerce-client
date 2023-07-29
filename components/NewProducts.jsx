@@ -24,4 +24,8 @@ const Container = styled.section`
   padding: 3rem 0;
 `;
 
+const Heading = styled.h2`
+  
+`;
+
 export default NewProducts;
