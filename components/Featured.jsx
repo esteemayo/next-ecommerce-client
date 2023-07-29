@@ -6,7 +6,7 @@ import Image from 'next/image';
 import Button from './Button';
 import ButtonLink from './ButtonLink';
 import Center from './Center';
-import CartInfo from './icons/CartInfo';
+import CartIcon from './icons/CartIcon';
 
 const Featured = ({ product }) => {
   return (
@@ -27,7 +27,7 @@ const Featured = ({ product }) => {
                   Read more
                 </ButtonLink>
                 <Button primary={1} type='button'>
-                  <CartInfo />
+                  <CartIcon />
                   Add to cart
                 </Button>
               </ButtonWrapper>
