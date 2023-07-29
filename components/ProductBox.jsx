@@ -61,4 +61,8 @@ const Title = styled.h2`
   font-size: 1.3rem;
 `;
 
+const ProductInfoContainer = styled.div`
+  
+`;
+
 export default ProductBox;
