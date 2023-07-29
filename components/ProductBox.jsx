@@ -25,6 +25,7 @@ const ProductBox = ({
         </ImageWrapper>
       </Wrapper>
       <Title>{title}</Title>
+      <Button type='button' primary={1}>Add to cart</Button>
     </Container>
   );
 };
