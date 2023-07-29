@@ -37,7 +37,7 @@ const ProductBox = ({
               prefix={'$'}
             />
           </Price>
-          <Button type='button' primary={1}>
+          <Button type='button' primary={1} outline={1}>
             <CartIcon />
           </Button>
         </PriceContainer>
