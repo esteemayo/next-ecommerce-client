@@ -34,7 +34,7 @@ const Wrapper = styled.div`
 
   img {
     max-width: 100%;
-    max-height: 15rem;
+    max-height: 8rem;
     object-fit: contain;
   }
 `;
