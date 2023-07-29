@@ -25,10 +25,12 @@ const Home = () => {
   }, []);
 
   return (
-    <Container>
-      <Featured product={featuredProduct} />
-      <NewProducts />
-    </Container>
+    <ClientOnly>
+      <Container>
+        <Featured product={featuredProduct} />
+        <NewProducts />
+      </Container>
+    </ClientOnly>
   );
 };
 
