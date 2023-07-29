@@ -6,6 +6,7 @@ import Image from 'next/image';
 import Button from './Button';
 import ButtonLink from './ButtonLink';
 import Center from './Center';
+import CartInfo from './icons/CartInfo';
 
 const Featured = ({ product }) => {
   return (
