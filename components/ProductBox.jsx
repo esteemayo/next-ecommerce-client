@@ -22,7 +22,7 @@ const ProductBox = ({
 
   return (
     <Container>
-      <Wrapper>
+      <Wrapper href={uri} passHref>
         <ImageWrapper>
           <Image
             src={images[0]}
