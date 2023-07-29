@@ -41,7 +41,7 @@ const Wrapper = styled.div`
 
 const ImageWrapper = styled.div``;
 
-const Title = styled.div`
+const Title = styled.h2`
   
 `;
 
