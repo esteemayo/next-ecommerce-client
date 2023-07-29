@@ -41,4 +41,8 @@ const Wrapper = styled.div`
 
 const ImageWrapper = styled.div``;
 
+const Title = styled.div`
+  
+`;
+
 export default ProductBox;
