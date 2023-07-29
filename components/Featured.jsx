@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import Image from 'next/image';
 
 import Button from './Button';
+import ButtonLink from './ButtonLink';
 import Center from './Center';
 
 const Featured = ({ product }) => {
