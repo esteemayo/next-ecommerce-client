@@ -78,7 +78,8 @@ const PriceContainer = styled.div`
 `;
 
 const Price = styled.div`
-  
+  font-weight: bold;
+  font-size: 2rem;
 `;
 
 export default ProductBox;
