@@ -8,7 +8,7 @@ import { cartKey, getFromStorage, setToStorage } from '@/utils';
 const cart = getFromStorage(cartKey);
 
 const INITIAL_STATE = {
-  cart: [],
+  cart: cart ?? [],
 };
 
 const CartContext = createContext();
