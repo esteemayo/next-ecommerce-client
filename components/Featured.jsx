@@ -48,7 +48,7 @@ const Featured = ({ product }) => {
   );
 };
 
-const Container = styled.main`
+const Container = styled.section`
   padding: 5rem 0;
   background-color: #222;
   color: #fff;
