@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import { useEffect, useState } from 'react';
 
 import Featured from '@/components/Featured';
+import NewProducts from '@/components/NewProducts';
 import { getProductById } from '@/services/productService';
 
 const Home = () => {
