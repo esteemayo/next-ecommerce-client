@@ -10,7 +10,7 @@ const Button = ({ children, ...rest }) => {
   );
 };
 
-export const StyledButton = styled.button`
+export const ButtonStyle = css`
   border: none;
   display: inline-flex;
   align-items: center;
@@ -48,6 +48,10 @@ export const StyledButton = styled.button`
       height: 2rem;
     }
   `}
+`;
+
+const StyledButton = styled.button`
+  ${ButtonStyle}
 `;
 
 export default Button;
