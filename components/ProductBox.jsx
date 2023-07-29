@@ -50,7 +50,7 @@ const Container = styled.article`
   
 `;
 
-const Wrapper = styled.div`
+const Wrapper = styled(Link)`
   background-color: var(--clr-white);
   padding: 2rem;
   height: 12rem;
