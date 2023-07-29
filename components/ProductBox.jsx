@@ -38,7 +38,7 @@ const ProductBox = ({
             />
           </Price>
           <Button type='button' primary={1} outline={1}>
-            <CartIcon />
+            Add to cart
           </Button>
         </PriceContainer>
       </ProductInfoContainer>
