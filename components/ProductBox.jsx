@@ -33,7 +33,7 @@ const ProductBox = ({
         </ImageWrapper>
       </Wrapper>
       <ProductInfoContainer>
-        <Title>{title}</Title>
+        <Title href={url} passHref>{title}</Title>
         <PriceContainer>
           <Price>
             <NumericFormat
