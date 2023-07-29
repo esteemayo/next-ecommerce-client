@@ -75,7 +75,7 @@ const Wrapper = styled(Link)`
 
 const ImageWrapper = styled.div``;
 
-const Title = styled.h2`
+const Title = styled(Link)`
   font-weight: normal;
   font-size: 1.3rem;
 `;
