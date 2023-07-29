@@ -76,8 +76,10 @@ const Wrapper = styled(Link)`
 const ImageWrapper = styled.div``;
 
 const Title = styled(Link)`
+  text-decoration: none;
   font-weight: normal;
   font-size: 1.3rem;
+  color: inherit;
 `;
 
 const ProductInfoContainer = styled.div`
