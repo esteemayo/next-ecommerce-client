@@ -3,6 +3,8 @@ import { createContext, useContext, useEffect, useReducer } from 'react';
 import CartReducer from './CartReducer';
 import { ADD_TO_CART } from './CartTypes';
 
+import { setToStorage } from '@/utils';
+
 const INITIAL_STATE = {
   cart: [],
 };
