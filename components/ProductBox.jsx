@@ -8,4 +8,8 @@ const ProductBox = ({ title, slug, description, price }) => {
   );
 };
 
+const Container = styled.article`
+  
+`;
+
 export default ProductBox;
