@@ -11,7 +11,7 @@ import CartIcon from './icons/CartIcon';
 import { useGlobalContext } from '@/context/CartContext';
 
 const Featured = ({ product }) => {
-  const { addToCart } = useGlobalContext();
+  const { addProduct } = useGlobalContext();
 
   return (
     <Container>
@@ -33,7 +33,7 @@ const Featured = ({ product }) => {
                 <Button
                   white={1}
                   type='button'
-                  onClick={() => addToCart(product._id)}
+                  onClick={() => addProduct(product._id)}
                 >
                   <CartIcon />
                   Add to cart
