@@ -15,6 +15,11 @@ const ProductBox = ({
   price,
   images,
 }) => {
+
+  const uri = useMemo(() => {
+    return `/products/${encodeURIComponent(slug)}`;
+  }, [slug]);
+
   return (
     <Container>
       <Wrapper>
