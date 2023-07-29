@@ -8,6 +8,8 @@ import ButtonLink from './ButtonLink';
 import Center from './Center';
 import CartIcon from './icons/CartIcon';
 
+import { useGlobalContext } from '@/context/CartContext';
+
 const Featured = ({ product }) => {
   return (
     <Container>
