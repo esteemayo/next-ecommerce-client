@@ -42,6 +42,7 @@ const GlobalStyles = createGlobalStyle`
 
   body {
     font-size: 1.6rem;
+    background-color: #f0f0f0;
     color: #222;
   }
 `;
