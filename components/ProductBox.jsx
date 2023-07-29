@@ -1,6 +1,8 @@
 'use client';
 
-const ProductBox = () => {
+import styled from 'styled-components';
+
+const ProductBox = ({ title, slug, description, price }) => {
   return (
     <div>ProductBox</div>
   );
