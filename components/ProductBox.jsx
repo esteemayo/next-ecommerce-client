@@ -9,7 +9,7 @@ const ProductBox = ({ title, slug, description, price }) => {
 };
 
 const Container = styled.article`
-  
+  background-color: var(--clr-white);
 `;
 
 export default ProductBox;
