@@ -7,9 +7,7 @@ const ProductBox = ({ title, slug, description, price, images }) => {
   return (
     <Container>
       <Wrapper>
-        <ImageWrapper>
-          <Image src={images[0]} fill alt='' />
-        </ImageWrapper>
+        <Image src={images[0]} fill alt='' />
       </Wrapper>
       {title}
     </Container>
@@ -29,13 +27,9 @@ const Wrapper = styled.div`
 
   img {
     max-width: 100%;
-    max-height: 100%;
+    max-height: 15rem;
     object-fit: cover;
   }
-`;
-
-const ImageWrapper = styled.div`
-  
 `;
 
 export default ProductBox;
