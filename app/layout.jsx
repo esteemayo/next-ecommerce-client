@@ -52,12 +52,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={roboto.className}>
-        <ClientOnly>
-          <GlobalStyles />
-          <Header />
-          <ToastProvider />
-        </ClientOnly>
-        {children}
+        <CartProvider>
+          <ClientOnly>
+            <GlobalStyles />
+            <Header />
+            <ToastProvider />
+          </ClientOnly>
+          {children}
+        </CartProvider>
       </body>
     </html>
   );
