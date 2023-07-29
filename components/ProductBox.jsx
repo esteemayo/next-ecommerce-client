@@ -6,7 +6,9 @@ import Image from 'next/image';
 const ProductBox = ({ title, slug, description, price, images }) => {
   return (
     <Container>
-      <Image src={images[0]} fill alt='' />
+      <Wrapper>
+        <Image src={images[0]} fill alt='' />
+      </Wrapper>
     </Container>
   );
 };
