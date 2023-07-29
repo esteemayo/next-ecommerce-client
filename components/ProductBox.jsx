@@ -23,6 +23,7 @@ const Wrapper = styled.div`
   padding: 2rem;
   width: 100%;
   height: 15rem;
+  text-align: center;
   position: relative;
 
   img {
