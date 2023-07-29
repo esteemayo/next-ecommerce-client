@@ -22,7 +22,7 @@ const GlobalStyles = createGlobalStyle`
     --clr-white: #fff;
     --clr-primary-black: #000;
     --clr-secondary-black: #222;
-    --clr-primary-blue: #5542f6;
+    --clr-primary-blue: #0d3d29;
   }
 
   *,
