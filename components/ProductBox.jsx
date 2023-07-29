@@ -10,7 +10,7 @@ import Button from './Button';
 import { useGlobalContext } from '@/context/CartContext';
 
 const ProductBox = ({ _id: id, title, slug, price, images }) => {
-  const { addToCart } = useGlobalContext();
+  const { addProduct } = useGlobalContext();
 
   const url = useMemo(() => {
     return `/products/${encodeURIComponent(slug)}`;
@@ -43,7 +43,7 @@ const ProductBox = ({ _id: id, title, slug, price, images }) => {
             type='button'
             primary={1}
             outline={1}
-            onClick={() => addToCart(id)}
+            onClick={() => addProduct(id)}
           >
             Add to cart
           </Button>
