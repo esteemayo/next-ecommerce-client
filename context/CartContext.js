@@ -23,7 +23,7 @@ const CartProvider = ({ children }) => {
 
   useEffect(() => {
     if (state.cart?.length > 0) {
-      localStorage.setItem('cart', JSON.stringify(state.cart));
+      setToStorage('cart', state.cart);
     }
   }, [state.cart]);
 
