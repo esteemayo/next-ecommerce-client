@@ -2,6 +2,7 @@
 
 import styled from 'styled-components';
 import Image from 'next/image';
+import { NumericFormat } from 'react-number-format';
 
 import Button from './Button';
 import CartIcon from './icons/CartIcon';
