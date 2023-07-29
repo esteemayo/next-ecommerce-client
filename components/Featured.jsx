@@ -67,9 +67,7 @@ const Wrapper = styled.div`
   }
 `;
 
-const Left = styled.div`
-  
-`;
+const Left = styled.div``;
 
 const LeftWrapper = styled.div`
   display: flex;
