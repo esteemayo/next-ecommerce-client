@@ -100,4 +100,12 @@ const Price = styled.div`
   font-size: 2rem;
 `;
 
+ProductBox.propTypes = {
+  id: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  slug: PropTypes.string.isRequired,
+  price: PropTypes.number.isRequired,
+  images: PropTypes.array.isRequired,
+};
+
 export default ProductBox;
