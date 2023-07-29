@@ -9,6 +9,7 @@ const ProductBox = ({ title, slug, description, price, images }) => {
       <Wrapper>
         <Image src={images[0]} fill alt='' />
       </Wrapper>
+      {title}
     </Container>
   );
 };
