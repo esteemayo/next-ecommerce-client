@@ -19,6 +19,12 @@ const CartProvider = ({ children }) => {
     });
   };
 
+  useEffect(() => {
+    if (state.cart?.length > 0) {
+      localStorage.setItem('cart', JSON.stringify(state.cart));
+    }
+  }, [state.cart]);
+
   return (
     <CartContext.Provider value={{ ...state, addProduct }}>
       {children}
