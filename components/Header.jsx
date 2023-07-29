@@ -7,6 +7,8 @@ import Center from './Center';
 import { useGlobalContext } from '@/context/CartContext';
 
 const Header = () => {
+  const { cart } = useGlobalContext();
+
   return (
     <StyledHeader>
       <Center>
