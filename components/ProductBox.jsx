@@ -16,13 +16,13 @@ const ProductBox = ({
   images,
 }) => {
 
-  const uri = useMemo(() => {
+  const url = useMemo(() => {
     return `/products/${encodeURIComponent(slug)}`;
   }, [slug]);
 
   return (
     <Container>
-      <Wrapper href={uri} passHref>
+      <Wrapper href={url} passHref>
         <ImageWrapper>
           <Image
             src={images[0]}
