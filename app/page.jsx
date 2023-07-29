@@ -10,6 +10,7 @@ import ClientOnly from '@/components/ClientOnly';
 import { getProductById } from '@/services/productService';
 
 const Home = () => {
+  const [products, setProducts] = useState([]);
   const [featuredProduct, setFeaturedProduct] = useState({});
   const productId = '64c3d809744e41a377324a5f';
 
