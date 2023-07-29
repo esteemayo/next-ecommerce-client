@@ -14,6 +14,10 @@ const ProductBox = ({ title, slug, description, price, images }) => {
 };
 
 const Container = styled.article`
+  
+`;
+
+const Wrapper = styled.div`
   background-color: var(--clr-white);
   padding: 2rem;
   position: relative;
@@ -23,10 +27,6 @@ const Container = styled.article`
     height: 15rem !important;
     object-fit: cover;
   }
-`;
-
-const Wrapper = styled.div`
-  
 `;
 
 export default ProductBox;
