@@ -28,7 +28,6 @@ const ProductBox = ({
       <Title>{title}</Title>
       <Button type='button' primary={1}>
         <CartIcon />
-        Add to cart
       </Button>
     </Container>
   );
