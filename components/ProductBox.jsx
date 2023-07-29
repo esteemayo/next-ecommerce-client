@@ -71,7 +71,8 @@ const ProductInfoContainer = styled.div`
 `;
 
 const PriceContainer = styled.div`
-  
+  display: flex;
+  align-items: center;
 `;
 
 export default ProductBox;
