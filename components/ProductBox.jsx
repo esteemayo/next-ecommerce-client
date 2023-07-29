@@ -27,6 +27,9 @@ const Wrapper = styled.div`
   height: 15rem;
   text-align: center;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
   position: relative;
 
   img {
