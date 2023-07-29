@@ -2,7 +2,7 @@ export const cartKey = 'cart';
 
 export const getFromStorage = (key) => {
   if (typeof window !== 'undefined') {
-    return JSON.parse(localStorage.getItem(key));
+    return JSON.parse(window.localStorage.getItem(key));
   }
 }
 
