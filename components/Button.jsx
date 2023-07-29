@@ -35,7 +35,7 @@ export const ButtonStyle = css`
     border: 1px solid var(--clr-white);
   `}
 
-  ${({ primary }) => primary && css`
+  ${({ primary, outline }) => primary && !outline && css`
     background-color: var(--clr-primary-blue);
     color: var(--clr-white);
     border: 1px solid var(--clr-primary-blue);
