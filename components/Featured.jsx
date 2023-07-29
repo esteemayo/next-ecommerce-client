@@ -30,7 +30,7 @@ const Featured = ({ product }) => {
                 >
                   Read more
                 </ButtonLink>
-                <Button white={1} type='button'>
+                <Button white={1} type='button' onClick={() => addToCart(product._id)}>
                   <CartIcon />
                   Add to cart
                 </Button>
