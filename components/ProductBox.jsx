@@ -8,7 +8,12 @@ const ProductBox = ({ title, slug, description, price, images }) => {
     <Container>
       <Wrapper>
         <ImageWrapper>
-          <Image src={images[0]} width={175} height={80} alt='' />
+          <Image
+            src={images[0]}
+            width={175}
+            height={80}
+            alt=''
+          />
         </ImageWrapper>
       </Wrapper>
       <Title>{title}</Title>
