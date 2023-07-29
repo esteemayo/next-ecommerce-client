@@ -15,6 +15,7 @@ export const ButtonStyle = css`
   display: inline-flex;
   align-items: center;
   text-decoration: none;
+  font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 0.5rem;
   cursor: pointer;
