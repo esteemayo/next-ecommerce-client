@@ -94,7 +94,7 @@ const PriceContainer = styled.div`
 `;
 
 const Price = styled.div`
-  font-weight: bold;
+  font-weight: 700;
   font-size: 2rem;
 `;
 
