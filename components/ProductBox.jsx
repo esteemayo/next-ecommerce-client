@@ -8,13 +8,7 @@ import { useMemo } from 'react';
 
 import Button from './Button';
 
-const ProductBox = ({
-  title,
-  slug,
-  description,
-  price,
-  images,
-}) => {
+const ProductBox = ({ title, slug, price, images }) => {
 
   const url = useMemo(() => {
     return `/products/${encodeURIComponent(slug)}`;
