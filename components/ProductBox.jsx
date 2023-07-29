@@ -75,7 +75,7 @@ const Title = styled.h2`
 `;
 
 const ProductInfoContainer = styled.div`
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 `;
 
 const PriceContainer = styled.div`
