@@ -43,7 +43,7 @@ const ImageWrapper = styled.div``;
 
 const Title = styled.h2`
   font-weight: normal;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
 `;
 
 export default ProductBox;
