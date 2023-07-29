@@ -50,9 +50,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={roboto.className}>
-        <GlobalStyles />
-        <Header />
-        <ToastProvider />
+        <ClientOnly>
+          <GlobalStyles />
+          <Header />
+          <ToastProvider />
+        </ClientOnly>
         {children}
       </body>
     </html>
