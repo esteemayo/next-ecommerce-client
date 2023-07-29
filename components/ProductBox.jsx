@@ -27,6 +27,7 @@ const ProductBox = ({
       </Wrapper>
       <ProductInfoContainer>
         <Title>{title}</Title>
+        ${price}
         <Button type='button' primary={1}>
           <CartIcon />
         </Button>
