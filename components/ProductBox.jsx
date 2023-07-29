@@ -23,4 +23,8 @@ const Container = styled.article`
   }
 `;
 
+const Wrapper = styled.div`
+  
+`;
+
 export default ProductBox;
