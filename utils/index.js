@@ -7,5 +7,7 @@ export const getFromStorage = (key) => {
 }
 
 export const setToStorage = (key, value) => {
-  return localStorage.setItem(key, JSON.stringify(value));
+  if (typeof window !== 'undefined') {
+    return localStorage.setItem(key, JSON.stringify(value));
+  }
 }
