@@ -25,6 +25,17 @@ const Home = () => {
     })();
   }, []);
 
+  useEffect(() => {
+    (async () => {
+      try {
+        const { data } = await getNewProducts();
+        setProducts(data);
+      } catch (err) {
+        console.error(err);
+      }
+    })();
+  }, []);
+
   return (
     <ClientOnly>
       <Container>
