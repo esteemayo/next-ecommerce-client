@@ -19,7 +19,7 @@ const Header = () => {
             <NavLink href='/products' passHref>All products</NavLink>
             <NavLink href='/categories' passHref>Categories</NavLink>
             <NavLink href='/account' passHref>Account</NavLink>
-            <NavLink href='/cart' passHref>Cart (0)</NavLink>
+            <NavLink href='/cart' passHref>Cart ({cart.length})</NavLink>
           </Nav>
         </Wrapper>
       </Center>
