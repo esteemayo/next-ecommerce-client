@@ -26,7 +26,7 @@ const Featured = ({ product }) => {
                 >
                   Read more
                 </ButtonLink>
-                <Button primary={1} type='button'>
+                <Button white={1} type='button'>
                   <CartIcon />
                   Add to cart
                 </Button>
