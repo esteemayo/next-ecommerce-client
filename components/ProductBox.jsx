@@ -32,4 +32,8 @@ const Wrapper = styled.div`
   }
 `;
 
+const ImageWrapper = styled.div`
+  
+`;
+
 export default ProductBox;
