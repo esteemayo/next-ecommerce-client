@@ -54,9 +54,7 @@ const ProductBox = ({ _id: id, title, slug, price, images }) => {
   );
 };
 
-const Container = styled.article`
-  
-`;
+const Container = styled.article``;
 
 const Wrapper = styled(Link)`
   background-color: var(--clr-white);
