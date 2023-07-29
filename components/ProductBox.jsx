@@ -9,7 +9,7 @@ import { useMemo } from 'react';
 import Button from './Button';
 import { useGlobalContext } from '@/context/CartContext';
 
-const ProductBox = ({ title, slug, price, images }) => {
+const ProductBox = ({ _id: id, title, slug, price, images }) => {
   const { addToCart } = useGlobalContext();
 
   const url = useMemo(() => {
@@ -39,7 +39,12 @@ const ProductBox = ({ title, slug, price, images }) => {
               prefix={'$'}
             />
           </Price>
-          <Button type='button' primary={1} outline={1}>
+          <Button
+            type='button'
+            primary={1}
+            outline={1}
+            onClick={() => addToCart(id)}
+          >
             Add to cart
           </Button>
         </PriceContainer>
