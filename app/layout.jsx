@@ -5,6 +5,7 @@ import { createGlobalStyle } from 'styled-components';
 
 import Header from '@/components/Header';
 import ToastProvider from '@/providers/ToastProvider';
+import ClientOnly from '@/components/ClientOnly';
 
 const roboto = Roboto({
   weight: ['400'],
