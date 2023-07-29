@@ -22,11 +22,12 @@ const Container = styled.section`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
-  padding: 3rem 0;
 `;
 
 const Heading = styled.h2`
-  
+  font-weight: 500;
+  font-size: 2.3rem;
+  margin: 3rem 0 2rem;
 `;
 
 export default NewProducts;
