@@ -68,4 +68,8 @@ const ProductInfoContainer = styled.div`
   margin-top: 1rem;
 `;
 
+const PriceContainer = styled.div`
+  
+`;
+
 export default ProductBox;
