@@ -7,7 +7,7 @@ import Featured from '@/components/Featured';
 import NewProducts from '@/components/NewProducts';
 import ClientOnly from '@/components/ClientOnly';
 
-import { getProductById } from '@/services/productService';
+import { getNewProducts, getProductById } from '@/services/productService';
 
 const Home = () => {
   const [products, setProducts] = useState([]);
