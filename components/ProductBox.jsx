@@ -25,10 +25,12 @@ const ProductBox = ({
           />
         </ImageWrapper>
       </Wrapper>
-      <Title>{title}</Title>
-      <Button type='button' primary={1}>
-        <CartIcon />
-      </Button>
+      <ProductInfoContainer>
+        <Title>{title}</Title>
+        <Button type='button' primary={1}>
+          <CartIcon />
+        </Button>
+      </ProductInfoContainer>
     </Container>
   );
 };
