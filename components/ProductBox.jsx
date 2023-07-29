@@ -29,7 +29,14 @@ const ProductBox = ({
       <ProductInfoContainer>
         <Title>{title}</Title>
         <PriceContainer>
-          <Price>${price}</Price>
+          <Price>
+            <NumericFormat
+              value={price}
+              displayType={'text'}
+              thousandSeparator={true}
+              prefix={'$'}
+            />
+          </Price>
           <Button type='button' primary={1}>
             <CartIcon />
           </Button>
