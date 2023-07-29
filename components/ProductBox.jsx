@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import Image from 'next/image';
 
 import Button from './Button';
-import CartInfo from './icons/CartInfo';
+import CartIcon from './icons/CartIcon';
 
 const ProductBox = ({
   title,
@@ -27,7 +27,7 @@ const ProductBox = ({
       </Wrapper>
       <Title>{title}</Title>
       <Button type='button' primary={1}>
-        <CartInfo />
+        <CartIcon />
         Add to cart
       </Button>
     </Container>
