@@ -40,7 +40,7 @@ const Home = () => {
     <ClientOnly>
       <Container>
         <Featured product={featuredProduct} />
-        <NewProducts />
+        <NewProducts products={products} />
       </Container>
     </ClientOnly>
   );
