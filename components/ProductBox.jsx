@@ -17,8 +17,8 @@ const Container = styled.article`
   position: relative;
 
   img {
-    max-width: 100%;
-    max-height: 15rem;
+    width: 100%;
+    height: 15rem !important;
     object-fit: cover;
   }
 `;
