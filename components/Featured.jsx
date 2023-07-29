@@ -6,19 +6,15 @@ import Image from 'next/image';
 import Button from './Button';
 import Center from './Center';
 
-const Featured = () => {
+const Featured = ({ product }) => {
   return (
     <Container>
       <Center>
         <Wrapper>
           <Left>
             <LeftWrapper>
-              <Heading>Pro anywhere</Heading>
-              <Description>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quibusdam velit corrupti
-                vitae eius consequuntur sint quam alias expedita ipsa eum ut at, aut animi, quo reiciendis
-                deleniti totam. Minus!
-              </Description>
+              <Heading>{product.title}</Heading>
+              <Description>{product.description}</Description>
               <ButtonWrapper>
                 <Button outline white type='button'>
                   Read more
