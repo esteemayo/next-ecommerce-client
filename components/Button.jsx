@@ -41,6 +41,12 @@ export const ButtonStyle = css`
     border: 1px solid var(--clr-primary-blue);
   `}
 
+  ${({ primary, outline }) => primary && outline && css`
+    background-color: transparent;
+    color: var(--clr-primary-blue);
+    border: 1px solid var(--clr-primary-blue);
+  `}
+
   ${({ size }) => size === 'lg' && css`
     font-size: 2rem;
     padding: 1rem 2rem;
