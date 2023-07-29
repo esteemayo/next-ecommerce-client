@@ -5,7 +5,7 @@ import { ADD_TO_CART } from './CartTypes';
 
 import { cartKey, getFromStorage, setToStorage } from '@/utils';
 
-const cart = getFromStorage(cartKey) ?? [];
+const cart = getFromStorage(cartKey);
 
 const INITIAL_STATE = {
   cart: [],
