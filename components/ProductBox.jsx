@@ -64,7 +64,7 @@ const Title = styled.h2`
 `;
 
 const ProductInfoContainer = styled.div`
-  
+  margin-top: 1rem;
 `;
 
 export default ProductBox;
