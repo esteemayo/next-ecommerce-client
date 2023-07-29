@@ -3,7 +3,13 @@
 import styled from 'styled-components';
 import Image from 'next/image';
 
-const ProductBox = ({ title, slug, description, price, images }) => {
+const ProductBox = ({
+  title,
+  slug,
+  description,
+  price,
+  images,
+}) => {
   return (
     <Container>
       <Wrapper>
