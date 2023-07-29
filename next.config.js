@@ -4,7 +4,7 @@ const nextConfig = {
     styledComponents: true,
   },
   images: {
-    domains: ['dawid-next-ecommerce.s3.amazonaws.com'],
+    domains: ['res.cloudinary.com', 'dawid-next-ecommerce.s3.amazonaws.com'],
   },
 }
 
