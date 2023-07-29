@@ -8,7 +8,7 @@ import ToastProvider from '@/providers/ToastProvider';
 import ClientOnly from '@/components/ClientOnly';
 
 const roboto = Roboto({
-  weight: ['400'],
+  weight: ['400', '500', '700'],
   subsets: ['latin'],
 });
 
