@@ -6,7 +6,13 @@ import ProductBox from './ProductBox';
 
 const NewProducts = ({ products }) => {
   return (
-    <Container>NewProducts</Container>
+    <Center>
+      <Container>
+        {products?.map((item) => {
+          return <ProductBox key={item._id} {...item} />;
+        })}
+      </Container>
+    </Center>
   );
 };
 
