@@ -11,7 +11,7 @@ const ProductBox = ({ title, slug, description, price, images }) => {
           <Image src={images[0]} fill alt='' />
         </ImageWrapper>
       </Wrapper>
-      {title}
+      <Title>{title}</Title>
     </Container>
   );
 };
