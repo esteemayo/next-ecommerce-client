@@ -4,9 +4,10 @@ import { Roboto } from 'next/font/google';
 import { createGlobalStyle } from 'styled-components';
 
 import Header from '@/components/Header';
-import ToastProvider from '@/providers/ToastProvider';
 import ClientOnly from '@/components/ClientOnly';
+
 import CartProvider from '@/context/CartContext';
+import ToastProvider from '@/providers/ToastProvider';
 
 const roboto = Roboto({
   weight: ['400', '500', '700'],
