@@ -2,6 +2,7 @@
 
 import styled from 'styled-components';
 import Image from 'next/image';
+import PropTypes from 'prop-types';
 
 import Button from './Button';
 import ButtonLink from './ButtonLink';
