@@ -99,7 +99,7 @@ const Price = styled.div`
 `;
 
 ProductBox.propTypes = {
-  id: PropTypes.string.isRequired,
+  id: PropTypes.string,
   title: PropTypes.string.isRequired,
   slug: PropTypes.string.isRequired,
   price: PropTypes.number.isRequired,
