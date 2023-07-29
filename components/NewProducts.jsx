@@ -20,7 +20,7 @@ const NewProducts = ({ products }) => {
 const Container = styled.section`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
+  gap: 4rem;
   padding: 2rem 0;
 `;
 
