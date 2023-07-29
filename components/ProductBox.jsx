@@ -7,8 +7,10 @@ import Link from 'next/link';
 import { useMemo } from 'react';
 
 import Button from './Button';
+import { useGlobalContext } from '@/context/CartContext';
 
 const ProductBox = ({ title, slug, price, images }) => {
+  const { addToCart } = useGlobalContext();
 
   const url = useMemo(() => {
     return `/products/${encodeURIComponent(slug)}`;
