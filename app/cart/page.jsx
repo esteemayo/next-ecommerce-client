@@ -149,8 +149,8 @@ const Td = styled.td`
 `;
 
 const ImageContainer = styled.div`
-  max-width: 15rem;
-  max-height: 15rem;
+  max-width: 10rem;
+  max-height: 10rem;
   padding: 1rem;
   background-color: #f0f0f0;
   border: 1px solid rgba(0, 0, 0, 0.1);
