@@ -75,7 +75,7 @@ const ImageContainer = styled.div`
 `;
 
 const QuantityLabel = styled.span`
-  
+  padding: 0 3px;
 `;
 
 CartItem.propTypes = {
