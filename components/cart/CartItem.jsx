@@ -72,4 +72,13 @@ const ImageContainer = styled.div`
   }
 `;
 
+CartItem.propTypes = {
+  _id: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  price: PropTypes.number.isRequired,
+  images: PropTypes.array.isRequired,
+  totalPrice: PropTypes.func.isRequired,
+  numberOfProducts: PropTypes.func.isRequired,
+};
+
 export default CartItem;
