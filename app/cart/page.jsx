@@ -50,4 +50,8 @@ const Heading = styled.h2`
   
 `;
 
+const Form = styled.form`
+  
+`;
+
 export default Cart;
