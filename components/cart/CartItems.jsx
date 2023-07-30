@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import CartItem from './CartItem';
 import Table from '@/components/Table';
 
-const CartItems = ({ cart, products }) => {
+const CartItems = ({ cart, products, totalPrice }) => {
   return (
     <Container>
       <Heading>Cart</Heading>
@@ -24,7 +24,11 @@ const CartItems = ({ cart, products }) => {
           <Tbody>
             {products.map((item, index) => {
               return (
-                <CartItem key={item._id} {...item} />
+                <CartItem
+                  {...item}
+                  key={item._id}
+                  totalPrice={totalPrice}
+                />
               );
             })}
           </Tbody>
