@@ -11,6 +11,7 @@ const CartItems = ({
   products,
   totalPrice,
   numberOfProducts,
+  onIncrement
 }) => {
   return (
     <Container>
@@ -35,6 +36,7 @@ const CartItems = ({
                   key={item._id}
                   totalPrice={totalPrice}
                   numberOfProducts={numberOfProducts}
+                  onIncrement={onIncrement}
                 />
               );
             })}
