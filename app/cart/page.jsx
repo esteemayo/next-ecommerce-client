@@ -18,6 +18,10 @@ const Cart = () => {
     e.preventDefault();
   }, []);
 
+  const numberOfProducts = useMemo((productId) => {
+    return cart.filter((id) => id === productId).length
+  }, [cart]);
+
   useEffect(() => {
     if (cart.length > 0) {
       (async () => {
@@ -43,9 +47,10 @@ const Cart = () => {
               {cart?.length && (
                 <>
                   <Heading>Cart</Heading>
-                  {cart.map((productId) => {
+                  {products.map((item, index) => {
+                    const { _id: id } = item;
                     return (
-                      <div key={productId}>{productId}</div>
+                      <div key={index}>{item.title}</div>
                     )
                   })}
                 </>
