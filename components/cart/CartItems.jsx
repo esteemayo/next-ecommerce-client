@@ -1,9 +1,6 @@
 'use client';
 
 import styled from 'styled-components';
-import { useCallback, useMemo } from 'react';
-import { NumericFormat } from 'react-number-format';
-import Image from 'next/image';
 
 import CartItem from './CartItem';
 import Table from '@/components/Table';
