@@ -147,7 +147,11 @@ const Td = styled.td`
 `;
 
 const ImageContainer = styled.div`
-
+  max-width: 15rem;
+  max-height: 15rem;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border-radius: 1rem;
 `;
 
 const Form = styled.form`
