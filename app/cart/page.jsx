@@ -7,7 +7,10 @@ const Cart = () => {
   return (
     <ClientOnly>
       <Container>
-        <Wrapper></Wrapper>
+        <Wrapper>
+          <Box>1</Box>
+          <Box>2</Box>
+        </Wrapper>
       </Container>
     </ClientOnly>
   );
