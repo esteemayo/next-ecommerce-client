@@ -5,7 +5,12 @@ import styled from 'styled-components';
 import CartItem from './CartItem';
 import Table from '@/components/Table';
 
-const CartItems = ({ cart, products, totalPrice, numberOfProducts }) => {
+const CartItems = ({
+  cart,
+  products,
+  totalPrice,
+  numberOfProducts,
+}) => {
   return (
     <Container>
       <Heading>Cart</Heading>
