@@ -11,4 +11,8 @@ const Cart = () => {
   );
 };
 
+const Container = styled.main`
+  
+`;
+
 export default Cart;
