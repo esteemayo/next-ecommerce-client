@@ -9,7 +9,6 @@ import Center from '@/components/Center';
 
 import { getCarts } from '@/services/cartService';
 import { useGlobalContext } from '@/context/CartContext';
-import CartItems from '@/components/cart/CartItems';
 
 const Cart = () => {
   const { cart } = useGlobalContext();
