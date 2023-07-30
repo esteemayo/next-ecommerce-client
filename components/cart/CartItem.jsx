@@ -15,6 +15,7 @@ const CartItem = ({
   totalPrice,
   numberOfProducts,
   onIncrement,
+  onDecrement,
 }) => {
   return (
     <Tr>
@@ -30,7 +31,7 @@ const CartItem = ({
         {title}
       </ProductInfoCell>
       <Td>
-        <Button type='button'>-</Button>
+        <Button type='button' onClick={() => onDecrement(id)}>-</Button>
         <QuantityLabel>{numberOfProducts(id)}</QuantityLabel>
         <Button type='button' onClick={() => onIncrement(id)}>+</Button>
       </Td>
