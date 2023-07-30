@@ -11,7 +11,8 @@ const CartItems = ({
   products,
   totalPrice,
   numberOfProducts,
-  onIncrement
+  onIncrement,
+  onDecrement,
 }) => {
   return (
     <Container>
@@ -37,6 +38,7 @@ const CartItems = ({
                   totalPrice={totalPrice}
                   numberOfProducts={numberOfProducts}
                   onIncrement={onIncrement}
+                  onDecrement={onDecrement}
                 />
               );
             })}
