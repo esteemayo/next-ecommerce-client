@@ -41,6 +41,17 @@ export const ButtonStyle = css`
     border: 1px solid var(--clr-white);
   `}
 
+  ${({ black, outline }) => black && !outline && css`
+    background-color: var(--clr-primary-black);
+    color: var(--clr-white);
+  `}
+
+  ${({ black, outline }) => black && outline && css`
+    background-color: transparent;
+    color: var(--clr-primary-black);
+    border: 1px solid var(--clr-primary-black);
+  `}
+
   ${({ primary, outline }) => primary && !outline && css`
     background-color: var(--clr-primary-blue);
     color: var(--clr-white);
