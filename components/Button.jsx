@@ -25,6 +25,11 @@ export const ButtonStyle = css`
     margin-right: 0.5rem;
   }
 
+  ${({ block }) => block && css`
+    display: block;
+    width: 100%;
+  `}
+
   ${({ white, outline }) => white && !outline && css`
     background-color: var(--clr-white);
     color: var(--clr-primary-black);
