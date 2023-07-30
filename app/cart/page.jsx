@@ -15,7 +15,12 @@ const Cart = () => {
             <Box>1</Box>
             <Box>
               <Heading>Order information</Heading>
-              <Button type='button' black={1} block={1} primary={1}>
+              <Button
+                type='button'
+                black={1}
+                block={1}
+                primary={1}
+              >
                 Continue to payment
               </Button>
             </Box>
