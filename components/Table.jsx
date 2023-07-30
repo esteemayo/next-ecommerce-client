@@ -8,6 +8,14 @@ const Table = (props) => {
 
 const StyledTable = styled.table`
   width: 100%;
+
+  th {
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #ccc;
+  }
 `;
 
 export default Table;
