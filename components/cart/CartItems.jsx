@@ -22,7 +22,7 @@ const CartItems = ({ cart, products, totalPrice }) => {
             </Tr>
           </Thead>
           <Tbody>
-            {products.map((item, index) => {
+            {products.map((item) => {
               return (
                 <CartItem
                   {...item}
