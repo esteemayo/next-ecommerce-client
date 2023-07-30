@@ -23,7 +23,7 @@ const Cart = () => {
           <Wrapper>
             <Box>
               {!cart?.length && (
-                <div>Your cart is empty</div>
+                <EmptyMessage>Your cart is empty</EmptyMessage>
               )}
             </Box>
             <Box>
