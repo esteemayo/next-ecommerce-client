@@ -122,6 +122,10 @@ const Thead = styled.thead`
 
 `;
 
+const Tbody = styled.tbody`
+
+`;
+
 const Tr = styled.tr`
 
 `;
