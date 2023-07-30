@@ -26,20 +26,22 @@ const Cart = () => {
                 <EmptyMessage>Your cart is empty</EmptyMessage>
               )}
             </Box>
-            <Box>
-              <Heading>Order information</Heading>
-              <Form onSubmit={handleSubmit}>
-                <Input type='text' placeholder='Address' />
-                <Input type='text' placeholder='Address2' />
-              </Form>
-              <Button
-                type='button'
-                black={1}
-                block={1}
-              >
-                Continue to payment
-              </Button>
-            </Box>
+            {!!cart?.length && (
+              <Box>
+                <Heading>Order information</Heading>
+                <Form onSubmit={handleSubmit}>
+                  <Input type='text' placeholder='Address' />
+                  <Input type='text' placeholder='Address2' />
+                </Form>
+                <Button
+                  type='button'
+                  black={1}
+                  block={1}
+                >
+                  Continue to payment
+                </Button>
+              </Box>
+            )}
           </Wrapper>
         </Center>
       </Container>
