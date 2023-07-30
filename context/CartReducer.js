@@ -8,6 +8,18 @@ const CartReducer = (state, { payload, type }) => {
         cart: [...state.cart, payload],
       };
 
+    case REMOVE_FROM_CART:
+      let newCart;
+      const index = state.cart.indexOf(payload);
+      if (index !== -1) {
+        newCart = state.cart.filter((cartItem, cartIndex) => cartIndex !== index);
+      }
+
+      return {
+        ...state,
+        cart: newCart,
+      };
+
     default:
       return state;
   };
