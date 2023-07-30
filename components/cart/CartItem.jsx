@@ -43,10 +43,6 @@ const Tr = styled.tr`
 
 `;
 
-const Th = styled.th`
-
-`;
-
 const Td = styled.td`
   
 `;
