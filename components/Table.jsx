@@ -7,7 +7,7 @@ const Table = (props) => {
 };
 
 const StyledTable = styled.table`
-
+  width: 100%;
 `;
 
 export default Table;
