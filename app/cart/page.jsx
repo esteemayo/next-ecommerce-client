@@ -5,6 +5,7 @@ import { useCallback, useEffect, useState } from 'react';
 
 import Button from '@/components/Button';
 import ClientOnly from '@/components/ClientOnly';
+import Table from '@/components/Table';
 import Center from '@/components/Center';
 
 import { getCarts } from '@/services/cartService';
@@ -114,10 +115,6 @@ const Heading = styled.h2`
 
 const EmptyMessage = styled.div`
   
-`;
-
-const Table = styled.table`
-
 `;
 
 const Thead = styled.thead`
