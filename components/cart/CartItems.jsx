@@ -28,6 +28,7 @@ const CartItems = ({ cart, products, totalPrice, numberOfProducts }) => {
                   {...item}
                   key={item._id}
                   totalPrice={totalPrice}
+                  numberOfProducts={numberOfProducts}
                 />
               );
             })}
