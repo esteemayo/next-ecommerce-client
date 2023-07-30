@@ -11,6 +11,7 @@ import { useGlobalContext } from '@/context/CartContext';
 
 const Cart = () => {
   const { cart } = useGlobalContext();
+  const [products, setProducts] = useState([]);
 
   const handleSubmit = useCallback((e) => {
     e.preventDefault();
