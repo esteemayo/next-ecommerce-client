@@ -20,7 +20,7 @@ const Cart = () => {
             <Box>1</Box>
             <Box>
               <Heading>Order information</Heading>
-              <Form>
+              <Form onSubmit={handleSubmit}>
                 <Input type='text' placeholder='Address' />
                 <Input type='text' placeholder='Address2' />
               </Form>
