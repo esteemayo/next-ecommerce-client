@@ -36,4 +36,8 @@ const Box = styled.div`
   padding: 3rem;
 `;
 
+const Heading = styled.h2`
+  
+`;
+
 export default Cart;
