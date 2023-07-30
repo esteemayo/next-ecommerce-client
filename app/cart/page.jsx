@@ -25,6 +25,16 @@ const Cart = () => {
               {!cart?.length && (
                 <EmptyMessage>Your cart is empty</EmptyMessage>
               )}
+              {cart?.length && (
+                <>
+                  <Heading>Cart</Heading>
+                  {cart.map((productId) => {
+                    return (
+                      <div key={productId}>{productId}</div>
+                    )
+                  })}
+                </>
+              )}
             </Box>
             {!!cart?.length && (
               <Box>
