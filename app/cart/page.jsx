@@ -3,6 +3,7 @@
 import styled from 'styled-components';
 import { useCallback, useEffect, useState } from 'react';
 import Image from 'next/image';
+import { NumericFormat } from 'react-number-format';
 
 import Button from '@/components/Button';
 import ClientOnly from '@/components/ClientOnly';
