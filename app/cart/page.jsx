@@ -61,7 +61,7 @@ const Cart = () => {
                       const { _id: id, title, price, images } = item;
                       return (
                         <Tr key={index}>
-                          <Td>
+                          <ProductInfoCell>
                             <ImageContainer>
                               <Image
                                 src={images[0]}
@@ -71,7 +71,7 @@ const Cart = () => {
                               />
                             </ImageContainer>
                             {title}
-                          </Td>
+                          </ProductInfoCell>
                           <Td>{numberOfProducts(id)}</Td>
                           <Td>{price}</Td>
                         </Tr>
