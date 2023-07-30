@@ -45,27 +45,28 @@ const Cart = () => {
               {!cart?.length && (
                 <EmptyMessage>Your cart is empty</EmptyMessage>
               )}
-              <Table>
-                <Thead>
-                  <Tr>
-                    <Th>Products</Th>
-                    <Th>Quantity</Th>
-                    <Th>Price</Th>
-                  </Tr>
-                </Thead>
-                <Tbody></Tbody>
-              </Table>
               {products?.length > 0 && (
-                <>
-                  {products.map((item, index) => {
-                    const { _id: id } = item;
-                    return (
-                      <div key={index}>
-                        {item.title}: {numberOfProducts(id)}
-                      </div>
-                    )
-                  })}
-                </>
+                <Table>
+                  <Thead>
+                    <Tr>
+                      <Th>Products</Th>
+                      <Th>Quantity</Th>
+                      <Th>Price</Th>
+                    </Tr>
+                  </Thead>
+                  <Tbody>
+                    {products.map((item, index) => {
+                      const { _id: id, title, price } = item;
+                      return (
+                        <Tr key={index}>
+                          <Td>{title}</Td>
+                          <Td>{numberOfProducts(id)}</Td>
+                          <Td>{price}</Td>
+                        </Tr>
+                      );
+                    })}
+                  </Tbody>
+                </Table>
               )}
             </Box>
             {!!cart?.length && (
@@ -131,7 +132,11 @@ const Tr = styled.tr`
 
 `;
 
-const Th =styled.th`
+const Th = styled.th`
+
+`;
+
+const Td = styled.td`
 
 `;
 
