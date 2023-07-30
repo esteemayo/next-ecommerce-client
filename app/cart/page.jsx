@@ -25,6 +25,10 @@ const Cart = () => {
     return cart.filter((id) => id === productId).length;
   }, [cart]);
 
+  const totalPrice = useCallback((price, productId) => {
+    return price * numberOfProducts(productId);
+  }, [numberOfProducts]);
+
   useEffect(() => {
     if (cart.length > 0) {
       (async () => {
