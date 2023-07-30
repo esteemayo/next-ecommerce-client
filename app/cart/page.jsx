@@ -148,7 +148,7 @@ const Td = styled.td`
   
 `;
 
-const ProductInfoCell = styled.div`
+const ProductInfoCell = styled.td`
   padding: 1rem 0;
 `;
 
