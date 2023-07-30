@@ -53,6 +53,7 @@ const Cart = () => {
                     <Th>Price</Th>
                   </Tr>
                 </Thead>
+                <Tbody></Tbody>
               </Table>
               {products?.length > 0 && (
                 <>
@@ -130,7 +131,7 @@ const Tr = styled.tr`
 
 `;
 
-const Th =styled.hd`
+const Th =styled.th`
 
 `;
 
