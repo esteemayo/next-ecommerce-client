@@ -151,6 +151,7 @@ const ImageContainer = styled.div`
   max-height: 15rem;
   padding: 1rem;
   background-color: #f0f0f0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
 `;
 
