@@ -63,7 +63,12 @@ const Cart = () => {
                         <Tr key={index}>
                           <Td>
                             <ImageContainer>
-                              <Image src={images[0]} width={130} height={130} alt='' />
+                              <Image
+                                src={images[0]}
+                                width={130}
+                                height={130}
+                                alt=''
+                              />
                             </ImageContainer>
                             {title}
                           </Td>
