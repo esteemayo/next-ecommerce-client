@@ -9,9 +9,11 @@ export const POST = async (request) => {
   try {
     await connectDB();
 
-    const products = await Promise.all(ids.map((id) => {
+    let products = await Promise.all(ids.map((id) => {
       return Product.find({ _id: id });
     }));
+
+    products = products.flat();
 
     return NextResponse.json(products, {
       status: 200,
