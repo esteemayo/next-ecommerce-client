@@ -122,6 +122,10 @@ const Tr = styled.tr`
 
 `;
 
+const Th =styled.hd`
+
+`;
+
 const Form = styled.form`
   
 `;
