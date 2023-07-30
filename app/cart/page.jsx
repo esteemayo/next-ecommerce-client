@@ -8,6 +8,10 @@ import ClientOnly from '@/components/ClientOnly';
 import Center from '@/components/Center';
 
 const Cart = () => {
+  const handleSubmit = useCallback((e) => {
+    e.preventDefault();
+  }, []);
+
   return (
     <ClientOnly>
       <Container>
