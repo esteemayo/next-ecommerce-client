@@ -14,6 +14,7 @@ const CartItem = ({
   images,
   totalPrice,
   numberOfProducts,
+  onIncrement,
 }) => {
   return (
     <Tr>
@@ -31,7 +32,7 @@ const CartItem = ({
       <Td>
         <Button type='button'>-</Button>
         <QuantityLabel>{numberOfProducts(id)}</QuantityLabel>
-        <Button type='button'>+</Button>
+        <Button type='button' onClick={() => onIncrement(id)}>+</Button>
       </Td>
       <Td>
         <NumericFormat
