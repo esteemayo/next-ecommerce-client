@@ -24,7 +24,8 @@ const Wrapper = styled.div`
 `;
 
 const Box = styled.div`
-  
+  background-color: var(--clr-white);
+  border-radius: 1rem;
 `;
 
 export default Cart;
