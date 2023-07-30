@@ -33,6 +33,7 @@ const Wrapper = styled.div`
 const Box = styled.div`
   background-color: var(--clr-white);
   border-radius: 1rem;
+  padding: 3rem;
 `;
 
 export default Cart;
