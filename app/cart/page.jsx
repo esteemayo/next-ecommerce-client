@@ -18,8 +18,8 @@ const Cart = () => {
     e.preventDefault();
   }, []);
 
-  const numberOfProducts = useMemo((productId) => {
-    return cart.filter((id) => id === productId).length
+  const numberOfProducts = useCallback((productId) => {
+    return cart.filter((id) => id === productId).length;
   }, [cart]);
 
   useEffect(() => {
