@@ -9,10 +9,12 @@ const Cart = () => {
   return (
     <ClientOnly>
       <Container>
-        <Wrapper>
-          <Box>1</Box>
-          <Box>2</Box>
-        </Wrapper>
+        <Center>
+          <Wrapper>
+            <Box>1</Box>
+            <Box>2</Box>
+          </Wrapper>
+        </Center>
       </Container>
     </ClientOnly>
   );
