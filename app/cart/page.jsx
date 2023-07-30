@@ -55,6 +55,7 @@ const Cart = () => {
                 products={products}
                 totalPrice={totalPrice}
                 numberOfProducts={numberOfProducts}
+                onIncrement={handleIncrement}
               />
             </Box>
             {!!cart?.length && (
