@@ -23,4 +23,8 @@ const Wrapper = styled.div`
   gap: 4rem;
 `;
 
+const Box = styled.div`
+  
+`;
+
 export default Cart;
