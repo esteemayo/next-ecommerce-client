@@ -15,4 +15,8 @@ const Container = styled.main`
   
 `;
 
+const Wrapper = styled.div`
+  
+`;
+
 export default Cart;
