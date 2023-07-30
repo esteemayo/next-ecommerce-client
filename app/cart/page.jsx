@@ -12,7 +12,9 @@ const Cart = () => {
         <Center>
           <Wrapper>
             <Box>1</Box>
-            <Box>2</Box>
+            <Box>
+              <Heading>Order information</Heading>
+            </Box>
           </Wrapper>
         </Center>
       </Container>
