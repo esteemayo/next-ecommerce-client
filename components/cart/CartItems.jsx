@@ -77,10 +77,6 @@ const Td = styled.td`
   
 `;
 
-const ProductInfoCell = styled.td`
-  padding: 1rem 0;
-`;
-
 CartItems.propTypes = {
   cart: PropTypes.array.isRequired,
   products: PropTypes.arrayOf(
