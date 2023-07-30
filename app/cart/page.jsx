@@ -97,11 +97,11 @@ const Box = styled.div`
   padding: 3rem;
 `;
 
-const EmptyMessage = styled.div`
+const Heading = styled.h2`
   
 `;
 
-const Heading = styled.h2`
+const EmptyMessage = styled.div`
   
 `;
 
