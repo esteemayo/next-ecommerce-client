@@ -65,8 +65,8 @@ const Cart = () => {
                             <ImageContainer>
                               <Image
                                 src={images[0]}
-                                width={130}
-                                height={130}
+                                width={80}
+                                height={80}
                                 alt=''
                               />
                             </ImageContainer>
