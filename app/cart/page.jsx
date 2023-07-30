@@ -6,7 +6,7 @@ import ClientOnly from '@/components/ClientOnly';
 const Cart = () => {
   return (
     <ClientOnly>
-      <div>Cart</div>
+      <Container>Cart</Container>
     </ClientOnly>
   );
 };
