@@ -3,6 +3,7 @@
 import styled from 'styled-components';
 import Image from 'next/image';
 import { NumericFormat } from 'react-number-format';
+import PropTypes from 'prop-types';
 
 const CartItem = ({
   _id: id,
