@@ -49,50 +49,12 @@ const Cart = () => {
         <Center>
           <Wrapper>
             <Box>
-              <Heading>Cart</Heading>
-              {!cart?.length && (
-                <EmptyMessage>Your cart is empty</EmptyMessage>
-              )}
-              {products?.length > 0 && (
-                <Table>
-                  <Thead>
-                    <Tr>
-                      <Th>Products</Th>
-                      <Th>Quantity</Th>
-                      <Th>Price</Th>
-                    </Tr>
-                  </Thead>
-                  <Tbody>
-                    {products.map((item, index) => {
-                      const { _id: id, title, price, images } = item;
-                      return (
-                        <Tr key={index}>
-                          <ProductInfoCell>
-                            <ImageContainer>
-                              <Image
-                                src={images[0]}
-                                width={80}
-                                height={80}
-                                alt=''
-                              />
-                            </ImageContainer>
-                            {title}
-                          </ProductInfoCell>
-                          <Td>{numberOfProducts(id)}</Td>
-                          <Td>
-                            <NumericFormat
-                              value={price}
-                              displayType={'text'}
-                              thousandSeparator={true}
-                              prefix={'$'}
-                            />
-                          </Td>
-                        </Tr>
-                      );
-                    })}
-                  </Tbody>
-                </Table>
-              )}
+              <CartItems
+                cart={cart}
+                products={products}
+                totalPrice={totalPrice}
+                numberOfProducts={numberOfProducts}
+              />
             </Box>
             {!!cart?.length && (
               <Box>
