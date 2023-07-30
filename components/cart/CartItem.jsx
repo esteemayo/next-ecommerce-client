@@ -74,6 +74,10 @@ const ImageContainer = styled.div`
   }
 `;
 
+const QuantityLabel = styled.span`
+  
+`;
+
 CartItem.propTypes = {
   _id: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
