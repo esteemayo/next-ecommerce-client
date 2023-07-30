@@ -2,6 +2,7 @@
 
 import styled from 'styled-components';
 
+import Button from '@/components/Button';
 import Center from '@/components/Center';
 import ClientOnly from '@/components/ClientOnly';
 
