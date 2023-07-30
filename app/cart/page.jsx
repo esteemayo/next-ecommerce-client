@@ -148,6 +148,10 @@ const Td = styled.td`
   
 `;
 
+const ProductInfoCell = styled.div`
+
+`;
+
 const ImageContainer = styled.div`
   max-width: 10rem;
   max-height: 10rem;
