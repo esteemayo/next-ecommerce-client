@@ -7,6 +7,8 @@ import Button from '@/components/Button';
 import ClientOnly from '@/components/ClientOnly';
 import Center from '@/components/Center';
 
+import { useGlobalContext } from '@/context/CartContext';
+
 const Cart = () => {
   const handleSubmit = useCallback((e) => {
     e.preventDefault();
