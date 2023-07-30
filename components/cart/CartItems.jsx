@@ -2,6 +2,7 @@
 
 import styled from 'styled-components';
 import { NumericFormat } from 'react-number-format';
+import Image from 'next/image';
 import Table from '@/components/Table';
 
 const CartItems = () => {
