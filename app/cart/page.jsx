@@ -155,8 +155,8 @@ const ImageContainer = styled.div`
   justify-content: center;
 
   img {
-    max-width: 15rem;
-    max-height: 15rem;
+    max-width: 13rem;
+    max-height: 13rem;
   }
 `;
 
