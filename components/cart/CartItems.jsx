@@ -1,6 +1,7 @@
 'use client';
 
 import styled from 'styled-components';
+import { useCallback } from 'react';
 import { NumericFormat } from 'react-number-format';
 import Image from 'next/image';
 
