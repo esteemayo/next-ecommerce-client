@@ -58,10 +58,13 @@ const Cart = () => {
                   </Thead>
                   <Tbody>
                     {products.map((item, index) => {
-                      const { _id: id, title, price } = item;
+                      const { _id: id, title, price, images } = item;
                       return (
                         <Tr key={index}>
-                          <Td>{title}</Td>
+                          <ProductInfoCell>
+                            <Image src={images[0]} width={15} height={15} alt='' />
+                            {title}
+                          </ProductInfoCell>
                           <Td>{numberOfProducts(id)}</Td>
                           <Td>{price}</Td>
                         </Tr>
@@ -136,6 +139,10 @@ const Th = styled.th`
 
 const Td = styled.td`
 
+`;
+
+const ProductInfoCell = styled.td`
+  max-width: 100%;
 `;
 
 const Form = styled.form`
