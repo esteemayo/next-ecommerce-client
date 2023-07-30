@@ -18,6 +18,19 @@ const Cart = () => {
     e.preventDefault();
   }, []);
 
+  useEffect(() => {
+    if (cart.length > 0) {
+      (async () => {
+        try {
+          const { data } = await getCarts({ ids: cart });
+          setProducts(data);
+        } catch (err) {
+          console.log(err);
+        }
+      })();
+    }
+  }, [cart]);
+
   return (
     <ClientOnly>
       <Container>
