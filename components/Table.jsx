@@ -2,10 +2,12 @@
 
 import styled from 'styled-components';
 
-const Table = () => {
-  return (
-    <div>Table</div>
-  );
+const Table = (props) => {
+  return <StyledTable {...props} />;
 };
+
+const StyledTable = styled.table`
+
+`;
 
 export default Table;
