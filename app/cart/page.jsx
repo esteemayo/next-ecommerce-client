@@ -19,7 +19,6 @@ const Cart = () => {
                 type='button'
                 black={1}
                 block={1}
-                primary={1}
               >
                 Continue to payment
               </Button>
