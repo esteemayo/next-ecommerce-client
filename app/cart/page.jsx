@@ -116,6 +116,10 @@ const Thead = styled.thead`
 
 `;
 
+const Tr = styled.tr`
+
+`;
+
 const Form = styled.form`
   
 `;
