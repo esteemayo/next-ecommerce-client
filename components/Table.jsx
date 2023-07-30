@@ -1,6 +1,7 @@
 'use client';
 
 import styled from 'styled-components';
+import Image from 'next/image';
 
 const Table = (props) => {
   return <StyledTable {...props} />;
