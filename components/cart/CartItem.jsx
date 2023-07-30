@@ -4,7 +4,14 @@ import styled from 'styled-components';
 import Image from 'next/image';
 import { NumericFormat } from 'react-number-format';
 
-const CartItem = ({ _id: id, title, price, images, totalPrice, numberOfProducts }) => {
+const CartItem = ({
+  _id: id,
+  title,
+  price,
+  images,
+  totalPrice,
+  numberOfProducts,
+}) => {
   return (
     <Tr>
       <ProductInfoCell>
