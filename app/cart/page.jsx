@@ -153,6 +153,9 @@ const ImageContainer = styled.div`
   background-color: #f0f0f0;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 const Form = styled.form`
