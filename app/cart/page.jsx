@@ -7,6 +7,7 @@ import Button from '@/components/Button';
 import ClientOnly from '@/components/ClientOnly';
 import Center from '@/components/Center';
 
+import { getCarts } from '@/services/cartService';
 import { useGlobalContext } from '@/context/CartContext';
 
 const Cart = () => {
