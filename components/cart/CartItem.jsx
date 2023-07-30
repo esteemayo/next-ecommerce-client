@@ -30,7 +30,7 @@ const CartItem = ({
       </ProductInfoCell>
       <Td>
         <Button type='button'>-</Button>
-        {numberOfProducts(id)}
+        <QuantityLabel>{numberOfProducts(id)}</QuantityLabel>
         <Button type='button'>+</Button>
       </Td>
       <Td>
