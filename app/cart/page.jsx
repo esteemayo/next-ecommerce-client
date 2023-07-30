@@ -144,6 +144,10 @@ const Td = styled.td`
   }
 `;
 
+const ImageContainer = styled.div`
+
+`;
+
 const Form = styled.form`
   
 `;
