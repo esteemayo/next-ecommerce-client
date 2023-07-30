@@ -18,7 +18,9 @@ const Container = styled.main`
 `;
 
 const Wrapper = styled.div`
-  
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  gap: 4rem;
 `;
 
 export default Cart;
