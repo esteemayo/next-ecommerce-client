@@ -1,4 +1,4 @@
-import { ADD_TO_CART } from './CartTypes';
+import { ADD_TO_CART, REMOVE_FROM_CART } from './CartTypes';
 
 const CartReducer = (state, { payload, type }) => {
   switch (type) {
