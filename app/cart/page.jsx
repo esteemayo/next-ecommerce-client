@@ -55,4 +55,8 @@ const Form = styled.form`
   
 `;
 
+const Input = styled.input`
+  
+`;
+
 export default Cart;
