@@ -46,7 +46,9 @@ const Cart = () => {
                 <EmptyMessage>Your cart is empty</EmptyMessage>
               )}
               <Table>
-                <Thead></Thead>
+                <Thead>
+                  <Tr></Tr>
+                </Thead>
               </Table>
               {products?.length > 0 && (
                 <>
