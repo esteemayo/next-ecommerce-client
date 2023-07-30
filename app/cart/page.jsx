@@ -152,7 +152,6 @@ const ImageContainer = styled.div`
   max-width: 10rem;
   max-height: 10rem;
   padding: 1rem;
-  background-color: #f0f0f0;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
   display: flex;
