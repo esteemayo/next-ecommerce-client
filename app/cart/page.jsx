@@ -12,7 +12,7 @@ import { getCarts } from '@/services/cartService';
 import { useGlobalContext } from '@/context/CartContext';
 
 const Cart = () => {
-  const { cart } = useGlobalContext();
+  const { cart, addProduct } = useGlobalContext();
   const [products, setProducts] = useState([]);
 
   const handleSubmit = useCallback((e) => {
@@ -26,6 +26,10 @@ const Cart = () => {
   const totalPrice = useCallback((price, productId) => {
     return price * numberOfProducts(productId);
   }, [numberOfProducts]);
+
+  const handleIncrement = useCallback((productId) => {
+    addProduct(productId);
+  }, [addProduct]);
 
   useEffect(() => {
     if (cart.length > 0) {
