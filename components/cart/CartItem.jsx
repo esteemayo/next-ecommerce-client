@@ -28,7 +28,11 @@ const CartItem = ({
         </ImageContainer>
         {title}
       </ProductInfoCell>
-      <Td>{numberOfProducts(id)}</Td>
+      <Td>
+        <Button type='button'>-</Button>
+        {numberOfProducts(id)}
+        <Button type='button'>+</Button>
+      </Td>
       <Td>
         <NumericFormat
           value={totalPrice(price, id)}
