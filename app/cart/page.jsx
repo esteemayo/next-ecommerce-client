@@ -41,12 +41,12 @@ const Cart = () => {
         <Center>
           <Wrapper>
             <Box>
+              <Heading>Cart</Heading>
               {!cart?.length && (
                 <EmptyMessage>Your cart is empty</EmptyMessage>
               )}
               {products?.length > 0 && (
                 <>
-                  <Heading>Cart</Heading>
                   {products.map((item, index) => {
                     const { _id: id } = item;
                     return (
