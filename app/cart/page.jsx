@@ -7,7 +7,6 @@ import { NumericFormat } from 'react-number-format';
 
 import Button from '@/components/Button';
 import ClientOnly from '@/components/ClientOnly';
-import Table from '@/components/Table';
 import Center from '@/components/Center';
 
 import { getCarts } from '@/services/cartService';
