@@ -50,7 +50,9 @@ const Cart = () => {
                   {products.map((item, index) => {
                     const { _id: id } = item;
                     return (
-                      <div key={index}>{item.title}</div>
+                      <div key={index}>
+                        {item.title}: {numberOfProducts(id)}
+                      </div>
                     )
                   })}
                 </>
