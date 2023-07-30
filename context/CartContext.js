@@ -1,7 +1,7 @@
 import { createContext, useContext, useEffect, useReducer } from 'react';
 
 import CartReducer from './CartReducer';
-import { ADD_TO_CART } from './CartTypes';
+import { ADD_TO_CART, REMOVE_FROM_CART } from './CartTypes';
 
 import { cartKey, getFromStorage, setToStorage } from '@/utils';
 
