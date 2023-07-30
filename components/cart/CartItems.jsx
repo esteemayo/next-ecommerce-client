@@ -5,6 +5,7 @@ import { useCallback, useMemo } from 'react';
 import { NumericFormat } from 'react-number-format';
 import Image from 'next/image';
 
+import CartItem from './CartItem';
 import Table from '@/components/Table';
 
 const CartItems = ({ cart, products }) => {
@@ -25,30 +26,8 @@ const CartItems = ({ cart, products }) => {
           </Thead>
           <Tbody>
             {products.map((item, index) => {
-              const { _id: id, title, price, images } = item;
               return (
-                <Tr key={index}>
-                  <ProductInfoCell>
-                    <ImageContainer>
-                      <Image
-                        src={images[0]}
-                        width={80}
-                        height={80}
-                        alt=''
-                      />
-                    </ImageContainer>
-                    {title}
-                  </ProductInfoCell>
-                  <Td>{numberOfProducts(id)}</Td>
-                  <Td>
-                    <NumericFormat
-                      value={price}
-                      displayType={'text'}
-                      thousandSeparator={true}
-                      prefix={'$'}
-                    />
-                  </Td>
-                </Tr>
+                <CartItem key={item._id} {...item} />
               );
             })}
           </Tbody>
