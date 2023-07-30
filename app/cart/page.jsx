@@ -44,7 +44,7 @@ const Cart = () => {
               {!cart?.length && (
                 <EmptyMessage>Your cart is empty</EmptyMessage>
               )}
-              {cart?.length && (
+              {products?.length > 0 && (
                 <>
                   <Heading>Cart</Heading>
                   {products.map((item, index) => {
