@@ -8,4 +8,8 @@ const CartItems = () => {
   );
 };
 
+const Container = styled.div`
+  
+`;
+
 export default CartItems;
