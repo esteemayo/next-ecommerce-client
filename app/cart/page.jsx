@@ -6,6 +6,7 @@ import { useCallback, useEffect, useState } from 'react';
 import Button from '@/components/Button';
 import ClientOnly from '@/components/ClientOnly';
 import Center from '@/components/Center';
+import CartItems from '@/components/cart/CartItems';
 
 import { getCarts } from '@/services/cartService';
 import { useGlobalContext } from '@/context/CartContext';
