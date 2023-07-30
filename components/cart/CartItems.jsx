@@ -1,6 +1,7 @@
 'use client';
 
 import styled from 'styled-components';
+import { NumericFormat } from 'react-number-format';
 import Table from '@/components/Table';
 
 const CartItems = () => {
