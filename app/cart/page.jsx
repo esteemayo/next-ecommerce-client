@@ -47,7 +47,11 @@ const Cart = () => {
               )}
               <Table>
                 <Thead>
-                  <Tr></Tr>
+                  <Tr>
+                    <Th>Products</Th>
+                    <Th>Quantity</Th>
+                    <Th>Price</Th>
+                  </Tr>
                 </Thead>
               </Table>
               {products?.length > 0 && (
