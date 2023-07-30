@@ -110,6 +110,10 @@ const Table = styled.table`
 
 `;
 
+const Thead = styled.thead`
+
+`;
+
 const Form = styled.form`
   
 `;
