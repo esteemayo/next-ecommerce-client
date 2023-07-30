@@ -1,10 +1,33 @@
 'use client';
 
 import styled from 'styled-components';
+import Image from 'next/image';
+import { NumericFormat } from 'react-number-format';
 
-const CartItem = () => {
+const CartItem = ({ title, price, images }) => {
   return (
-    <div>CartItem</div>
+    <Tr key={index}>
+      <ProductInfoCell>
+        <ImageContainer>
+          <Image
+            src={images[0]}
+            width={80}
+            height={80}
+            alt=''
+          />
+        </ImageContainer>
+        {title}
+      </ProductInfoCell>
+      <Td>{numberOfProducts(id)}</Td>
+      <Td>
+        <NumericFormat
+          value={price}
+          displayType={'text'}
+          thousandSeparator={true}
+          prefix={'$'}
+        />
+      </Td>
+    </Tr>
   );
 };
 
