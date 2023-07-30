@@ -15,6 +15,7 @@ const Cart = () => {
             <Box>1</Box>
             <Box>
               <Heading>Order information</Heading>
+              <Form></Form>
               <Button
                 type='button'
                 black={1}
