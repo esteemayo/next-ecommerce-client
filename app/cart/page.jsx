@@ -1,7 +1,7 @@
 'use client';
 
 import styled from 'styled-components';
-import { useCallback } from 'react';
+import { useCallback, useEffect } from 'react';
 
 import Button from '@/components/Button';
 import ClientOnly from '@/components/ClientOnly';
