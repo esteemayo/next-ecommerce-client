@@ -15,7 +15,10 @@ const Cart = () => {
             <Box>1</Box>
             <Box>
               <Heading>Order information</Heading>
-              <Form></Form>
+              <Form>
+                <Input type='text' placeholder='Address' />
+                <Input type='text' placeholder='Address2' />
+              </Form>
               <Button
                 type='button'
                 black={1}
