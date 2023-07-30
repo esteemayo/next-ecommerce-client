@@ -74,7 +74,14 @@ const Cart = () => {
                             {title}
                           </ProductInfoCell>
                           <Td>{numberOfProducts(id)}</Td>
-                          <Td>{price}</Td>
+                          <Td>
+                            <NumericFormat
+                              value={price}
+                              displayType={'text'}
+                              thousandSeparator={true}
+                              prefix={'$'}
+                            />
+                          </Td>
                         </Tr>
                       );
                     })}
