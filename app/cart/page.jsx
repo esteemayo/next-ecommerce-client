@@ -21,7 +21,11 @@ const Cart = () => {
       <Container>
         <Center>
           <Wrapper>
-            <Box>1</Box>
+            <Box>
+              {!cart?.length && (
+                <div>Your cart is empty</div>
+              )}
+            </Box>
             <Box>
               <Heading>Order information</Heading>
               <Form onSubmit={handleSubmit}>
