@@ -139,7 +139,8 @@ const Th = styled.th`
 
 const Td = styled.td`
   img {
-    max-width: 100%;
+    max-width: 15rem;
+    max-height: 15rem;
   }
 `;
 
