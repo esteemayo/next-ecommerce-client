@@ -140,10 +140,7 @@ const Th = styled.th`
 `;
 
 const Td = styled.td`
-  img {
-    max-width: 15rem;
-    max-height: 15rem;
-  }
+  
 `;
 
 const ImageContainer = styled.div`
@@ -156,6 +153,11 @@ const ImageContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  img {
+    max-width: 15rem;
+    max-height: 15rem;
+  }
 `;
 
 const Form = styled.form`
