@@ -10,6 +10,8 @@ import Center from '@/components/Center';
 import { useGlobalContext } from '@/context/CartContext';
 
 const Cart = () => {
+  const { cart } = useGlobalContext();
+
   const handleSubmit = useCallback((e) => {
     e.preventDefault();
   }, []);
