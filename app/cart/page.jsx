@@ -105,6 +105,10 @@ const EmptyMessage = styled.div`
   
 `;
 
+const Table = styled.table`
+
+`;
+
 const Form = styled.form`
   
 `;
