@@ -11,7 +11,7 @@ const CartReducer = (state, { payload, type }) => {
     case FETCH_CART_PRODUCT:
       return {
         ...state,
-        products: [...state.products, payload],
+        products: payload,
       };
 
     case REMOVE_FROM_CART:
