@@ -18,7 +18,7 @@ const CartReducer = (state, { payload, type }) => {
       let newCart;
       const index = state.cart.indexOf(payload);
       if (index !== -1) {
-        newCart = state.cart.filter((cartItem, cartIndex) => cartIndex !== index);
+        newCart = state.cart.filter((_, cartIndex) => cartIndex !== index);
       }
 
       return {
