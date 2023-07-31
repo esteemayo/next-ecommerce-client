@@ -12,7 +12,7 @@ import { getCarts } from '@/services/cartService';
 import { useGlobalContext } from '@/context/CartContext';
 
 const Cart = () => {
-  const { cart, addProduct } = useGlobalContext();
+  const { cart, addProduct,removeProduct } = useGlobalContext();
   const [products, setProducts] = useState([]);
 
   const handleSubmit = useCallback((e) => {
