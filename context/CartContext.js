@@ -1,7 +1,7 @@
 import { createContext, useContext, useEffect, useReducer } from 'react';
 
+import * as actions from './CartTypes';
 import CartReducer from './CartReducer';
-import { ADD_TO_CART, FETCH_CART_PRODUCT, GET_TOTALS, REMOVE_FROM_CART } from './CartTypes';
 
 import { getCarts } from '@/services/cartService';
 import { cartKey, getFromStorage, setToStorage } from '@/utils';
@@ -21,14 +21,14 @@ const CartProvider = ({ children }) => {
 
   const addProduct = (productId) => {
     dispatch({
-      type: ADD_TO_CART,
+      type: actions.ADD_TO_CART,
       payload: productId,
     });
   };
 
   const removeProduct = (productId) => {
     dispatch({
-      type: REMOVE_FROM_CART,
+      type: actions.REMOVE_FROM_CART,
       payload: productId,
     });
   };
@@ -45,7 +45,7 @@ const CartProvider = ({ children }) => {
         try {
           const { data } = await getCarts({ ids: state.cart });
           dispatch({
-            type: FETCH_CART_PRODUCT,
+            type: actions.FETCH_CART_PRODUCT,
             payload: data,
           });
         } catch (err) {
@@ -57,7 +57,7 @@ const CartProvider = ({ children }) => {
 
   useEffect(() => {
     dispatch({
-      type: GET_TOTALS,
+      type: actions.GET_TOTALS,
     });
   }, []);
 
