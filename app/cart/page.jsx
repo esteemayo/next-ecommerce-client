@@ -11,6 +11,15 @@ import CartItems from '@/components/cart/CartItems';
 import Input from '@/components/Input';
 import { useGlobalContext } from '@/context/CartContext';
 
+const initialState = {
+  name: '',
+  email: '',
+  city: '',
+  postalCode: '',
+  streetAddress: '',
+  country: '',
+};
+
 const Cart = () => {
   const {
     cart,
@@ -19,6 +28,8 @@ const Cart = () => {
     addProduct,
     removeProduct,
   } = useGlobalContext();
+
+  const [data, setData] = useState(initialState);
 
   const handleSubmit = useCallback((e) => {
     e.preventDefault();
