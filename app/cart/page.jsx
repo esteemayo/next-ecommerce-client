@@ -77,7 +77,7 @@ const Cart = () => {
                 <Heading>Order information</Heading>
                 <Form onSubmit={handleSubmit}>
                   <Input type='text' placeholder='Name' onChange={handleChange} />
-                  <Input type='email' placeholder='Email' />
+                  <Input type='email' placeholder='Email' onChange={handleChange} />
                   <CityHolder>
                     <Input type='text' placeholder='City' />
                     <Input type='text' placeholder='Postal Code' />
