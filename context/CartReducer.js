@@ -29,7 +29,9 @@ const CartReducer = (state, { payload, type }) => {
     case actions.GET_TOTALS:
       let total;
       for (const productId of state.cart) {
-        total = state.products.find((item) => item === productId).price || 0;
+        const price = state.products.find((item) => item._id === productId)?.price || 0;
+        state.total += price;
+        total = state.total;
       }
 
       return {
