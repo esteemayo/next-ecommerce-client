@@ -9,6 +9,7 @@ const Input = (props) => {
 const StyledInput = styled.input`
   display: inline-block;
   font-family: inherit;
+  font-size: 1.4rem;
   width: 100%;
   padding: 0.5rem;
   margin-bottom: 0.5rem;
