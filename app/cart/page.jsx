@@ -54,7 +54,7 @@ const Cart = () => {
               <Box>
                 <Heading>Order information</Heading>
                 <Form onSubmit={handleSubmit}>
-                  <Input type='text' placeholder='Address' />
+                  <Input type='text' placeholder='Name' />
                   <Input type='text' placeholder='Address2' />
                 </Form>
                 <Button
