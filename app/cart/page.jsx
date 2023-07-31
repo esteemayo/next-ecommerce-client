@@ -104,7 +104,9 @@ const Form = styled.form`
 `;
 
 const CityHolder = styled.div`
-  
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 `;
 
 export default Cart;
