@@ -48,7 +48,14 @@ const CartItems = ({
             <Tr>
               <Td></Td>
               <Td></Td>
-              <Td></Td>
+              <Td>
+                <NumericFormat
+                  value={total}
+                  displayType={'text'}
+                  thousandSeparator={true}
+                  prefix={'$'}
+                />
+              </Td>
             </Tr>
           </Tbody>
         </Table>
