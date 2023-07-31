@@ -23,6 +23,13 @@ const CartProvider = ({ children }) => {
     });
   };
 
+  const removeProduct = (productId) => {
+    dispatch({
+      type: REMOVE_FROM_CART,
+      payload: productId,
+    });
+  };
+
   useEffect(() => {
     if (state.cart?.length > 0) {
       setToStorage(cartKey, state.cart);
