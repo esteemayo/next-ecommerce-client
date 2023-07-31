@@ -44,7 +44,11 @@ const CartItems = ({
                 />
               );
             })}
-            <Tr></Tr>
+            <Tr>
+              <Td></Td>
+              <Td></Td>
+              <Td></Td>
+            </Tr>
           </Tbody>
         </Table>
       )}
