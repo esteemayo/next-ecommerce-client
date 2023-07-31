@@ -11,6 +11,7 @@ const cart = getFromStorage(cartKey);
 const INITIAL_STATE = {
   cart: cart ?? [],
   products: [],
+  total: 0,
 };
 
 const CartContext = createContext();
