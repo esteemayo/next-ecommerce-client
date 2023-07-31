@@ -57,6 +57,10 @@ const CartProvider = ({ children }) => {
           console.log(err);
         }
       })();
+    } else {
+      dispatch({
+        type: actions.CLEAR_CART_PRODUCT,
+      });
     }
   }, [state.cart]);
 
