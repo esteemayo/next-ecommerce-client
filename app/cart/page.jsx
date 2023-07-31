@@ -58,6 +58,7 @@ const Cart = () => {
                   <Input type='email' placeholder='Email' />
                   <Input type='text' placeholder='City' />
                   <Input type='text' placeholder='Postal Code' />
+                  <Input type='text' placeholder='Street Address' />
                 </Form>
                 <Button
                   type='button'
