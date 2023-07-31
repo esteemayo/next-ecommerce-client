@@ -1,7 +1,7 @@
 import { createContext, useContext, useEffect, useReducer } from 'react';
 
 import CartReducer from './CartReducer';
-import { ADD_TO_CART, REMOVE_FROM_CART } from './CartTypes';
+import { ADD_TO_CART, FETCH_CART_PRODUCT, REMOVE_FROM_CART } from './CartTypes';
 
 import { cartKey, getFromStorage, setToStorage } from '@/utils';
 
@@ -24,6 +24,13 @@ const CartProvider = ({ children }) => {
     });
   };
 
+  const fetchProducts = (products) => {
+    dispatch({
+      type: FETCH_CART_PRODUCT,
+      payload: products,
+    });
+  };
+
   const removeProduct = (productId) => {
     dispatch({
       type: REMOVE_FROM_CART,
@@ -38,7 +45,7 @@ const CartProvider = ({ children }) => {
   }, [state.cart]);
 
   return (
-    <CartContext.Provider value={{ ...state, addProduct, removeProduct }}>
+    <CartContext.Provider value={{ ...state, addProduct, fetchProducts, removeProduct }}>
       {children}
     </CartContext.Provider>
   );
