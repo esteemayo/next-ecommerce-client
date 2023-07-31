@@ -8,6 +8,7 @@ import ClientOnly from '@/components/ClientOnly';
 import Center from '@/components/Center';
 import CartItems from '@/components/cart/CartItems';
 
+import Input from '@/components/Input';
 import { useGlobalContext } from '@/context/CartContext';
 
 const Cart = () => {
