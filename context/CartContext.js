@@ -25,13 +25,6 @@ const CartProvider = ({ children }) => {
     });
   };
 
-  const fetchProducts = (products) => {
-    dispatch({
-      type: FETCH_CART_PRODUCT,
-      payload: products,
-    });
-  };
-
   const removeProduct = (productId) => {
     dispatch({
       type: REMOVE_FROM_CART,
@@ -62,7 +55,7 @@ const CartProvider = ({ children }) => {
   }, [state.cart]);
 
   return (
-    <CartContext.Provider value={{ ...state, addProduct, fetchProducts, removeProduct }}>
+    <CartContext.Provider value={{ ...state, addProduct, removeProduct }}>
       {children}
     </CartContext.Provider>
   );

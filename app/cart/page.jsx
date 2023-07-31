@@ -12,8 +12,7 @@ import { getCarts } from '@/services/cartService';
 import { useGlobalContext } from '@/context/CartContext';
 
 const Cart = () => {
-  const { cart, addProduct, removeProduct } = useGlobalContext();
-  const [products, setProducts] = useState([]);
+  const { cart, products, addProduct, removeProduct } = useGlobalContext();
 
   const handleSubmit = useCallback((e) => {
     e.preventDefault();
@@ -34,19 +33,6 @@ const Cart = () => {
   const handleDecrement = useCallback((productId) => {
     removeProduct(productId);
   }, [removeProduct]);
-
-  useEffect(() => {
-    if (cart.length > 0) {
-      (async () => {
-        try {
-          const { data } = await getCarts({ ids: cart });
-          setProducts(data);
-        } catch (err) {
-          console.log(err);
-        }
-      })();
-    }
-  }, [cart]);
 
   return (
     <ClientOnly>
