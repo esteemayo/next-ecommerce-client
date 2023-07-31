@@ -27,7 +27,7 @@ export const POST = async (request) => {
     let line_items = [];
     for (const productId of uniqueIds) {
       const productInfo = productsInfos.find((item) => String(item._id) === productId);
-      const quantity = products.filter((item) => item === productId)?.length;
+      const quantity = productsIds.filter((item) => item === productId)?.length;
 
       if (quantity > 0 && productInfo) {
         line_items.push({
