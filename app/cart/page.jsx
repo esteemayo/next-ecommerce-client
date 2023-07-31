@@ -96,7 +96,7 @@ const Box = styled.div`
 `;
 
 const Heading = styled.h2`
-  
+  font-weight: 700;
 `;
 
 const Form = styled.form`
