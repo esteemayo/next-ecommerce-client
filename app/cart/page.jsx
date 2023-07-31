@@ -116,9 +116,7 @@ const Heading = styled.h2`
   font-weight: 700;
 `;
 
-const Form = styled.form`
-  
-`;
+const Form = styled.form``;
 
 const CityHolder = styled.div`
   display: flex;
