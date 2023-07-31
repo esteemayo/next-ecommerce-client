@@ -78,33 +78,39 @@ const Cart = () => {
                 <Form onSubmit={handleSubmit}>
                   <Input
                     type='text'
+                    name='name'
                     placeholder='Name'
                     onChange={handleChange}
                   />
                   <Input
                     type='email'
+                    name='email'
                     placeholder='Email'
                     onChange={handleChange}
                   />
                   <CityHolder>
                     <Input
                       type='text'
+                      name='city'
                       placeholder='City'
                       onChange={handleChange}
                     />
                     <Input
                       type='text'
+                      name='postalCode'
                       placeholder='Postal Code'
                       onChange={handleChange}
                     />
                   </CityHolder>
                   <Input
                     type='text'
+                    name='streetAddress'
                     placeholder='Street Address'
                     onChange={handleChange}
                   />
                   <Input
                     type='text'
+                    name='country'
                     placeholder='Country'
                     onChange={handleChange}
                   />
