@@ -19,6 +19,10 @@ const StyledInput = styled.input`
   border-radius: 0.5rem;
   outline-color: #ddd;
   caret-color: #999;
+
+  &::placeholder {
+    color: #bbb;
+  }
 `;
 
 export default Input;
