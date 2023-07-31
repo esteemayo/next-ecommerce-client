@@ -9,6 +9,7 @@ import Table from '@/components/Table';
 const CartItems = ({
   cart,
   products,
+  total,
   totalPrice,
   numberOfProducts,
   onIncrement,
@@ -36,6 +37,7 @@ const CartItems = ({
                   {...item}
                   key={item._id}
                   totalPrice={totalPrice}
+                  total={total}
                   numberOfProducts={numberOfProducts}
                   onIncrement={onIncrement}
                   onDecrement={onDecrement}
