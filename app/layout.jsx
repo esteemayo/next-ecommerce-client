@@ -46,6 +46,7 @@ const GlobalStyles = createGlobalStyle`
     font-size: 1.6rem;
     background-color: #eee;
     color: #222;
+    line-height: 1.6;
   }
 `;
 
