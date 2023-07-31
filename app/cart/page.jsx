@@ -12,7 +12,13 @@ import Input from '@/components/Input';
 import { useGlobalContext } from '@/context/CartContext';
 
 const Cart = () => {
-  const { cart, products, total, addProduct, removeProduct } = useGlobalContext();
+  const {
+    cart,
+    products,
+    total,
+    addProduct,
+    removeProduct,
+  } = useGlobalContext();
 
   const handleSubmit = useCallback((e) => {
     e.preventDefault();
