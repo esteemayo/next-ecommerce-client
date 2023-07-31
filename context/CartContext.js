@@ -55,6 +55,12 @@ const CartProvider = ({ children }) => {
     }
   }, [state.cart]);
 
+  useEffect(() => {
+    dispatch({
+      type: GET_TOTALS,
+    });
+  }, []);
+
   return (
     <CartContext.Provider value={{ ...state, addProduct, removeProduct }}>
       {children}
