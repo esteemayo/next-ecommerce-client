@@ -11,8 +11,8 @@ import CartItems from '@/components/cart/CartItems';
 import { useGlobalContext } from '@/context/CartContext';
 
 const Cart = () => {
-  const { cart, products, addProduct, removeProduct } = useGlobalContext();
-
+  const { cart, products, total, addProduct, removeProduct } = useGlobalContext();
+console.log(total)
   const handleSubmit = useCallback((e) => {
     e.preventDefault();
   }, []);
