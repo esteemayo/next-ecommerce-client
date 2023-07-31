@@ -17,6 +17,7 @@ const StyledInput = styled.input`
   margin-bottom: 0.5rem;
   border: 1px solid #ccc;
   border-radius: 0.5rem;
+  outline-color: #ddd;
 `;
 
 export default Input;
