@@ -2,10 +2,8 @@
 
 import styled from 'styled-components';
 
-const Input = () => {
-  return (
-    <div>Input</div>
-  );
+const Input = (props) => {
+  return <StyledInput {...props} />;
 };
 
 const StyledInput = styled.input`
