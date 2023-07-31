@@ -1,20 +1,20 @@
-import { ADD_TO_CART, FETCH_CART_PRODUCT, GET_TOTALS, REMOVE_FROM_CART } from './CartTypes';
+import * as types from './CartTypes';
 
 const CartReducer = (state, { payload, type }) => {
   switch (type) {
-    case ADD_TO_CART:
+    case types.ADD_TO_CART:
       return {
         ...state,
         cart: [...state.cart, payload],
       };
 
-    case FETCH_CART_PRODUCT:
+    case types.FETCH_CART_PRODUCT:
       return {
         ...state,
         products: payload,
       };
 
-    case REMOVE_FROM_CART:
+    case types.REMOVE_FROM_CART:
       let newCart;
       const index = state.cart.indexOf(payload);
       if (index !== -1) {
@@ -26,7 +26,7 @@ const CartReducer = (state, { payload, type }) => {
         cart: newCart,
       };
 
-    case GET_TOTALS:
+    case types.GET_TOTALS:
       let total;
       for (const productId of state.cart) {
         total = state.products.find((item) => item === productId).price || 0;
