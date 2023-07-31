@@ -31,6 +31,11 @@ const Cart = () => {
 
   const [data, setData] = useState(initialState);
 
+  const handleChange = useCallback(({ target: input }) => {
+    const { name, value } = input;
+    setData((prev) => ({ ...prev, [name]: value }));
+  }, []);
+
   const handleSubmit = useCallback((e) => {
     e.preventDefault();
   }, []);
