@@ -40,14 +40,13 @@ const Cart = () => {
       (async () => {
         try {
           const { data } = await getCarts({ ids: cart });
-          console.log(data)
-          fetchProducts(data);
+          setProducts(data);
         } catch (err) {
           console.log(err);
         }
       })();
     }
-  }, [cart, fetchProducts]);
+  }, [cart]);
 
   return (
     <ClientOnly>
