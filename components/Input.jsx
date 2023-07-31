@@ -12,6 +12,7 @@ const StyledInput = styled.input`
   font-size: 1.4rem;
   width: 100%;
   padding: 0.5rem;
+  background-color: transparent;
   margin-bottom: 0.5rem;
   border: 1px solid #ccc;
   border-radius: 0.5rem;
