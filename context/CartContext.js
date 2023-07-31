@@ -3,6 +3,7 @@ import { createContext, useContext, useEffect, useReducer } from 'react';
 import CartReducer from './CartReducer';
 import { ADD_TO_CART, FETCH_CART_PRODUCT, REMOVE_FROM_CART } from './CartTypes';
 
+import { getCarts } from '@/services/cartService';
 import { cartKey, getFromStorage, setToStorage } from '@/utils';
 
 const cart = getFromStorage(cartKey);
@@ -41,6 +42,22 @@ const CartProvider = ({ children }) => {
   useEffect(() => {
     if (state.cart?.length > 0) {
       setToStorage(cartKey, state.cart);
+    }
+  }, [state.cart]);
+
+  useEffect(() => {
+    if (state.cart.length > 0) {
+      (async () => {
+        try {
+          const { data } = await getCarts({ ids: state.cart });
+          dispatch({
+            type: FETCH_CART_PRODUCT,
+            payload: data,
+          });
+        } catch (err) {
+          console.log(err);
+        }
+      })();
     }
   }, [state.cart]);
 
