@@ -7,6 +7,7 @@ const Input = (props) => {
 };
 
 const StyledInput = styled.input`
+  display: inline-block;
   width: 100%;
   padding: 0.5rem;
   margin-bottom: 0.5rem;
