@@ -12,7 +12,7 @@ import { useGlobalContext } from '@/context/CartContext';
 
 const Cart = () => {
   const { cart, products, total, addProduct, removeProduct } = useGlobalContext();
-console.log(total)
+
   const handleSubmit = useCallback((e) => {
     e.preventDefault();
   }, []);
@@ -42,6 +42,7 @@ console.log(total)
               <CartItems
                 cart={cart}
                 products={products}
+                total={total}
                 totalPrice={totalPrice}
                 numberOfProducts={numberOfProducts}
                 onIncrement={handleIncrement}
