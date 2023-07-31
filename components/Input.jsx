@@ -8,4 +8,8 @@ const Input = () => {
   );
 };
 
+const StyledInput = styled.input`
+  
+`;
+
 export default Input;
