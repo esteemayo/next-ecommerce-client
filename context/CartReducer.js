@@ -26,6 +26,12 @@ const CartReducer = (state, { payload, type }) => {
         cart: newCart,
       };
 
+    case actions.CLEAR_CART_PRODUCT:
+      return {
+        ...state,
+        products: [],
+      };
+
     case actions.GET_TOTALS:
       let total;
       for (const productId of state.cart) {
