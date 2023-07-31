@@ -13,7 +13,6 @@ const CartItem = ({
   price,
   images,
   totalPrice,
-  total,
   numberOfProducts,
   onIncrement,
   onDecrement,
