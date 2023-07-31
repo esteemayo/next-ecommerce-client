@@ -79,7 +79,7 @@ const Cart = () => {
                   <Input type='text' placeholder='Name' onChange={handleChange} />
                   <Input type='email' placeholder='Email' onChange={handleChange} />
                   <CityHolder>
-                    <Input type='text' placeholder='City' />
+                    <Input type='text' placeholder='City' onChange={handleChange} />
                     <Input type='text' placeholder='Postal Code' />
                   </CityHolder>
                   <Input type='text' placeholder='Street Address' />
