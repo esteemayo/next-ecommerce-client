@@ -18,6 +18,7 @@ const StyledInput = styled.input`
   border: 1px solid #ccc;
   border-radius: 0.5rem;
   outline-color: #ddd;
+  caret-color: #999;
 `;
 
 export default Input;
