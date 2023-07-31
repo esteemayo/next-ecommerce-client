@@ -108,14 +108,14 @@ const Cart = () => {
                     placeholder='Country'
                     onChange={handleChange}
                   />
+                  <Button
+                    type='submit'
+                    black={1}
+                    block={1}
+                  >
+                    Continue to payment
+                  </Button>
                 </Form>
-                <Button
-                  type='button'
-                  black={1}
-                  block={1}
-                >
-                  Continue to payment
-                </Button>
               </Box>
             )}
           </Wrapper>
