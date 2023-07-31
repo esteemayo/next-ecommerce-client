@@ -1,9 +1,9 @@
 import {
   createContext,
-  useContext, 
+  useContext,
   useEffect,
   useReducer,
- } from 'react';
+} from 'react';
 
 import * as actions from './CartTypes';
 import CartReducer from './CartReducer';
@@ -64,7 +64,7 @@ const CartProvider = ({ children }) => {
     dispatch({
       type: actions.GET_TOTALS,
     });
-  }, []);
+  }, [state.products]);
 
   return (
     <CartContext.Provider value={{ ...state, addProduct, removeProduct }}>
