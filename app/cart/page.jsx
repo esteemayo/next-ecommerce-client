@@ -12,7 +12,7 @@ import { getCarts } from '@/services/cartService';
 import { useGlobalContext } from '@/context/CartContext';
 
 const Cart = () => {
-  const { cart, addProduct, removeProduct } = useGlobalContext();
+  const { cart, addProduct, fetchProducts, removeProduct } = useGlobalContext();
   const [products, setProducts] = useState([]);
 
   const handleSubmit = useCallback((e) => {
@@ -40,13 +40,14 @@ const Cart = () => {
       (async () => {
         try {
           const { data } = await getCarts({ ids: cart });
-          setProducts(data);
+          console.log(data)
+          fetchProducts(data);
         } catch (err) {
           console.log(err);
         }
       })();
     }
-  }, [cart]);
+  }, [cart, fetchProducts]);
 
   return (
     <ClientOnly>
