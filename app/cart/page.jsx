@@ -101,4 +101,8 @@ const Form = styled.form`
   
 `;
 
+const CityHolder = styled.div`
+  
+`;
+
 export default Cart;
