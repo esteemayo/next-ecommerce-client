@@ -75,7 +75,7 @@ const Cart = () => {
             {!!cart?.length && (
               <Box>
                 <Heading>Order information</Heading>
-                <Form onSubmit={handleSubmit}>
+                <Form onSubmit={handleSubmit} action='/api/checkout'>
                   <Input
                     type='text'
                     name='name'
@@ -114,6 +114,7 @@ const Cart = () => {
                     placeholder='Country'
                     onChange={handleChange}
                   />
+                  <Input type='hidden' value={cart.join(',')} />
                   <Button
                     type='submit'
                     black={1}
