@@ -56,6 +56,7 @@ const Cart = () => {
                 <Form onSubmit={handleSubmit}>
                   <Input type='text' placeholder='Name' />
                   <Input type='email' placeholder='Email' />
+                  <Input type='text' placeholder='City' />
                 </Form>
                 <Button
                   type='button'
