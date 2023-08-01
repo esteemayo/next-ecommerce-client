@@ -28,6 +28,7 @@ const Cart = () => {
     total,
     addProduct,
     removeProduct,
+    clearCart,
   } = useGlobalContext();
 
   const [data, setData] = useState(initialState);
