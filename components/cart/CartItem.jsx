@@ -49,9 +49,7 @@ const CartItem = ({
 
 const Tr = styled.tr``;
 
-const Td = styled.td`
-  
-`;
+const Td = styled.td``;
 
 const ProductInfoCell = styled.td`
   padding: 1rem 0;
