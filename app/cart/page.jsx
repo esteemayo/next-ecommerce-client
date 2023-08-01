@@ -92,7 +92,7 @@ const Cart = () => {
           </Center>
         </Container>
       </ClientOnly>
-    )
+    );
   }
 
   return (
