@@ -79,12 +79,14 @@ const Cart = () => {
                   <Input
                     type='text'
                     name='name'
+                    value={name}
                     placeholder='Name'
                     onChange={handleChange}
                   />
                   <Input
                     type='email'
                     name='email'
+                    value={email}
                     placeholder='Email'
                     onChange={handleChange}
                   />
@@ -92,12 +94,14 @@ const Cart = () => {
                     <Input
                       type='text'
                       name='city'
+                      value={city}
                       placeholder='City'
                       onChange={handleChange}
                     />
                     <Input
                       type='text'
                       name='postalCode'
+                      value={postalCode}
                       placeholder='Postal Code'
                       onChange={handleChange}
                     />
@@ -105,12 +109,14 @@ const Cart = () => {
                   <Input
                     type='text'
                     name='streetAddress'
+                    value={streetAddress}
                     placeholder='Street Address'
                     onChange={handleChange}
                   />
                   <Input
                     type='text'
                     name='country'
+                    value={country}
                     placeholder='Country'
                     onChange={handleChange}
                   />
