@@ -100,7 +100,6 @@ const Cart = () => {
                   <Input
                     type='email'
                     name='email'
-                    value={email}
                     placeholder='Email'
                     onChange={handleChange}
                   />
