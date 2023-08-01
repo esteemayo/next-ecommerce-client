@@ -5,6 +5,8 @@ import connectDB from '@/utils/db';
 import Product from '@/models/Product';
 import Order from '@/models/Order';
 
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
+
 export const POST = async (request) => {
   const body = await request.json();
 
