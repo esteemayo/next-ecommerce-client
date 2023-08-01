@@ -47,9 +47,7 @@ const CartItem = ({
   );
 };
 
-const Tr = styled.tr`
-
-`;
+const Tr = styled.tr``;
 
 const Td = styled.td`
   
