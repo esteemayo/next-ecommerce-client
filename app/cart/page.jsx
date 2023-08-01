@@ -51,10 +51,12 @@ const Cart = () => {
       if (res.data.url) {
         window.location = res.data.url;
       }
+
+      handleClear();
     } catch (err) {
       console.log(err);
     }
-  }, [cart, data]);
+  }, [cart, data, handleClear]);
 
   const handleClear = useCallback(() => {
     setData(initialState);
