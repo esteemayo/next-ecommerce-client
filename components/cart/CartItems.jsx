@@ -70,9 +70,7 @@ const Heading = styled.h2``;
 
 const EmptyMessage = styled.div``;
 
-const Thead = styled.thead`
-
-`;
+const Thead = styled.thead``;
 
 const Tbody = styled.tbody`
 
