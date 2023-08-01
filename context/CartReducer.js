@@ -26,6 +26,12 @@ const CartReducer = (state, { payload, type }) => {
         cart: newCart,
       };
 
+    case actions.CLEAR_CART:
+      return {
+        ...state,
+        cart: [],
+      };
+
     case actions.CLEAR_CART_PRODUCT:
       return {
         ...state,
