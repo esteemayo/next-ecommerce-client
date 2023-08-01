@@ -89,7 +89,7 @@ const Cart = () => {
       clearCart();
       setIsSuccess(true);
     }
-  }, [clearCart]);
+  }, []);
 
   if (isSuccess) {
     return (
