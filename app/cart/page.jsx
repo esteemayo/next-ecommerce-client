@@ -78,6 +78,12 @@ const Cart = () => {
     removeProduct(productId);
   }, [removeProduct]);
 
+  useEffect(() => {
+    if (window.location.href.includes('success')) {
+      // TODO: clear cart
+    }
+  }, []);
+
   if (window.location.href.includes('success')) {
     return (
       <ClientOnly>
