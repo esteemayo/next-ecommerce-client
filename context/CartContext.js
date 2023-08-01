@@ -38,6 +38,12 @@ const CartProvider = ({ children }) => {
     });
   };
 
+  const clearCart = () => {
+    dispatch({
+      type: actions.CLEAR_CART,
+    });
+  };
+
   useEffect(() => {
     if (state.cart?.length > 0) {
       setToStorage(cartKey, state.cart);
