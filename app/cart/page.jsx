@@ -84,7 +84,7 @@ const Cart = () => {
         <Container>
           <Center>
             <Box>
-
+              <SuccessHeading>Thanks for your order!</SuccessHeading>
             </Box>
           </Center>
         </Container>
