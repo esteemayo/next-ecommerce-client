@@ -72,9 +72,7 @@ const EmptyMessage = styled.div``;
 
 const Thead = styled.thead``;
 
-const Tbody = styled.tbody`
-
-`;
+const Tbody = styled.tbody``;
 
 const Tr = styled.tr`
 
