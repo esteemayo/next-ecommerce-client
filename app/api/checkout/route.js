@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 
 import connectDB from '@/utils/db';
 import Product from '@/models/Product';
+import Order from '@/models/Order';
 
 export const POST = async (request) => {
   const body = await request.json();
