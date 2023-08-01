@@ -187,6 +187,10 @@ const SuccessHeading = styled.h1`
   
 `;
 
+const SuccessText = styled.p`
+  
+`;
+
 const Heading = styled.h2`
   font-weight: 700;
 `;
