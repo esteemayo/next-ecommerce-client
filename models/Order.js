@@ -35,6 +35,7 @@ const orderSchema = new Schema(
     },
     paid: {
       type: Boolean,
+      default: false,
     },
   },
   {
