@@ -76,9 +76,7 @@ const Tbody = styled.tbody``;
 
 const Tr = styled.tr``;
 
-const Th = styled.th`
-
-`;
+const Th = styled.th``;
 
 const Td = styled.td`
   
