@@ -135,11 +135,6 @@ const Cart = () => {
                     placeholder='Country'
                     onChange={handleChange}
                   />
-                  <Input
-                    type='hidden'
-                    name='products'
-                    value={cart.join(',')}
-                  />
                   <Button
                     type='submit'
                     black={1}
