@@ -37,6 +37,10 @@ const Cart = () => {
     setData((prev) => ({ ...prev, [name]: value }));
   }, []);
 
+  const handleClear = useCallback(() => {
+    setData(initialState);
+  }, []);
+
   const handleSubmit = useCallback(async (e) => {
     e.preventDefault();
 
@@ -57,10 +61,6 @@ const Cart = () => {
       console.log(err);
     }
   }, [cart, data, handleClear]);
-
-  const handleClear = useCallback(() => {
-    setData(initialState);
-  }, []);
 
   const numberOfProducts = useCallback((productId) => {
     return cart.filter((id) => id === productId).length;
