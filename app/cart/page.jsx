@@ -81,9 +81,9 @@ const Cart = () => {
 
   useEffect(() => {
     if (window.location.href.includes('success')) {
-      // TODO: clear cart
+      clearCart();
     }
-  }, []);
+  }, [clearCart]);
 
   if (window.location.href.includes('success')) {
     return (
