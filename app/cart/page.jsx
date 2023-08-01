@@ -42,7 +42,7 @@ const Cart = () => {
 
     const newOrder = {
       ...data,
-      products: cart.join(','),
+      cart,
     };
 
     try {
