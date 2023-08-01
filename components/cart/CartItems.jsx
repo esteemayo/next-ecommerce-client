@@ -66,9 +66,7 @@ const CartItems = ({
 
 const Container = styled.div``;
 
-const Heading = styled.h2`
-  
-`;
+const Heading = styled.h2``;
 
 const EmptyMessage = styled.div`
   
