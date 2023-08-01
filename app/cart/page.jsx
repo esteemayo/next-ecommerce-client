@@ -32,6 +32,7 @@ const Cart = () => {
   } = useGlobalContext();
 
   const [data, setData] = useState(initialState);
+  const [isSuccess, setIsSuccess] = useState(false);
 
   const handleChange = useCallback(({ target: input }) => {
     const { name, value } = input;
