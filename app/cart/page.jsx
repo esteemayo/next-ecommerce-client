@@ -83,10 +83,12 @@ const Cart = () => {
       <ClientOnly>
         <Container>
           <Center>
-            <Box>
-              <SuccessHeading>Thanks for your order!</SuccessHeading>
-              <SuccessText>We will email you when your order will be sent.</SuccessText>
-            </Box>
+            <Wrapper>
+              <Box>
+                <SuccessHeading>Thanks for your order!</SuccessHeading>
+                <SuccessText>We will email you when your order will be sent.</SuccessText>
+              </Box>
+            </Wrapper>
           </Center>
         </Container>
       </ClientOnly>
