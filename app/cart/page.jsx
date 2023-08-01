@@ -10,6 +10,7 @@ import CartItems from '@/components/cart/CartItems';
 import Input from '@/components/Input';
 
 import { useGlobalContext } from '@/context/CartContext';
+import { createCheckout } from '@/services/checkoutService';
 
 const initialState = {
   name: '',
