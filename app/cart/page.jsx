@@ -107,7 +107,6 @@ const Cart = () => {
                     <Input
                       type='text'
                       name='city'
-                      value={city}
                       placeholder='City'
                       onChange={handleChange}
                     />
