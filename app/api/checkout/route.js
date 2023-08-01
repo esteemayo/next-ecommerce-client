@@ -59,11 +59,20 @@ export const POST = async (request) => {
 
     const order = await Order.create({ ...newOrder });
 
-    if (order) {
-      return NextResponse.json(order, {
-        status: 201,
-      });
-    }
+    const session = await stripe.checkout.sessions.create({
+      line_items,
+      mode: 'payment',
+      customer_email: email,
+      success_url: `${process.env.PUBLIC_URL}/cart?success=true`,
+      cancel_url: `${process.env.PUBLIC_URL}/cart?cancel=true`,
+      metadata: {
+        orderId: String(order._id),
+      },
+    })
+
+    return NextResponse.json({ url: session.url }, {
+      status: 201,
+    });
   } catch (err) {
     return NextResponse.json(500, {
       status: 500,
