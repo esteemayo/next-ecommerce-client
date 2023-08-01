@@ -35,7 +35,7 @@ export const POST = async (request) => {
           price_data: {
             currency: 'USD',
             product_data: {
-              name: productInfo.name,
+              name: productInfo.title,
             },
             unit_amount: quantity * productInfo.price,
           },
