@@ -90,7 +90,7 @@ const Cart = () => {
             {!!cart?.length && (
               <Box>
                 <Heading>Order information</Heading>
-                <Form onSubmit={handleSubmit} action='/api/checkout'>
+                <Form onSubmit={handleSubmit}>
                   <Input
                     type='text'
                     name='name'
