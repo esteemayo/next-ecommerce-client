@@ -32,8 +32,6 @@ const Cart = () => {
 
   const [data, setData] = useState(initialState);
 
-  const { name, email, city, postalCode, streetAddress, country } = data;
-
   const handleChange = useCallback(({ target: input }) => {
     const { name, value } = input;
     setData((prev) => ({ ...prev, [name]: value }));
