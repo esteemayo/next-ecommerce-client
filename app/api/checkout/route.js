@@ -7,7 +7,7 @@ export const POST = async (request) => {
   const body = await request.json();
 
   const {
-    name,
+    title,
     email,
     city,
     postalCode,
