@@ -78,6 +78,20 @@ const Cart = () => {
     removeProduct(productId);
   }, [removeProduct]);
 
+  if (window.location.href.includes('success')) {
+    return (
+      <ClientOnly>
+        <Container>
+          <Center>
+            <Box>
+
+            </Box>
+          </Center>
+        </Container>
+      </ClientOnly>
+    )
+  }
+
   return (
     <ClientOnly>
       <Container>
@@ -167,6 +181,10 @@ const Box = styled.div`
   background-color: var(--clr-white);
   border-radius: 1rem;
   padding: 3rem;
+`;
+
+const SuccessHeading = styled.h1`
+  
 `;
 
 const Heading = styled.h2`
