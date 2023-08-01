@@ -187,7 +187,7 @@ const Box = styled.div`
 `;
 
 const SuccessHeading = styled.h1`
-  
+  font-weight: 500;
 `;
 
 const SuccessText = styled.p`
