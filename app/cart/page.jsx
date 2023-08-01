@@ -85,6 +85,7 @@ const Cart = () => {
           <Center>
             <Box>
               <SuccessHeading>Thanks for your order!</SuccessHeading>
+              <SuccessText>We will email you when your order will be sent.</SuccessText>
             </Box>
           </Center>
         </Container>
