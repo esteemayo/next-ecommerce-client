@@ -23,7 +23,7 @@ export const POST = async (request) => {
   try {
     await connectDB();
 
-    const productsIds = products;
+    const productsIds = products.split(',');
     const uniqueIds = [...new Set(productsIds)];
 
     const productsInfos = await Product.find({ _id: uniqueIds });
