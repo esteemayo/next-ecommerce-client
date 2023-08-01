@@ -126,7 +126,6 @@ const Cart = () => {
                   <Input
                     type='text'
                     name='country'
-                    value={country}
                     placeholder='Country'
                     onChange={handleChange}
                   />
