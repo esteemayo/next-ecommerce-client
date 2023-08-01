@@ -64,9 +64,7 @@ const CartItems = ({
   );
 };
 
-const Container = styled.div`
-  
-`;
+const Container = styled.div``;
 
 const Heading = styled.h2`
   
