@@ -80,6 +80,10 @@ const Cart = () => {
   }, [removeProduct]);
 
   useEffect(() => {
+    if (typeof window === 'undefined') {
+      return;
+    }
+
     if (window.location.href.includes('success')) {
       clearCart();
     }
