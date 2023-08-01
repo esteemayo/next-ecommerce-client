@@ -47,7 +47,10 @@ const Cart = () => {
 
     try {
       const res = await createCheckout({ ...newOrder });
-      console.log(res);
+
+      if (res.data.url) {
+        window.location = res.data.url;
+      }
     } catch (err) {
       console.log(err);
     }
