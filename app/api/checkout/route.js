@@ -17,13 +17,13 @@ export const POST = async (request) => {
     postalCode,
     streetAddress,
     country,
-    products,
+    cart,
   } = body;
 
   try {
     await connectDB();
 
-    const productsIds = products.split(',');
+    const productsIds = cart;
     const uniqueIds = [...new Set(productsIds)];
 
     const productsInfos = await Product.find({ _id: uniqueIds });
