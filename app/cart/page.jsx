@@ -56,6 +56,10 @@ const Cart = () => {
     }
   }, [cart, data]);
 
+  const handleClear = useCallback(() => {
+    setData(initialState);
+  }, []);
+
   const numberOfProducts = useCallback((productId) => {
     return cart.filter((id) => id === productId).length;
   }, [cart]);
