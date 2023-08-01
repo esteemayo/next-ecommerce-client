@@ -85,7 +85,7 @@ const Cart = () => {
     }
   }, [clearCart]);
 
-  if (window.location.href.includes('success')) {
+  if (typeof window !== 'undefined' && window.location.href.includes('success')) {
     return (
       <ClientOnly>
         <Container>
