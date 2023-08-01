@@ -12,7 +12,7 @@ import Input from '@/components/Input';
 import { useGlobalContext } from '@/context/CartContext';
 
 const initialState = {
-  title: '',
+  name: '',
   email: '',
   city: '',
   postalCode: '',
@@ -31,7 +31,7 @@ const Cart = () => {
 
   const [data, setData] = useState(initialState);
 
-  const { title, email, city, postalCode, streetAddress, country } = data;
+  const { name, email, city, postalCode, streetAddress, country } = data;
 
   const handleChange = useCallback(({ target: input }) => {
     const { name, value } = input;
@@ -81,7 +81,7 @@ const Cart = () => {
                   <Input
                     type='text'
                     name='name'
-                    value={title}
+                    value={name}
                     placeholder='Name'
                     onChange={handleChange}
                   />
