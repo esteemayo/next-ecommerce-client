@@ -39,9 +39,21 @@ const Cart = () => {
     setData((prev) => ({ ...prev, [name]: value }));
   }, []);
 
-  const handleSubmit = useCallback((e) => {
+  const handleSubmit = useCallback(async (e) => {
     e.preventDefault();
-  }, []);
+
+    const newOrder = {
+      ...data,
+      products: cart.join(','),
+    };
+
+    try {
+      const res = await createCheckout({ ...newOrder });
+      console.log(res);
+    } catch (err) {
+      console.log(err);
+    }
+  }, [cart, data]);
 
   const numberOfProducts = useCallback((productId) => {
     return cart.filter((id) => id === productId).length;
