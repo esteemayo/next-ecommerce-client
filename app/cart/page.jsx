@@ -120,7 +120,6 @@ const Cart = () => {
                   <Input
                     type='text'
                     name='streetAddress'
-                    value={streetAddress}
                     placeholder='Street Address'
                     onChange={handleChange}
                   />
