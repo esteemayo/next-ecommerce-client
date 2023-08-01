@@ -12,6 +12,7 @@
     "axios": "^1.4.0",
     "eslint": "8.45.0",
     "eslint-config-next": "13.4.12",
+    "micro": "^10.0.1",
     "mongoose": "^7.4.1",
     "next": "13.4.12",
     "prop-types": "^15.8.1",
