@@ -44,9 +44,23 @@ export const POST = async (request) => {
       }
     }
 
-    return NextResponse.json(line_items, {
-      status: 201,
-    });
+    const newOrder = {
+      line_items,
+      name,
+      email,
+      city,
+      postalCode,
+      streetAddress,
+      country,
+    };
+
+    const order = await Order.create({ ...newOrder });
+
+    if (order) {
+      return NextResponse.json(order, {
+        status: 201,
+      });
+    }
   } catch (err) {
     return NextResponse.json(500, {
       status: 500,
