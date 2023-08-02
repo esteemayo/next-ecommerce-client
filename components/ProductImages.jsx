@@ -59,7 +59,7 @@ const Wrapper = styled.div`
   cursor: pointer;
 
   ${({ active }) => active && css`
-    border-color: #f00;
+    border-color: #ccc;
   `}
 
   ${({ active }) => !active && css`
