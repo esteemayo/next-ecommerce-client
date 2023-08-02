@@ -18,8 +18,8 @@ const ProductImages = ({ images }) => {
             <Wrapper key={index}>
               <StyledImage
                 src={image}
-                width={228}
-                height={121}
+                width={80}
+                height={80}
                 alt=''
               />
             </Wrapper>
