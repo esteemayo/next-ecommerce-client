@@ -2,6 +2,7 @@
 
 import styled from 'styled-components';
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 
 import Center from '@/components/Center';
 import ClientOnly from '@/components/ClientOnly';
