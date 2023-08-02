@@ -12,4 +12,8 @@ const Container = styled.main`
   
 `;
 
+const Heading = styled.h2`
+
+`;
+
 export default Products;
