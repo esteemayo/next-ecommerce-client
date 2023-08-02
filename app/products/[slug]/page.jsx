@@ -61,4 +61,8 @@ const ImageContainer = styled.div`
   height: 100%;
 `;
 
+const Description = styled.p`
+  
+`;
+
 export default Product;
