@@ -53,11 +53,7 @@ const Logo = styled(Link)`
   color: #fff;
 `;
 
-const Nav = styled.nav`
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
-`;
+const Nav = styled.nav``;
 
 const NavLink = styled(Link)`
   text-decoration: none;
