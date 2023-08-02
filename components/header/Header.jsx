@@ -65,7 +65,9 @@ const NavLink = styled(Link)`
 `;
 
 const ListContainer = styled.ul`
-  
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
 `;
 
 export default Header;
