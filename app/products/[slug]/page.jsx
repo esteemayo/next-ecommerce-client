@@ -59,4 +59,8 @@ const Wrapper = styled.div`
   gap: 4rem;
 `;
 
+const ImageContainer = styled.div`
+  
+`;
+
 export default Product;
