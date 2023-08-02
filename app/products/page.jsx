@@ -35,9 +35,7 @@ const Products = () => {
   );
 };
 
-const Container = styled.main`
-  
-`;
+const Container = styled.main``;
 
 const Heading = styled.h2`
   font-size: 1.5em;
