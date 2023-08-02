@@ -29,6 +29,7 @@ const Product = ({ params: { slug } }) => {
       <Container>
         <Center>
           <Wrapper>
+            <WhiteBox></WhiteBox>
             <Heading>{product.title}</Heading>
           </Wrapper>
         </Center>
