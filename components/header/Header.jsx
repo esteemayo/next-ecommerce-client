@@ -17,7 +17,19 @@ const Header = () => {
         <Wrapper>
           <Logo href='/' passHref>Ecommerce</Logo>
           <Nav>
-            <ListContainer></ListContainer>
+            <ListContainer>
+              {navLinks.map((link) => {
+                const { id, url, label } = link;
+                return (
+                  <MenuItem
+                    key={id}
+                    url={url}
+                    label={label}
+                    cart={cart}
+                  />
+                );
+              })}
+            </ListContainer>
           </Nav>
         </Wrapper>
       </Center>
