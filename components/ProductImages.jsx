@@ -16,7 +16,7 @@ const ProductImages = ({ images }) => {
         alt=''
       />
       <Container>
-        {images.map((image, index) => {
+        {images?.map((image, index) => {
           return (
             <Wrapper
               key={index}

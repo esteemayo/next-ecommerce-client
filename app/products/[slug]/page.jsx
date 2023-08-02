@@ -33,7 +33,7 @@ const Product = ({ params: { slug } }) => {
           <Wrapper>
             <WhiteBox>
               <ImageContainer>
-                <ProductImages images={product.images} />
+                <ProductImages images={product?.images} />
               </ImageContainer>
             </WhiteBox>
             <div>
