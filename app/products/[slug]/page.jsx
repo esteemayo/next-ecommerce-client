@@ -8,7 +8,9 @@ import ClientOnly from '@/components/ClientOnly';
 const Product = () => {
   return (
     <ClientOnly>
-      <Center>Product</Center>
+      <Container>
+        <Center>Product</Center>
+      </Container>
     </ClientOnly>
   );
 };
