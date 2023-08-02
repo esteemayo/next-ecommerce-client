@@ -7,10 +7,12 @@ import ProductsGrid from './ProductsGrid';
 
 const NewProducts = ({ products }) => {
   return (
-    <Center>
-      <Heading>New Arrivals</Heading>
-      <ProductsGrid products={products} />
-    </Center>
+    <Container>
+      <Center>
+        <Heading>New Arrivals</Heading>
+        <ProductsGrid products={products} />
+      </Center>
+    </Container>
   );
 };
 
