@@ -42,7 +42,9 @@ const Product = ({ params: { slug } }) => {
   );
 };
 
-const Container = styled.main``;
+const Container = styled.main`
+  margin-top: 4rem;
+`;
 
 const Wrapper = styled.div`
   display: grid;
