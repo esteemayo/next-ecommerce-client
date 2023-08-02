@@ -30,8 +30,11 @@ const Product = ({ params: { slug } }) => {
       <Container>
         <Center>
           <Wrapper>
-            <WhiteBox></WhiteBox>
-            <Heading>{product.title}</Heading>
+            <WhiteBox>image</WhiteBox>
+            <div>
+              <Heading>{product.title}</Heading>
+              <p>{product.description}</p>
+            </div>
           </Wrapper>
         </Center>
       </Container>
