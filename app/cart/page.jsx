@@ -126,7 +126,7 @@ const Cart = () => {
               />
             </WhiteBox>
             {!!cart?.length && (
-              <Box>
+              <WhiteBox>
                 <Heading>Order information</Heading>
                 <Form onSubmit={handleSubmit}>
                   <Input
@@ -175,7 +175,7 @@ const Cart = () => {
                     Continue to payment
                   </Button>
                 </Form>
-              </Box>
+              </WhiteBox>
             )}
           </Wrapper>
         </Center>
