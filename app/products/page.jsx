@@ -6,7 +6,9 @@ import Center from '@/components/Center';
 const Products = () => {
   return (
     <Container>
-      <Heading>All products</Heading>
+      <Center>
+        <Heading>All products</Heading>
+      </Center>
     </Container>
   );
 };
