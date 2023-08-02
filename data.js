@@ -1,4 +1,4 @@
-export const nevLinks = [
+export const navLinks = [
   {
     id: 1,
     url: '/',
