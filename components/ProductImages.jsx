@@ -5,12 +5,15 @@ import styled from 'styled-components';
 
 const ProductImages = ({ images }) => {
   return (
-    <StyledImage
-      src={images?.[0]}
-      width={228}
-      height={121}
-      alt=''
-    />
+    <>
+      <StyledImage
+        src={images?.[0]}
+        width={228}
+        height={121}
+        alt=''
+      />
+      <Wrapper></Wrapper>
+    </>
   );
 };
 
