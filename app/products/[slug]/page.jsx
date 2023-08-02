@@ -8,6 +8,7 @@ import Center from '@/components/Center';
 import ClientOnly from '@/components/ClientOnly';
 import Heading from '@/components/Heading';
 
+import ProductImages from '@/components/ProductImages';
 import WhiteBox from '@/components/WhiteBox';
 import { getProductBySlug } from '@/services/productService';
 
