@@ -7,7 +7,7 @@ const MenuItem = ({ url, label, cart }) => {
   return (
     <ListItem>
       <NavLink href={url} passHref>
-        {label} {url.includes('/cart') && (cart.length)}
+       {url.includes('/cart') ? `${label} (${cart.length})` : label}
       </NavLink>
     </ListItem>
   );
