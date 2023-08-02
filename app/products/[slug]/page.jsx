@@ -30,7 +30,14 @@ const Product = ({ params: { slug } }) => {
       <Container>
         <Center>
           <Wrapper>
-            <WhiteBox>image</WhiteBox>
+            <WhiteBox>
+              <Image
+                src={product?.images?.[0]}
+                width={100}
+                height={100}
+                alt=''
+              />
+            </WhiteBox>
             <div>
               <Heading>{product.title}</Heading>
               <p>{product.description}</p>
