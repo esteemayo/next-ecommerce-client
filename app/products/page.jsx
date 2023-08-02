@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react';
 import Center from '@/components/Center';
 import ClientOnly from '@/components/ClientOnly';
 import ProductsGrid from '@/components/ProductsGrid';
+
 import { getProducts } from '@/services/productService';
 
 const Products = () => {
