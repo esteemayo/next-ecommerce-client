@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import styled from 'styled-components';
 
 const ProductImages = ({ images }) => {
   return (
