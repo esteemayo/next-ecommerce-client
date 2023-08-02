@@ -8,4 +8,8 @@ const WhiteBox = () => {
   );
 };
 
+const Box = styled.div`
+  
+`;
+
 export default WhiteBox;
