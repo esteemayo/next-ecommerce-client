@@ -12,7 +12,7 @@ const ProductImages = ({ images }) => {
         height={121}
         alt=''
       />
-      <Wrapper></Wrapper>
+      <Container></Container>
     </>
   );
 };
@@ -24,7 +24,7 @@ const StyledImage = styled(Image)`
   display: block;
 `;
 
-const Wrapper = styled.div`
+const Container = styled.div`
   
 `;
 
