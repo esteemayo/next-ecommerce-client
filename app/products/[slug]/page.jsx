@@ -34,7 +34,8 @@ const Product = ({ params: { slug } }) => {
               <ImageContainer>
                 <Image
                   src={product?.images?.[0]}
-                  fill
+                  width={228}
+                  height={121}
                   alt=''
                 />
               </ImageContainer>
