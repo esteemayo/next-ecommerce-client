@@ -5,7 +5,7 @@ import styled from 'styled-components';
 
 const ProductImages = ({ images }) => {
   return (
-    <Image
+    <StyledImage
       src={images?.[0]}
       width={228}
       height={121}
