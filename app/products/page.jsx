@@ -4,7 +4,9 @@ import styled from 'styled-components';
 
 const Products = () => {
   return (
-    <Container>Products</Container>
+    <Container>
+      <Heading>All products</Heading>
+    </Container>
   );
 };
 
