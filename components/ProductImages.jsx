@@ -40,6 +40,7 @@ const StyledImage = styled(Image)`
 const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
 `;
 
 const Wrapper = styled.div`
