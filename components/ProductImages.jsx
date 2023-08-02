@@ -14,4 +14,8 @@ const ProductImages = ({ images }) => {
   );
 };
 
+const StyledImage = styled(Image)`
+  
+`;
+
 export default ProductImages;
