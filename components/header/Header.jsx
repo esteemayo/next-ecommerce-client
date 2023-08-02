@@ -5,6 +5,7 @@ import styled from 'styled-components';
 
 import Center from '../Center';
 import MenuItem from './MenuItem';
+
 import { navLinks } from '@/data';
 import { useGlobalContext } from '@/context/CartContext';
 
