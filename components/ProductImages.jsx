@@ -15,7 +15,14 @@ const ProductImages = ({ images }) => {
       <Container>
         {images.map((image, index) => {
           return (
-            <Wrapper key={index}></Wrapper>
+            <Wrapper key={index}>
+              <StyledImage
+                src={image}
+                width={228}
+                height={121}
+                alt=''
+              />
+            </Wrapper>
           );
         })}
       </Container>
