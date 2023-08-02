@@ -39,7 +39,7 @@ const Product = ({ params: { slug } }) => {
             <div>
               <Heading>{product.title}</Heading>
               <Description>{product.description}</Description>
-              <Button type='button'>Add to cart</Button>
+              <Button type='button' primary>Add to cart</Button>
             </div>
           </Wrapper>
         </Center>
