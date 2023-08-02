@@ -26,7 +26,9 @@ const Product = ({ params: { slug } }) => {
   return (
     <ClientOnly>
       <Container>
-        <Center>Product</Center>
+        <Center>
+          <Heading>{product.title}</Heading>
+        </Center>
       </Container>
     </ClientOnly>
   );
