@@ -61,6 +61,10 @@ const Wrapper = styled.div`
   ${({ active }) => active && css`
     border-color: #f00;
   `}
+
+  ${({ active }) => !active && css`
+    border-color: transparent;
+  `}
 `;
 
 export default ProductImages;
