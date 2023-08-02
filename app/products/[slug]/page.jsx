@@ -31,12 +31,14 @@ const Product = ({ params: { slug } }) => {
         <Center>
           <Wrapper>
             <WhiteBox>
-              <Image
-                src={product?.images?.[0]}
-                width={100}
-                height={100}
-                alt=''
-              />
+              <ImageContainer>
+                <Image
+                  src={product?.images?.[0]}
+                  width={100}
+                  height={100}
+                  alt=''
+                />
+              </ImageContainer>
             </WhiteBox>
             <div>
               <Heading>{product.title}</Heading>
