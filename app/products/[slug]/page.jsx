@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 
 import Center from '@/components/Center';
 import ClientOnly from '@/components/ClientOnly';
+import Heading from '@/components/Heading';
 
 import { getProductBySlug } from '@/services/productService';
 
