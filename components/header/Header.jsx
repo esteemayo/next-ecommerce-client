@@ -55,11 +55,6 @@ const Logo = styled(Link)`
 
 const Nav = styled.nav``;
 
-const NavLink = styled(Link)`
-  text-decoration: none;
-  color: #aaa;
-`;
-
 const ListContainer = styled.ul`
   display: flex;
   align-items: center;
