@@ -15,7 +15,10 @@ const ProductImages = ({ images }) => {
 };
 
 const StyledImage = styled(Image)`
-  
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  display: block;
 `;
 
 export default ProductImages;
