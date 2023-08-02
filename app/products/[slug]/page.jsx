@@ -45,7 +45,8 @@ const Product = ({ params: { slug } }) => {
 const Container = styled.main``;
 
 const Wrapper = styled.div`
-  
+  display: grid;
+  grid-template-columns: 0.8fr 1.2fr;
 `;
 
 export default Product;
