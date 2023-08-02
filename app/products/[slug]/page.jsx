@@ -6,10 +6,10 @@ import { useEffect, useState } from 'react';
 import Center from '@/components/Center';
 import ClientOnly from '@/components/ClientOnly';
 import Heading from '@/components/Heading';
-
 import ProductImages from '@/components/ProductImages';
 import Button from '@/components/Button';
 import WhiteBox from '@/components/WhiteBox';
+
 import { getProductBySlug } from '@/services/productService';
 
 const Product = ({ params: { slug } }) => {
