@@ -7,6 +7,8 @@ import Center from '@/components/Center';
 import ClientOnly from '@/components/ClientOnly';
 
 const Product = () => {
+  const [product, setProduct] = useState({});
+
   return (
     <ClientOnly>
       <Container>
