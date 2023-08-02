@@ -12,7 +12,13 @@ const ProductImages = ({ images }) => {
         height={121}
         alt=''
       />
-      <Container></Container>
+      <Container>
+        {images.map((image, index) => {
+          return (
+            <Wrapper key={index}></Wrapper>
+          );
+        })}
+      </Container>
     </>
   );
 };
