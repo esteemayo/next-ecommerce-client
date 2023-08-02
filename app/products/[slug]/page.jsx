@@ -1,7 +1,7 @@
 'use client';
 
 import styled from 'styled-components';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 import Center from '@/components/Center';
 import ClientOnly from '@/components/ClientOnly';
