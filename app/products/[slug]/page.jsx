@@ -8,8 +8,19 @@ import ClientOnly from '@/components/ClientOnly';
 
 import { getProductBySlug } from '@/services/productService';
 
-const Product = () => {
+const Product = ({ params: { slug } }) => {
   const [product, setProduct] = useState({});
+
+  useEffect(() => {
+    (async () => {
+      try {
+        const { data } = await getProductBySlug(slug);
+        setProduct(data);
+      } catch (err) {
+        console.log(err);
+      }
+    })();
+  }, [slug]);
 
   return (
     <ClientOnly>
