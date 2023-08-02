@@ -194,12 +194,6 @@ const Wrapper = styled.div`
   gap: 4rem;
 `;
 
-const Box = styled.div`
-  background-color: var(--clr-white);
-  border-radius: 1rem;
-  padding: 3rem;
-`;
-
 const SuccessHeading = styled.h1`
   font-weight: 500;
 `;
