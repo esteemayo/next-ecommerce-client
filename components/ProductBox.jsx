@@ -22,7 +22,7 @@ const ProductBox = ({ _id: id, title, slug, price, images }) => {
       <Wrapper href={url} passHref>
         <ImageWrapper>
           <Image
-            src={images[0]}
+            src={images?.[0]}
             width={175}
             height={80}
             alt=''
