@@ -14,11 +14,7 @@ const NewProducts = ({ products }) => {
   );
 };
 
-const Container = styled.section`
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
-`;
+const Container = styled.section``;
 
 const Heading = styled.h2`
   font-weight: normal;
