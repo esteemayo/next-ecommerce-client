@@ -13,4 +13,8 @@ const Product = () => {
   );
 };
 
+const Container = styled.main`
+  
+`;
+
 export default Product;
