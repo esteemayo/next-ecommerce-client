@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const ProductsGrid = () => {
   return (
-    <div>ProductsGrid</div>
+    <Container>ProductsGrid</Container>
   );
 };
 
