@@ -6,11 +6,13 @@ import ClientOnly from '@/components/ClientOnly';
 
 const Products = () => {
   return (
-    <Container>
-      <Center>
-        <Heading>All products</Heading>
-      </Center>
-    </Container>
+    <ClientOnly>
+      <Container>
+        <Center>
+          <Heading>All products</Heading>
+        </Center>
+      </Container>
+    </ClientOnly>
   );
 };
 
