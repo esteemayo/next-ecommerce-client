@@ -8,6 +8,7 @@ import ClientOnly from '@/components/ClientOnly';
 import Heading from '@/components/Heading';
 
 import ProductImages from '@/components/ProductImages';
+import Button from '@/components/Button';
 import WhiteBox from '@/components/WhiteBox';
 import { getProductBySlug } from '@/services/productService';
 
@@ -38,6 +39,7 @@ const Product = ({ params: { slug } }) => {
             <div>
               <Heading>{product.title}</Heading>
               <Description>{product.description}</Description>
+              <Button type='button'>Add to cart</Button>
             </div>
           </Wrapper>
         </Center>
