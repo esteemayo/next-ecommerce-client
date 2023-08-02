@@ -3,10 +3,12 @@
 import Link from 'next/link';
 import styled from 'styled-components';
 
-const MenuItem = ({ url, label }) => {
+const MenuItem = ({ url, label, cart }) => {
   return (
     <ListItem>
-      <NavLink href={url} passHref>{label}</NavLink>
+      <NavLink href={url} passHref>
+        {label} {url.includes('/cart') && (cart.length)}
+      </NavLink>
     </ListItem>
   );
 };
