@@ -7,7 +7,7 @@ export const GET = async (request) => {
   try {
     await connectDB();
 
-    const products = await Product.find().sort('-createdAt');
+    const products = await Product.find().sort('-_id');
 
     return NextResponse.json(products, {
       status: 200,
