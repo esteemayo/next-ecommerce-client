@@ -37,7 +37,7 @@ const Product = ({ params: { slug } }) => {
             </WhiteBox>
             <div>
               <Heading>{product.title}</Heading>
-              <p>{product.description}</p>
+              <Description>{product.description}</Description>
             </div>
           </Wrapper>
         </Center>
