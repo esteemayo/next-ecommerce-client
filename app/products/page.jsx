@@ -10,6 +10,17 @@ import { getProducts } from '@/services/productService';
 const Products = () => {
   const [products, setProducts] = useState([]);
 
+  useEffect(() => {
+    (async () => {
+      try {
+        const { data } = await getProducts();
+        setProducts(data);
+      } catch (err) {
+        console.log(err);
+      }
+    })();
+  }, []);
+
   return (
     <ClientOnly>
       <Container>
