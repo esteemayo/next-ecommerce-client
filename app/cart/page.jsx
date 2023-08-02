@@ -114,7 +114,7 @@ const Cart = () => {
       <Container>
         <Center>
           <Wrapper>
-            <Box>
+            <WhiteBox>
               <CartItems
                 cart={cart}
                 products={products}
@@ -124,7 +124,7 @@ const Cart = () => {
                 onIncrement={handleIncrement}
                 onDecrement={handleDecrement}
               />
-            </Box>
+            </WhiteBox>
             {!!cart?.length && (
               <Box>
                 <Heading>Order information</Heading>
