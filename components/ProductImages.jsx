@@ -5,6 +5,8 @@ import styled from 'styled-components';
 import { useState } from 'react';
 
 const ProductImages = ({ images }) => {
+  const [activeImage, setActiveImage] = useState(images?.[0]);
+
   return (
     <>
       <StyledImage
