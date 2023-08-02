@@ -21,4 +21,10 @@ const NavLink = styled(Link)`
   color: #aaa;
 `;
 
+MenuItem.propTypes = {
+  url: PropTypes.string.isRequired,
+  label: PropTypes.string.isRequired,
+  cart: PropTypes.array.isRequired,
+};
+
 export default MenuItem;
