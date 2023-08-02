@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 
 import Center from '@/components/Center';
 import ProductsGrid from '@/components/ProductsGrid';
+import ClientOnly from '@/components/ClientOnly';
 
 import { getProducts } from '@/services/productService';
 
