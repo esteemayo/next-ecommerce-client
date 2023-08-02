@@ -18,7 +18,7 @@ const ProductImages = ({ images }) => {
       <Container>
         {images.map((image, index) => {
           return (
-            <Wrapper key={index}>
+            <Wrapper key={index} onClick={() => setActiveImage(image)}>
               <StyledImage
                 src={image}
                 width={80}
