@@ -10,11 +10,7 @@ const NewProducts = ({ products }) => {
   return (
     <Center>
       <Heading>New Arrivals</Heading>
-      <Container>
-        {products?.map((item) => {
-          return <ProductBox key={item._id} {...item} />;
-        })}
-      </Container>
+      <ProductsGrid products={products} />
     </Center>
   );
 };
