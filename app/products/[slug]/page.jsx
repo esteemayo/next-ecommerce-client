@@ -1,5 +1,7 @@
 'use client';
 
+import styled from 'styled-components';
+
 const Product = () => {
   return (
     <div>Product</div>
