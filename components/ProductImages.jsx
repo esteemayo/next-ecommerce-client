@@ -21,4 +21,8 @@ const StyledImage = styled(Image)`
   display: block;
 `;
 
+const Wrapper = styled.div`
+  
+`;
+
 export default ProductImages;
