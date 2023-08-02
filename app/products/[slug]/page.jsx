@@ -6,6 +6,8 @@ import { useEffect, useState } from 'react';
 import Center from '@/components/Center';
 import ClientOnly from '@/components/ClientOnly';
 
+import { getProductBySlug } from '@/services/productService';
+
 const Product = () => {
   const [product, setProduct] = useState({});
 
