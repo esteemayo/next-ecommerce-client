@@ -43,7 +43,7 @@ const Container = styled.div`
 `;
 
 const Wrapper = styled.div`
-  
+  border: 1px solid #aaa;
 `;
 
 export default ProductImages;
