@@ -16,11 +16,6 @@ const Header = () => {
           <Logo href='/' passHref>Ecommerce</Logo>
           <Nav>
             <ListContainer></ListContainer>
-            <NavLink href='/' passHref>Home</NavLink>
-            <NavLink href='/products' passHref>All products</NavLink>
-            <NavLink href='/categories' passHref>Categories</NavLink>
-            <NavLink href='/account' passHref>Account</NavLink>
-            <NavLink href='/cart' passHref>Cart ({cart.length})</NavLink>
           </Nav>
         </Wrapper>
       </Center>
