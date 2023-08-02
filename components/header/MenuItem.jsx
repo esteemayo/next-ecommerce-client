@@ -16,7 +16,8 @@ const ListItem = styled.li`
 `;
 
 const NavLink = styled(Link)`
-  
+  text-decoration: none;
+  color: #aaa;
 `;
 
 export default MenuItem;
