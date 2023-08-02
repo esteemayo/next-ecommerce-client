@@ -57,6 +57,10 @@ const Wrapper = styled.div`
   border: 2px solid #aaa;
   border-radius: 0.5rem;
   cursor: pointer;
+
+  ${({ active }) => active && css`
+    border-color: #f00;
+  `}
 `;
 
 export default ProductImages;
