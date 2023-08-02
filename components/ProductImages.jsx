@@ -2,9 +2,14 @@
 
 import Image from 'next/image';
 
-const ProductImages = () => {
+const ProductImages = ({ images }) => {
   return (
-    <div>ProductImages</div>
+    <Image
+      src={images?.[0]}
+      width={228}
+      height={121}
+      alt=''
+    />
   );
 };
 
