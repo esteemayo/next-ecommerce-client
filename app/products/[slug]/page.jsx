@@ -7,6 +7,7 @@ import Center from '@/components/Center';
 import ClientOnly from '@/components/ClientOnly';
 import Heading from '@/components/Heading';
 
+import WhiteBox from '@/components/WhiteBox';
 import { getProductBySlug } from '@/services/productService';
 
 const Product = ({ params: { slug } }) => {
