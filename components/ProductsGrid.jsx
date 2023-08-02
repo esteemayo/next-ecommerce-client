@@ -3,9 +3,13 @@
 import styled from 'styled-components';
 import ProductBox from './ProductBox';
 
-const ProductsGrid = () => {
+const ProductsGrid = ({ products }) => {
   return (
-    <Container>ProductsGrid</Container>
+    <Container>
+      {products?.map((item) => {
+        return <ProductBox key={item._id} {...item} />;
+      })}
+    </Container>
   );
 };
 
