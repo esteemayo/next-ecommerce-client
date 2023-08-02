@@ -13,9 +13,7 @@ const MenuItem = ({ url, label, cart }) => {
   );
 };
 
-const ListItem = styled.li`
-  
-`;
+const ListItem = styled.li``;
 
 const NavLink = styled(Link)`
   text-decoration: none;
