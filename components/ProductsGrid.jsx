@@ -1,6 +1,7 @@
 'use client';
 
 import styled from 'styled-components';
+import ProductBox from './ProductBox';
 
 const ProductsGrid = () => {
   return (
