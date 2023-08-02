@@ -10,7 +10,7 @@ const ProductImages = ({ images }) => {
   return (
     <>
       <StyledImage
-        src={images?.[0]}
+        src={activeImage}
         width={228}
         height={121}
         alt=''
