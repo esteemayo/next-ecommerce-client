@@ -47,6 +47,7 @@ const Container = styled.main``;
 const Wrapper = styled.div`
   display: grid;
   grid-template-columns: 0.8fr 1.2fr;
+  gap: 4rem;
 `;
 
 export default Product;
