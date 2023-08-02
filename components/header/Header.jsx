@@ -56,6 +56,7 @@ const Logo = styled(Link)`
 const Nav = styled.nav``;
 
 const ListContainer = styled.ul`
+  list-style: none;
   display: flex;
   align-items: center;
   gap: 1.5rem;
