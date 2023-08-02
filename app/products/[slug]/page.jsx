@@ -36,4 +36,8 @@ const Product = ({ params: { slug } }) => {
 
 const Container = styled.main``;
 
+const Wrapper = styled.div`
+  
+`;
+
 export default Product;
