@@ -65,7 +65,6 @@ const ImageContainer = styled.div`
   width: 100%;
   height: 150%;
   object-fit: cover;
-  position: relative;
 `;
 
 export default Product;
