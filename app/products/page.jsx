@@ -27,6 +27,7 @@ const Products = () => {
       <Container>
         <Center>
           <Heading>All products</Heading>
+          <ProductsGrid products={products} />
         </Center>
       </Container>
     </ClientOnly>
