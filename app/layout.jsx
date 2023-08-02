@@ -3,7 +3,7 @@
 import { Roboto } from 'next/font/google';
 import { createGlobalStyle } from 'styled-components';
 
-import Header from '@/components/Header';
+import Header from '@/components/header/Header';
 import ClientOnly from '@/components/ClientOnly';
 
 import CartProvider from '@/context/CartContext';
