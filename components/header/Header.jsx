@@ -15,6 +15,7 @@ const Header = () => {
         <Wrapper>
           <Logo href='/' passHref>Ecommerce</Logo>
           <Nav>
+            <ListContainer></ListContainer>
             <NavLink href='/' passHref>Home</NavLink>
             <NavLink href='/products' passHref>All products</NavLink>
             <NavLink href='/categories' passHref>Categories</NavLink>
