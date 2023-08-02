@@ -1,6 +1,7 @@
 'use client';
 
 import styled from 'styled-components';
+
 import Center from '@/components/Center';
 import ClientOnly from '@/components/ClientOnly';
 
