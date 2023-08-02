@@ -26,11 +26,11 @@ const Product = ({ params: { slug } }) => {
   return (
     <ClientOnly>
       <Container>
-        <Wrapper>
-          <Center>
+        <Center>
+          <Wrapper>
             <Heading>{product.title}</Heading>
-          </Center>
-        </Wrapper>
+          </Wrapper>
+        </Center>
       </Container>
     </ClientOnly>
   );
