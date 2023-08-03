@@ -63,15 +63,18 @@ const Container = styled.section`
 `;
 
 const Wrapper = styled.div`
-  display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
-  gap: 4rem;
 
-  & > div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1rem;
+@media only screen and (min-width: 40em) {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 4rem;
+    
+    & > div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 1rem;
+    }
   }
 `;
 
