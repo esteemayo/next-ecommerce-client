@@ -83,13 +83,6 @@ const ListContainer = styled.ul`
   list-style: none;
   display: block;
   padding-top: 2rem;
-  /* position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 2rem;
-  background-color: var(--clr-secondary-black); */
   
   @media only screen and (min-width: 48em) {
     display: flex;
