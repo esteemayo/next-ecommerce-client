@@ -16,6 +16,7 @@ import { useGlobalContext } from '@/context/CartContext';
 import { getProductBySlug } from '@/services/productService';
 
 const Product = ({ params: { slug } }) => {
+  const { addProduct } = useGlobalContext();
   const [product, setProduct] = useState({});
 
   useEffect(() => {
@@ -44,12 +45,12 @@ const Product = ({ params: { slug } }) => {
               <Description>{product.description}</Description>
               <PriceRow>
                 <Price>
-                <NumericFormat
-                  value={product.price}
-                  displayType={'text'}
-                  thousandSeparator={true}
-                  prefix={'$'}
-                />
+                  <NumericFormat
+                    value={product.price}
+                    displayType={'text'}
+                    thousandSeparator={true}
+                    prefix={'$'}
+                  />
                 </Price>
                 <Button type='button' primary>
                   <CartIcon />
