@@ -47,10 +47,25 @@ const StyledHeader = styled.header`
 `;
 
 const Wrapper = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 2rem 0;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem;
+  background-color: var(--clr-secondary-black);
+
+  @media only screen and (min-width: 40em) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+    position: static;
+  }
+`;
+
+const LogoBox = styled.div`
+  
 `;
 
 const Logo = styled(Link)`
@@ -63,13 +78,13 @@ const Nav = styled.nav``;
 const ListContainer = styled.ul`
   list-style: none;
   display: block;
-  position: fixed;
+  /* position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   padding: 2rem;
-  background-color: var(--clr-secondary-black);
+  background-color: var(--clr-secondary-black); */
   
   @media only screen and (min-width: 48em) {
     display: flex;
