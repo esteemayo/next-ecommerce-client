@@ -67,7 +67,7 @@ const Wrapper = styled.div`
   grid-template-columns: 1fr;
   gap: 4rem;
   
-  @media only screen and (min-width: 40em) {
+  @media only screen and (min-width: 768px) {
     grid-template-columns: 1.1fr 0.9fr;
   }
 
