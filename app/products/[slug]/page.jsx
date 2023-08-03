@@ -80,6 +80,7 @@ const ImageContainer = styled.div`
 
 const Description = styled.p`
   text-align: justify;
+  line-height: 1.4;
 `;
 
 const ButtonContainer = styled.div`
