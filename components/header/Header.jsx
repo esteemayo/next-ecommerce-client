@@ -74,6 +74,7 @@ const NavButton = styled.button`
   height: 5rem;
   background-color: transparent;
   color: var(--clr-white);
+  cursor: pointer;
 `;
 
 export default Header;
