@@ -56,6 +56,11 @@ const StyledHeader = styled.header`
 `;
 
 const Wrapper = styled.div`
+  ${({ navigation }) => !navigation ? `
+    display: none;
+  ` : `
+    display: block;
+  `}
   position: fixed;
   top: 0;
   bottom: 0;
