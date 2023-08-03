@@ -13,7 +13,7 @@ import { useGlobalContext } from '@/context/CartContext';
 
 const Header = () => {
   const { cart } = useGlobalContext();
-  const [navActive, setNavActive] = useState(true);
+  const [mobileActive, setMobileActive] = useState(true);
 
   return (
     <StyledHeader>
