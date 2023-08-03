@@ -78,4 +78,6 @@ const ButtonContainer = styled.div`
 
 `;
 
+const Price = styled.span``;
+
 export default Product;
