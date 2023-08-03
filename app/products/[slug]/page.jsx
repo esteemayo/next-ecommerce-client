@@ -40,10 +40,12 @@ const Product = ({ params: { slug } }) => {
             <div>
               <Heading>{product.title}</Heading>
               <Description>{product.description}</Description>
-              <Button type='button' primary>
-                <CartIcon />
-                Add to cart
-              </Button>
+              <ButtonContainer>
+                <Button type='button' primary>
+                  <CartIcon />
+                  Add to cart
+                </Button>
+              </ButtonContainer>
             </div>
           </Wrapper>
         </Center>
