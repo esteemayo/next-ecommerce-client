@@ -68,7 +68,8 @@ const ListContainer = styled.ul`
 `;
 
 const NavButton = styled.button`
-  
+  width: 5rem;
+  height: 5rem;
 `;
 
 export default Header;
