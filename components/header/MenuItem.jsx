@@ -14,7 +14,13 @@ const MenuItem = ({ url, label, cart }) => {
   );
 };
 
-const ListItem = styled.li``;
+const ListItem = styled.li`
+  @media only screen and (max-width: 40em) {
+    &:not(:last-of-type) {
+      margin-bottom: 1.5rem;
+    }
+  }
+`;
 
 const NavLink = styled(Link)`
   text-decoration: none;
