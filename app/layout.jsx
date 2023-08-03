@@ -48,6 +48,10 @@ const GlobalStyles = createGlobalStyle`
     @media only screen and (max-width: 56.25em) {
       font-size: 50%;
     }
+
+    @media only screen and (min-width: 112.5em) {
+      font-size: 75%;
+    }
   }
 
   body {
