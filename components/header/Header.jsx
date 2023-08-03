@@ -109,7 +109,7 @@ const Nav = styled.nav`
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 5rem 2rem 2rem;
+  padding: 7rem 2rem 2rem;
   background-color: var(--clr-secondary-black);
 
   @media only screen and (min-width: 40em) {
