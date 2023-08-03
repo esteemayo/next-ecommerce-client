@@ -79,7 +79,7 @@ const Wrapper = styled.div`
 `;
 
 const LogoBox = styled.div`
-  @media only screen and (min-width: 40em) {
+  @media only screen and (max-width: 40em) {
     display: flex;
     align-items: center;
     justify-content: space-between;
