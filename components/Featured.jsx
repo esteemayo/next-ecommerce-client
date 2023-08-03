@@ -116,8 +116,8 @@ const Right = styled.div`
   max-width: 100%;
   max-height: 20rem;
   object-fit: cover;
-  display: flex;
-  align-items: center;
+  display: block !important;
+  margin: 0 auto;
 
   @media only screen and (min-width: 768px) {
     img {
