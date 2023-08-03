@@ -106,6 +106,7 @@ const Heading = styled.h1`
 `;
 
 const Description = styled.p`
+  text-align: justify;
   color: #aaa;
   font-size: 1.5rem;
 `;
