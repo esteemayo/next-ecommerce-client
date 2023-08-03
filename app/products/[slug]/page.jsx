@@ -83,7 +83,8 @@ const Description = styled.p`
 `;
 
 const ButtonContainer = styled.div`
-
+  display: flex;
+  gap: 2rem;
 `;
 
 const Price = styled.span``;
