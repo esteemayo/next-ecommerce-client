@@ -113,7 +113,7 @@ const ButtonWrapper = styled.div`
 `;
 
 const Right = styled.div`
-  @media onsly screen and (min-width: 768px) {
+  @media only screen and (min-width: 768px) {
     img {
       max-width: 100%;
       object-fit: cover;
