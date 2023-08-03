@@ -41,7 +41,7 @@ const Product = ({ params: { slug } }) => {
             <div>
               <Heading>{product.title}</Heading>
               <Description>{product.description}</Description>
-              <ButtonContainer>
+              <PriceRow>
                 <Price>
                 <NumericFormat
                   value={product.price}
@@ -54,7 +54,7 @@ const Product = ({ params: { slug } }) => {
                   <CartIcon />
                   Add to cart
                 </Button>
-              </ButtonContainer>
+              </PriceRow>
             </div>
           </Wrapper>
         </Center>
@@ -83,7 +83,7 @@ const Description = styled.p`
   line-height: 1.4;
 `;
 
-const ButtonContainer = styled.div`
+const PriceRow = styled.div`
   display: flex;
   align-items: center;
   gap: 2rem;
