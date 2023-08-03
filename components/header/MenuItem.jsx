@@ -25,6 +25,7 @@ const ListItem = styled.li`
 const NavLink = styled(Link)`
   display: block;
   text-decoration: none;
+  padding: 1rem 0;
   color: #aaa;
 `;
 
