@@ -69,6 +69,7 @@ const ListContainer = styled.ul`
   left: 0;
   right: 0;
   padding: 2rem;
+  background-color: var(--clr-secondary-black);
   
   @media only screen and (min-width: 48em) {
     display: flex;
