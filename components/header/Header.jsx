@@ -89,6 +89,10 @@ const NavButton = styled.button`
   @media only screen and (min-width: 48em) {
     display: none;
   }
+
+  svg {
+    color: currentColor;
+  }
 `;
 
 const Nav = styled.nav``;
