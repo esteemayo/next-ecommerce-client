@@ -63,4 +63,8 @@ const ListContainer = styled.ul`
   gap: 1.5rem;
 `;
 
+const NavButton = styled.button`
+  
+`;
+
 export default Header;
