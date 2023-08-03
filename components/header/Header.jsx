@@ -115,7 +115,7 @@ const Nav = styled.nav``;
 const ListContainer = styled.ul`
   list-style: none;
   display: block;
-  padding-top: 2rem;
+  padding-top: 7rem;
   
   @media only screen and (min-width: 48em) {
     display: flex;
