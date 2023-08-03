@@ -113,15 +113,18 @@ const ButtonWrapper = styled.div`
 `;
 
 const Right = styled.div`
-  max-width: 100%;
-  max-height: 20rem;
-  object-fit: cover;
-  display: block !important;
-  margin: 0 auto;
+  img {
+    max-width: 100%;
+    max-height: 20rem;
+    object-fit: cover;
+    display: block !important;
+    margin: 0 auto;
+  }
 
   @media only screen and (min-width: 768px) {
     img {
       max-width: 100%;
+      object-fit: cover;
     }
   }
 `;
