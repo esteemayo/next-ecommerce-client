@@ -79,9 +79,11 @@ const Wrapper = styled.div`
 `;
 
 const LogoBox = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  @media only screen and (min-width: 40em) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 `;
 
 const Logo = styled(Link)`
