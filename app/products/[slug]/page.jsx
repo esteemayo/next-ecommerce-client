@@ -52,7 +52,7 @@ const Product = ({ params: { slug } }) => {
                     prefix={'$'}
                   />
                 </Price>
-                <Button type='button' primary>
+                <Button type='button' primary onClick={() => addProduct(product._id)}>
                   <CartIcon />
                   Add to cart
                 </Button>
