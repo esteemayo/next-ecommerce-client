@@ -40,7 +40,7 @@ const Product = ({ params: { slug } }) => {
                 <ProductImages images={product?.images} />
               </ImageContainer>
             </WhiteBox>
-            <div>
+            <ProductContainer>
               <Heading>{product.title}</Heading>
               <Description>{product.description}</Description>
               <PriceRow>
@@ -61,7 +61,7 @@ const Product = ({ params: { slug } }) => {
                   Add to cart
                 </Button>
               </PriceRow>
-            </div>
+            </ProductContainer>
           </Wrapper>
         </Center>
       </Container>
