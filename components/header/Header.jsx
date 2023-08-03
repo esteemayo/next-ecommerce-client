@@ -75,6 +75,7 @@ const ListContainer = styled.ul`
     display: flex;
     align-items: center;
     gap: 1.5rem;
+    position: static;
   }
 `;
 
