@@ -82,6 +82,7 @@ const Nav = styled.nav``;
 const ListContainer = styled.ul`
   list-style: none;
   display: block;
+  padding-top: 2rem;
   /* position: fixed;
   top: 0;
   bottom: 0;
