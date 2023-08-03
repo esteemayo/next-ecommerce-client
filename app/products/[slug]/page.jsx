@@ -87,7 +87,7 @@ const PriceRow = styled.div`
   display: flex;
   align-items: center;
   gap: 2rem;
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 `;
 
 const Price = styled.span`
