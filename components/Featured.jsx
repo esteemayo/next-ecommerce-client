@@ -64,7 +64,7 @@ const Container = styled.section`
 
 const Wrapper = styled.div`
   display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
+  grid-template-columns: 1fr;
   gap: 4rem;
   
   @media only screen and (min-width: 40em) {
