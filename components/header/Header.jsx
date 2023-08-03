@@ -67,7 +67,9 @@ const Wrapper = styled.div`
 `;
 
 const LogoBox = styled.div`
-  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 `;
 
 const Logo = styled(Link)`
