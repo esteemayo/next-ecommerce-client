@@ -68,6 +68,7 @@ const ListContainer = styled.ul`
 `;
 
 const NavButton = styled.button`
+  border: none;
   width: 5rem;
   height: 5rem;
   background-color: transparent;
