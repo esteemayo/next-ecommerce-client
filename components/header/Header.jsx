@@ -5,8 +5,8 @@ import styled from 'styled-components';
 import { useState } from 'react';
 
 import Center from '../Center';
-import MenuItem from './MenuItem';
 import BarsIcon from '../icons/BarsIcon';
+import MenuItem from './MenuItem';
 
 import { navLinks } from '@/data';
 import { useGlobalContext } from '@/context/CartContext';
