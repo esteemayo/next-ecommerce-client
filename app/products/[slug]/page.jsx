@@ -90,6 +90,8 @@ const PriceRow = styled.div`
   margin-top: 2rem;
 `;
 
-const Price = styled.span``;
+const Price = styled.span`
+  font-size: 2rem;
+`;
 
 export default Product;
