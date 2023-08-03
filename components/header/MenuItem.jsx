@@ -23,6 +23,7 @@ const ListItem = styled.li`
 `;
 
 const NavLink = styled(Link)`
+  display: block;
   text-decoration: none;
   color: #aaa;
 `;
