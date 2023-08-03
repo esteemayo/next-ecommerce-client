@@ -36,9 +36,6 @@ const Header = () => {
               })}
             </ListContainer>
           </Nav>
-          <NavButton>
-            <BarsIcon />
-          </NavButton>
         </Wrapper>
       </Center>
     </StyledHeader>
