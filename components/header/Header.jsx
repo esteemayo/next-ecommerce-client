@@ -5,6 +5,8 @@ import styled from 'styled-components';
 import { useCallback, useState } from 'react';
 
 import Center from '../Center';
+import MenuItem from './MenuItem';
+
 import BarsIcon from '../icons/BarsIcon';
 import CloseIcon from '../icons/CloseIcon';
 
