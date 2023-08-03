@@ -66,6 +66,12 @@ const Wrapper = styled.div`
   display: grid;
   grid-template-columns: 1fr;
   gap: 4rem;
+
+  @media only screen and (max-width: 768px) {
+    div:nth-child(1) {
+      order: 2;
+    }
+  }
   
   @media only screen and (min-width: 768px) {
     grid-template-columns: 1.1fr 0.9fr;
