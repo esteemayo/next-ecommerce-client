@@ -93,18 +93,4 @@ const ListContainer = styled.ul`
   }
 `;
 
-const NavButton = styled.button`
-  border: none;
-  display: inline-block;
-  width: 3rem;
-  height: 3rem;
-  background-color: transparent;
-  color: var(--clr-white);
-  cursor: pointer;
-
-  @media only screen and (min-width: 48em) {
-    display: none;
-  }
-`;
-
 export default Header;
