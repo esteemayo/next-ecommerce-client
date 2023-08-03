@@ -26,7 +26,7 @@ const Header = () => {
             </NavButton>
           </LogoBox>
           <Nav>
-            <ListContainer>
+            <ListContainer navigation={mobileNavActive}>
               {navLinks.map((link) => {
                 const { id, url, label } = link;
                 return (
