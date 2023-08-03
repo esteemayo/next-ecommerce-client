@@ -18,6 +18,9 @@ const Header = () => {
       <Center>
         <Wrapper>
           <Logo href='/' passHref>Ecommerce</Logo>
+          <NavButton>
+            <BarsIcon />
+          </NavButton>
           <Nav>
             <ListContainer>
               {navLinks.map((link) => {
