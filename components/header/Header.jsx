@@ -33,7 +33,9 @@ const Header = () => {
               })}
             </ListContainer>
           </Nav>
-          <NavButton></NavButton>
+          <NavButton>
+            <Bars />
+          </NavButton>
         </Wrapper>
       </Center>
     </StyledHeader>
