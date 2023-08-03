@@ -79,7 +79,7 @@ const ImageContainer = styled.div`
 `;
 
 const Description = styled.p`
-  
+  text-align: justify;
 `;
 
 const ButtonContainer = styled.div`
