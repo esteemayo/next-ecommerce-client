@@ -15,6 +15,10 @@ const Header = () => {
   const { cart } = useGlobalContext();
   const [mobileNavActive, setMobileNavActive] = useState(true);
 
+  const toggleHandler = useCallback(() => {
+    setMobileNavActive((value) => !value);
+  }, []);
+
   return (
     <StyledHeader>
       <Center>
