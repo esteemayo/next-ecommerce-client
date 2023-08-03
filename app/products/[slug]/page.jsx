@@ -84,6 +84,8 @@ const ImageContainer = styled.div`
   height: 100%;
 `;
 
+const ProductContainer = styled.div``;
+
 const Description = styled.p`
   text-align: justify;
   line-height: 1.4;
