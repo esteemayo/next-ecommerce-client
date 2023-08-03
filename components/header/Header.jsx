@@ -79,6 +79,10 @@ const NavButton = styled.button`
   background-color: transparent;
   color: var(--clr-white);
   cursor: pointer;
+
+  @media only screen and (min-width: 48em) {
+    display: none;
+  }
 `;
 
 export default Header;
