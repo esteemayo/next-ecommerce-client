@@ -71,4 +71,8 @@ const Description = styled.p`
   
 `;
 
+const ButtonContainer = styled.div`
+
+`;
+
 export default Product;
