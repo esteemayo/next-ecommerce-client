@@ -25,7 +25,7 @@ const Header = () => {
         <Wrapper>
           <LogoBox>
             <Logo href='/' passHref>Ecommerce</Logo>
-            <NavButton>
+            <NavButton onClick={toggleHandler}>
               <BarsIcon />
             </NavButton>
           </LogoBox>
