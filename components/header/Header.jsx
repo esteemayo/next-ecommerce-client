@@ -70,6 +70,8 @@ const ListContainer = styled.ul`
 const NavButton = styled.button`
   width: 5rem;
   height: 5rem;
+  background-color: transparent;
+  color: var(--clr-white);
 `;
 
 export default Header;
