@@ -17,10 +17,12 @@ const Header = () => {
     <StyledHeader>
       <Center>
         <Wrapper>
-          <Logo href='/' passHref>Ecommerce</Logo>
-          <NavButton>
-            <BarsIcon />
-          </NavButton>
+          <LogoBox>
+            <Logo href='/' passHref>Ecommerce</Logo>
+            <NavButton>
+              <BarsIcon />
+            </NavButton>
+          </LogoBox>
           <Nav>
             <ListContainer>
               {navLinks.map((link) => {
