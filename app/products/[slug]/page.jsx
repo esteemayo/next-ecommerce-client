@@ -12,6 +12,7 @@ import Button from '@/components/Button';
 import CartIcon from '@/components/icons/CartIcon';
 import WhiteBox from '@/components/WhiteBox';
 
+import { useGlobalContext } from '@/context/CartContext';
 import { getProductBySlug } from '@/services/productService';
 
 const Product = ({ params: { slug } }) => {
