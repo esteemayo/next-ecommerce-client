@@ -5,7 +5,7 @@ import styled from 'styled-components';
 
 import Center from '../Center';
 import MenuItem from './MenuItem';
-import Bars from '../icons/Bars';
+import BarsIcon from '../icons/BarsIcon';
 
 import { navLinks } from '@/data';
 import { useGlobalContext } from '@/context/CartContext';
@@ -34,7 +34,7 @@ const Header = () => {
             </ListContainer>
           </Nav>
           <NavButton>
-            <Bars />
+            <BarsIcon />
           </NavButton>
         </Wrapper>
       </Center>
