@@ -20,7 +20,7 @@ const Container = styled.section``;
 
 const Heading = styled.h2`
   font-weight: normal;
-  font-size: 2.3rem;
+  font-size: 1.85rem;
   margin: 3rem 0 2rem;
   
   @media only screen and (min-width: 768px) {
