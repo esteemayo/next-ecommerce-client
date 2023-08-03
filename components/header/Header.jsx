@@ -80,6 +80,7 @@ const Wrapper = styled.div`
 
 const LogoBox = styled.div`
   @media only screen and (max-width: 40em) {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
