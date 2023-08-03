@@ -70,8 +70,8 @@ const ListContainer = styled.ul`
 const NavButton = styled.button`
   border: none;
   display: inline-block;
-  width: 5rem;
-  height: 5rem;
+  width: 3rem;
+  height: 3rem;
   background-color: transparent;
   color: var(--clr-white);
   cursor: pointer;
