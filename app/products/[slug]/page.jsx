@@ -84,6 +84,7 @@ const Description = styled.p`
 
 const ButtonContainer = styled.div`
   display: flex;
+  align-items: center;
   gap: 2rem;
 `;
 
