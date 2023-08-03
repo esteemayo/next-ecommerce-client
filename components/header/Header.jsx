@@ -23,7 +23,7 @@ const Header = () => {
   return (
     <StyledHeader>
       <Center>
-        <Wrapper navigation={mobileNavActive}>
+        <Wrapper>
           <LogoBox>
             <Logo href='/' passHref>Ecommerce</Logo>
             <NavButton onClick={toggleHandler}>
