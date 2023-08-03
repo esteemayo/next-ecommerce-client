@@ -43,7 +43,7 @@ const Header = () => {
 };
 
 const StyledHeader = styled.header`
-  background-color: #222;
+  background-color: var(--clr-secondary-black);
 `;
 
 const Wrapper = styled.div`
