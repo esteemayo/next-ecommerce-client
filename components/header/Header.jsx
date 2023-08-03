@@ -28,7 +28,7 @@ const Header = () => {
           <LogoBox>
             <Logo href='/' passHref>Ecommerce</Logo>
             <NavButton onClick={toggleHandler}>
-              <BarsIcon />
+              {!mobileNavActive ? <BarsIcon /> : <CloseIcon />}
             </NavButton>
           </LogoBox>
           <Nav navigation={mobileNavActive}>
