@@ -114,6 +114,7 @@ const Nav = styled.nav`
 
   @media only screen and (min-width: 40em) {
     position: static;
+    padding: 0;
   }
 `;
 
