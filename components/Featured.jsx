@@ -63,18 +63,19 @@ const Container = styled.section`
 `;
 
 const Wrapper = styled.div`
-
-@media only screen and (min-width: 40em) {
-    display: grid;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 4rem;
+  
+  @media only screen and (min-width: 40em) {
     grid-template-columns: 1.1fr 0.9fr;
-    gap: 4rem;
-    
-    & > div {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      gap: 1rem;
-    }
+  }
+
+  & > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
   }
 `;
 
