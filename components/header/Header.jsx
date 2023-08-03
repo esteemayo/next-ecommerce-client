@@ -56,26 +56,10 @@ const StyledHeader = styled.header`
 `;
 
 const Wrapper = styled.div`
-  ${({ navigation }) => !navigation ? `
-    display: none;
-  ` : `
-    display: block;
-  `}
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 2rem;
-  background-color: var(--clr-secondary-black);
-
-  @media only screen and (min-width: 40em) {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 2rem 0;
-    position: static;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 0;
 `;
 
 const LogoBox = styled.div`
@@ -111,7 +95,24 @@ const NavButton = styled.button`
   }
 `;
 
-const Nav = styled.nav``;
+const Nav = styled.nav`
+  ${({ navigation }) => !navigation ? `
+    display: none;
+  ` : `
+    display: block;
+  `}
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 2rem;
+  background-color: var(--clr-secondary-black);
+
+  @media only screen and (min-width: 40em) {
+    position: static;
+  }
+`;
 
 const ListContainer = styled.ul`
   list-style: none;
