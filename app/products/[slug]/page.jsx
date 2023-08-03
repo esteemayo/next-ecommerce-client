@@ -42,6 +42,14 @@ const Product = ({ params: { slug } }) => {
               <Heading>{product.title}</Heading>
               <Description>{product.description}</Description>
               <ButtonContainer>
+                <Price>
+                <NumericFormat
+                  value={product.price}
+                  displayType={'text'}
+                  thousandSeparator={true}
+                  prefix={'$'}
+                />
+                </Price>
                 <Button type='button' primary>
                   <CartIcon />
                   Add to cart
