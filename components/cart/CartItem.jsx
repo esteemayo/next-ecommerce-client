@@ -56,8 +56,8 @@ const ProductInfoCell = styled.td`
 `;
 
 const ImageContainer = styled.div`
-  max-width: 10rem;
-  max-height: 10rem;
+  max-width: 7rem;
+  max-height: 7rem;
   padding: 2px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
