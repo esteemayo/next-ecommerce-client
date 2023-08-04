@@ -88,6 +88,8 @@ const ProductInfoContainer = styled.div`
 
 const PriceContainer = styled.div`
   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   margin-top: 2px;
   
   @media only screen and (min-width: 768px) {
