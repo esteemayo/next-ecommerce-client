@@ -70,9 +70,14 @@ const ImageContainer = styled.div`
   }
 
   img {
-    max-width: 8rem;
-    max-height: 8rem;
+    max-width: 5rem;
+    max-height: 5rem;
     object-fit: cover;
+
+    @media only screen and (min-width: 768px) {
+      max-width: 8rem;
+      max-height: 8rem;
+    }
   }
 `;
 
