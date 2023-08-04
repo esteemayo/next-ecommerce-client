@@ -100,7 +100,8 @@ const PriceContainer = styled.div`
 
 const Price = styled.div`
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  text-align: right;
   
   @media only screen and (min-width: 768px) {
     font-size: 2rem;
