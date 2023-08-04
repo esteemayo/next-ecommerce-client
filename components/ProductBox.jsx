@@ -87,15 +87,12 @@ const ProductInfoContainer = styled.div`
 `;
 
 const PriceContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: space-between;
   margin-top: 2px;
   
   @media only screen and (min-width: 768px) {
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-between;
+    display: flex;
     gap: 0.5rem;
   }
 `;
