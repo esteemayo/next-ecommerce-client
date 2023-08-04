@@ -96,6 +96,12 @@ const PriceContainer = styled.div`
     display: flex;
     gap: 0.5rem;
   }
+
+  button {
+    @media only screen and (max-width: 768px) {
+      width: 100%;
+    }
+  }
 `;
 
 const Price = styled.div`
