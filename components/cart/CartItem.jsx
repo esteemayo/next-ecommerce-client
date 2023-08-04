@@ -58,12 +58,16 @@ const ProductInfoCell = styled.td`
 const ImageContainer = styled.div`
   max-width: 10rem;
   max-height: 10rem;
-  padding: 1rem;
+  padding: 2px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media only screen and (min-width: 768px) {
+    padding: 1rem;
+  }
 
   img {
     max-width: 8rem;
