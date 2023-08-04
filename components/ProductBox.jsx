@@ -14,7 +14,7 @@ const ProductBox = ({ _id: id, title, slug, price, images }) => {
   const { addProduct } = useGlobalContext();
 
   const url = useMemo(() => {
-    return `/products/${encodeURIComponent(slug)}`;
+    return `/product/${encodeURIComponent(slug)}`;
   }, [slug]);
 
   return (
