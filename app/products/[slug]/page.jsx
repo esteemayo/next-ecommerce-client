@@ -70,7 +70,7 @@ const Product = ({ params: { slug } }) => {
 };
 
 const Container = styled.main`
-  margin-top: 4rem;
+  margin: 4rem 0;
 `;
 
 const Wrapper = styled.div`
