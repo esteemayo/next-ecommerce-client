@@ -70,8 +70,8 @@ const ImageContainer = styled.div`
   }
 
   img {
-    max-width: 5rem;
-    max-height: 5rem;
+    max-width: 6rem;
+    max-height: 6rem;
     object-fit: cover;
 
     @media only screen and (min-width: 768px) {
