@@ -78,6 +78,10 @@ const ImageContainer = styled.div`
 
 const QuantityLabel = styled.span`
   padding: 0 3px;
+
+  @media only screen and (max-width: 18.75em) {
+    display: block;
+  }
 `;
 
 CartItem.propTypes = {
