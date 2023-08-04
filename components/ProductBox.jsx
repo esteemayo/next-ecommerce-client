@@ -111,7 +111,7 @@ const Price = styled.div`
   
   @media only screen and (min-width: 768px) {
     font-size: 2rem;
-    font-weight: 500;
+    font-weight: 700;
     text-align: left;;
   }
 `;
