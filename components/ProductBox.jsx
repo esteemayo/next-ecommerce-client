@@ -101,6 +101,12 @@ const PriceContainer = styled.div`
 const Price = styled.div`
   font-weight: 700;
   font-size: 2rem;
+  
+  @media only screen and (min-width: 768px) {
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: left;;
+  }
 `;
 
 ProductBox.propTypes = {
