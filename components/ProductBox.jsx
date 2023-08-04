@@ -94,7 +94,9 @@ const PriceContainer = styled.div`
   
   @media only screen and (min-width: 768px) {
     align-items: center;
+    flex-direction: row;
     justify-content: space-between;
+    gap: 0.5rem;
   }
 `;
 
