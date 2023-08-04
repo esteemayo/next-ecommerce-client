@@ -190,8 +190,12 @@ const Container = styled.main`
 
 const Wrapper = styled.div`
   display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
+  grid-template-columns: 1fr;
   gap: 4rem;
+  
+  @media only screen and (min-width: 768px) {
+    grid-template-columns: 1.2fr 0.8fr;
+  }
 `;
 
 const SuccessHeading = styled.h1`
