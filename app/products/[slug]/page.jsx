@@ -75,8 +75,12 @@ const Container = styled.main`
 
 const Wrapper = styled.div`
   display: grid;
-  grid-template-columns: 0.8fr 1.2fr;
+  grid-template-columns: 1fr;
   gap: 4rem;
+  
+  @media only screen and (min-width: 768px) {
+    grid-template-columns: 0.8fr 1.2fr;
+  }
 `;
 
 const ImageContainer = styled.div`
