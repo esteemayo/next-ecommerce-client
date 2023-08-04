@@ -81,7 +81,7 @@ const QuantityLabel = styled.span`
 
   @media only screen and (max-width: 18.75em) {
     display: block;
-    padding: 0 1.5rem;
+    padding: 3px 1.5rem;
   }
 `;
 
