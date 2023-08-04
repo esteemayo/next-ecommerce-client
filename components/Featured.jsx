@@ -24,7 +24,7 @@ const Featured = ({ product }) => {
               <Description>{product.description}</Description>
               <ButtonWrapper>
                 <ButtonLink
-                  href={`/products/${encodeURIComponent(product.slug)}`}
+                  href={`/product/${encodeURIComponent(product.slug)}`}
                   passHref
                   outline={1}
                   white={1}
