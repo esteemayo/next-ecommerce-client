@@ -87,6 +87,7 @@ const ProductInfoContainer = styled.div`
 `;
 
 const PriceContainer = styled.div`
+  display: block;
   align-items: center;
   justify-content: space-between;
   margin-top: 2px;
