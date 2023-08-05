@@ -36,6 +36,8 @@ const Products = () => {
   );
 };
 
-const Container = styled.main``;
+const Container = styled.main`
+  padding: 6rem 0;
+`;
 
 export default Products;
