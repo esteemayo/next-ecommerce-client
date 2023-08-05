@@ -4,8 +4,9 @@ import styled from 'styled-components';
 import { useCallback, useEffect, useState } from 'react';
 
 import Button from '@/components/buttons/Button';
-import ClientOnly from '@/components/ClientOnly';
 import Center from '@/components/Center';
+import ClientOnly from '@/components/ClientOnly';
+import Input from '@/components/Input';
 import CartItems from '@/components/cart/CartItems';
 import WhiteBox from '@/components/WhiteBox';
 
