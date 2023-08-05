@@ -8,7 +8,7 @@ import Center from '@/components/Center';
 import ClientOnly from '@/components/ClientOnly';
 import Heading from '@/components/Heading';
 import ProductImages from '@/components/ProductImages';
-import Button from '@/components/Button';
+import Button from '@/components/buttons/Button';
 import CartIcon from '@/components/icons/CartIcon';
 import WhiteBox from '@/components/WhiteBox';
 
