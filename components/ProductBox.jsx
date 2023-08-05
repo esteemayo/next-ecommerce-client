@@ -109,7 +109,7 @@ const Price = styled.div`
   font-size: 1.5rem;
   text-align: right;
   
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 48em) {
     font-size: 2rem;
     font-weight: 700;
     text-align: left;;
