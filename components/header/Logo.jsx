@@ -5,7 +5,7 @@ import styled from 'styled-components';
 
 const Logo = ({ onClose }) => {
   return (
-    <StyledLogo href='/' passHref>
+    <StyledLogo href='/' passHref onClick={onClose}>
       Ecommerce
     </StyledLogo>
   );
