@@ -27,6 +27,10 @@ const Header = () => {
     mobileNavActive && setMobileNavActive(false);
   }, [mobileNavActive]);
 
+  const navigation = useMemo(() => {
+    return mobileNavActive ? mobileNavActive : undefined;
+  }, [mobileNavActive]);
+
   return (
     <StyledHeader>
       <Center>
