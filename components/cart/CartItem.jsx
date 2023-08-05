@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { NumericFormat } from 'react-number-format';
 import PropTypes from 'prop-types';
 
-import Button from '@/components/Button';
+import Button from '@/components/buttons/Button';
 
 const CartItem = ({
   _id: id,
