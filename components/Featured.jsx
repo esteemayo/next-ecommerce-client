@@ -3,6 +3,7 @@
 import styled from 'styled-components';
 import Image from 'next/image';
 import PropTypes from 'prop-types';
+import { useMemo } from 'react';
 
 import Button from './buttons/Button';
 import ButtonLink from './buttons/ButtonLink';
