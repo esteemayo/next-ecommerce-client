@@ -100,7 +100,7 @@ const Heading = styled.h1`
   font-weight: normal;
   font-size: 2rem;
   
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 48em) {
     font-size: 4rem;
   }
 `;
