@@ -33,6 +33,7 @@ MenuItem.propTypes = {
   url: PropTypes.string.isRequired,
   label: PropTypes.string.isRequired,
   cart: PropTypes.array.isRequired,
+  onClose: PropTypes.func.isRequired,
 };
 
 export default MenuItem;
