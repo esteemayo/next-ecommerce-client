@@ -60,6 +60,7 @@ const Container = styled.section`
   padding: 5rem 0;
   background-color: #222;
   color: #fff;
+  margin-top: -1px;
 `;
 
 const Wrapper = styled.div`
