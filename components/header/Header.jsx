@@ -28,7 +28,9 @@ const Header = () => {
   }, [mobileNavActive]);
 
   const navigation = useMemo(() => {
-    return mobileNavActive ? mobileNavActive : undefined;
+    return mobileNavActive ? 
+      mobileNavActive.toString() : 
+      undefined;
   }, [mobileNavActive]);
 
   return (
