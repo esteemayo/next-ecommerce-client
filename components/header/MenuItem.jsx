@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 
 const MenuItem = ({ url, label, cart, onClose }) => {
   return (
-    <ListItem>
+    <ListItem onClick={onClose}>
       <NavLink href={url} passHref>
         {url.includes('/cart') ? `${label} (${cart.length})` : label}
       </NavLink>
