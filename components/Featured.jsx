@@ -4,8 +4,8 @@ import styled from 'styled-components';
 import Image from 'next/image';
 import PropTypes from 'prop-types';
 
-import Button from './Button';
-import ButtonLink from './ButtonLink';
+import Button from './buttons/Button';
+import ButtonLink from './buttons/ButtonLink';
 import Center from './Center';
 import CartIcon from './icons/CartIcon';
 
