@@ -71,6 +71,8 @@ const Wrapper = styled.div`
 `;
 
 const LogoBox = styled.div`
+  flex: 1;
+
   @media only screen and (max-width: 48em) {
     width: 100%;
     display: flex;
