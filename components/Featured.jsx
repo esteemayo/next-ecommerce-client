@@ -71,7 +71,7 @@ const Wrapper = styled.div`
     order: 2;
   }
   
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 48em) {
     grid-template-columns: 1.1fr 0.9fr;
 
     div:nth-child(1) {
