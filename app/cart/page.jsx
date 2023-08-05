@@ -3,7 +3,7 @@
 import styled from 'styled-components';
 import { useCallback, useEffect, useState } from 'react';
 
-import Button from '@/components/Button';
+import Button from '@/components/buttons/Button';
 import ClientOnly from '@/components/ClientOnly';
 import Center from '@/components/Center';
 import CartItems from '@/components/cart/CartItems';
