@@ -4,7 +4,7 @@ import Link from 'next/link';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
-const MenuItem = ({ url, label, cart }) => {
+const MenuItem = ({ url, label, cart, onClose }) => {
   return (
     <ListItem>
       <NavLink href={url} passHref>
