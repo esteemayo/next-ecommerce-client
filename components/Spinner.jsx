@@ -7,7 +7,7 @@ const Spinner = () => {
   return (
     <Container>
       <ClipLoader
-        size={30}
+        size={50}
         color='#0d3d29'
         speedMultiplier={false}
       />
