@@ -47,6 +47,7 @@ const Header = () => {
                     url={url}
                     label={label}
                     cart={cart}
+                    onClose={onClose}
                   />
                 );
               })}
