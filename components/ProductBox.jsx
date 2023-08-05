@@ -98,7 +98,7 @@ const PriceContainer = styled.div`
   }
 
   button {
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 48em) {
       width: 100%;
     }
   }
