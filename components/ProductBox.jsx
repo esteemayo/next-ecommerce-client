@@ -7,7 +7,7 @@ import Link from 'next/link';
 import PropTypes from 'prop-types';
 import { useMemo } from 'react';
 
-import Button from './Button';
+import Button from './buttons/Button';
 import { useGlobalContext } from '@/context/CartContext';
 
 const ProductBox = ({ _id: id, title, slug, price, images }) => {
