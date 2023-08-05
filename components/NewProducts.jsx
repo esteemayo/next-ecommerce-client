@@ -16,7 +16,9 @@ const NewProducts = ({ products }) => {
   );
 };
 
-const Container = styled.section``;
+const Container = styled.section`
+  padding: 6rem 0;
+`;
 
 const Heading = styled.h2`
   font-weight: normal;
