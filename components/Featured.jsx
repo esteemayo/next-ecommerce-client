@@ -15,6 +15,10 @@ import { useGlobalContext } from '@/context/CartContext';
 const Featured = ({ product }) => {
   const { addProduct } = useGlobalContext();
 
+  const url = useMemo(() => {
+    return `/product/${encodeURIComponent(product.slug)}`;
+  }, [product.slug]);
+
   return (
     <Container>
       <Center>
