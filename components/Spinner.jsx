@@ -5,7 +5,13 @@ import { ClipLoader } from 'react-spinners';
 
 const Spinner = () => {
   return (
-    <Container>Spinner</Container>
+    <Container>
+      <ClipLoader
+        size={30}
+        color='#0d3d29'
+        speedMultiplier={false}
+      />
+    </Container>
   );
 };
 
