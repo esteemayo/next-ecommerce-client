@@ -9,4 +9,8 @@ const Logo = () => {
   );
 };
 
+const StyledLogo = styled(Link)`
+  
+`;
+
 export default Logo;
