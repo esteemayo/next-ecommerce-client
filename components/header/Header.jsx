@@ -125,6 +125,11 @@ const ListContainer = styled.ul`
   list-style: none;
   display: block;
   padding-top: 2rem;
+
+  @media only screen and (min-width: 40.625), (max-width: 47.9375em) {
+    max-width: 76rem;
+    margin: 0 auto;
+  }
   
   @media only screen and (min-width: 48em) {
     display: flex;
