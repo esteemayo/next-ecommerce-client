@@ -32,7 +32,7 @@ const Header = () => {
       <Center>
         <Wrapper>
           <LogoBox>
-            <Logo />
+            <Logo onClose={onClose} />
             <NavButton onClick={toggleHandler}>
               {!mobileNavActive ? <BarsIcon /> : <CloseIcon />}
             </NavButton>
