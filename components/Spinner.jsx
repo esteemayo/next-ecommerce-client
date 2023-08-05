@@ -9,4 +9,8 @@ const Spinner = () => {
   );
 };
 
+const Container = styled.section`
+  
+`;
+
 export default Spinner;
