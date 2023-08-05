@@ -65,7 +65,7 @@ const ImageContainer = styled.div`
   align-items: center;
   justify-content: center;
 
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 48em) {
     max-width: 10rem;
     max-height: 10rem;
     padding: 1rem;
