@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import styled from 'styled-components';
 
-const Logo = () => {
+const Logo = ({ onClose }) => {
   return (
     <StyledLogo href='/' passHref>
       Ecommerce
