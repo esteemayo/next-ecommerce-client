@@ -22,6 +22,11 @@ const Header = () => {
     setMobileNavActive((value) => !value);
   }, []);
 
+  const onClose = useCallback((e) => {
+    e.stopPropagation();
+    mobileNavActive && setMobileNavActive(false);
+  }, [mobileNavActive]);
+
   return (
     <StyledHeader>
       <Center>
