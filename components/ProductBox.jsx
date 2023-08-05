@@ -92,7 +92,7 @@ const PriceContainer = styled.div`
   justify-content: space-between;
   margin-top: 2px;
   
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 48em) {
     display: flex;
     gap: 0.5rem;
   }
