@@ -24,8 +24,12 @@ const Header = () => {
 
   const onClose = useCallback((e) => {
     e.stopPropagation();
-    mobileNavActive && setMobileNavActive(false);
-  }, [mobileNavActive]);
+
+    if (window.innerWidth >= '768') {
+      return setMobileNavActive(true);
+    }
+    return setMobileNavActive(false);
+  }, []);
 
   const navigation = useMemo(() => {
     return mobileNavActive ?
