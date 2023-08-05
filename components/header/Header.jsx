@@ -28,8 +28,8 @@ const Header = () => {
   }, [mobileNavActive]);
 
   const navigation = useMemo(() => {
-    return mobileNavActive ? 
-      mobileNavActive.toString() : 
+    return mobileNavActive ?
+      mobileNavActive.toString() :
       undefined;
   }, [mobileNavActive]);
 
