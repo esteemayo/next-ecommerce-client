@@ -1,5 +1,7 @@
 'use client';
 
+import styled from 'styled-components';
+
 const Spinner = () => {
   return (
     <div>Spinner</div>
