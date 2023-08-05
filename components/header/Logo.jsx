@@ -5,7 +5,9 @@ import styled from 'styled-components';
 
 const Logo = () => {
   return (
-    <div>Logo</div>
+    <StyledLogo href='/' passHref>
+      Ecommerce
+    </StyledLogo>
   );
 };
 
