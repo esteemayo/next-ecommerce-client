@@ -126,7 +126,7 @@ const Right = styled.div`
     margin: 0 auto;
   }
 
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 48em) {
     img {
       max-width: 100%;
       object-fit: cover;
