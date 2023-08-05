@@ -12,7 +12,8 @@ const Logo = () => {
 };
 
 const StyledLogo = styled(Link)`
-  
+  text-decoration: none;
+  color: var(--clr-white);
 `;
 
 export default Logo;
