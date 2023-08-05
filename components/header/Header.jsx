@@ -76,11 +76,6 @@ const LogoBox = styled.div`
   }
 `;
 
-const Logo = styled(Link)`
-  text-decoration: none;
-  color: #fff;
-`;
-
 const NavButton = styled.button`
   border: none;
   display: inline-block;
