@@ -18,6 +18,9 @@ const Spinner = () => {
 const Container = styled.section`
   width: 100vw;
   min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 export default Spinner;
