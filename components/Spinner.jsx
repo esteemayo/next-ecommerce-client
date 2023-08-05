@@ -5,7 +5,7 @@ import { ClipLoader } from 'react-spinners';
 
 const Spinner = () => {
   return (
-    <div>Spinner</div>
+    <Container>Spinner</Container>
   );
 };
 
