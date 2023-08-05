@@ -41,7 +41,7 @@ const Header = () => {
               {!mobileNavActive ? <BarsIcon /> : <CloseIcon />}
             </NavButton>
           </LogoBox>
-          <Nav navigation={mobileNavActive ? mobileNavActive : undefined}>
+          <Nav navigation={navigation}>
             <ListContainer>
               {navLinks.map((link) => {
                 const { id, url, label } = link;
