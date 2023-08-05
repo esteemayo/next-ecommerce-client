@@ -113,7 +113,7 @@ const Nav = styled.nav`
   padding: 7rem 2rem 2rem;
   background-color: var(--clr-secondary-black);
 
-  @media only screen and (min-width: 40em) {
+  @media only screen and (min-width: 48em) {
     position: static;
     padding: 0;
   }
