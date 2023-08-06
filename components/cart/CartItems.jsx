@@ -1,7 +1,7 @@
 'use client';
 
-import styled from 'styled-components';
 import PropTypes from 'prop-types';
+import styled from 'styled-components';
 
 import CartItem from './CartItem';
 import CartTotal from './CartTotal';
