@@ -57,7 +57,6 @@ const Container = styled.div`
 `;
 
 const Wrapper = styled.div`
-  width: 10rem;
   height: 5rem;
   padding: 0.5rem;
   border: 2px solid #aaa;
