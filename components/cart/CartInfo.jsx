@@ -20,4 +20,8 @@ const Heading = styled.h2`
 
 const Form = styled.form``;
 
+const CityHolder = styled.div`
+  
+`;
+
 export default CartInfo;
