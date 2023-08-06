@@ -28,7 +28,7 @@ const ProductImages = ({ images }) => {
               active={image === activeImage}
               onClick={() => setActiveImage(image)}
             >
-              <Image
+              <StyledImage
                 src={image}
                 width={80}
                 height={80}
