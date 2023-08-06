@@ -45,7 +45,7 @@ const CartProvider = ({ children }) => {
   };
 
   useEffect(() => {
-    if (state.cart?.length > 0) {
+    if (state.cart?.length >= 0) {
       setToStorage(cartKey, state.cart);
     }
   }, [state.cart]);
