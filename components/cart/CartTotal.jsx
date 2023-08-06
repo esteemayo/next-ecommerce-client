@@ -15,6 +15,8 @@ const CartTotal = ({ total }) => {
   );
 };
 
+const Container = styled.div``;
+
 CartTotal.propTypes = {
   total: PropTypes.number.isRequired,
 };
