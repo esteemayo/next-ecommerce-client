@@ -5,11 +5,50 @@ import styled from 'styled-components';
 import Input from '@/components/Input';
 import WhiteBox from '@/components/WhiteBox';
 
-const CartInfo = ({ onSubmit }) => {
+const CartInfo = ({ onChange, onSubmit }) => {
   return (
     <WhiteBox>
       <Heading>Order information</Heading>
-      <Form onSubmit={onSubmit}></Form>
+      <Form onSubmit={onSubmit}>
+        <Input
+          type='text'
+          name='name'
+          placeholder='Name'
+          onChange={onChange}
+        />
+        <Input
+          type='email'
+          name='email'
+          placeholder='Email'
+          onChange={onChange}
+        />
+        <CityHolder>
+          <Input
+            type='text'
+            name='city'
+            placeholder='City'
+            onChange={onChange}
+          />
+          <Input
+            type='text'
+            name='postalCode'
+            placeholder='Postal Code'
+            onChange={onChange}
+          />
+        </CityHolder>
+        <Input
+          type='text'
+          name='streetAddress'
+          placeholder='Street Address'
+          onChange={onChange}
+        />
+        <Input
+          type='text'
+          name='country'
+          placeholder='Country'
+          onChange={onChange}
+        />
+      </Form>
     </WhiteBox>
   );
 };
