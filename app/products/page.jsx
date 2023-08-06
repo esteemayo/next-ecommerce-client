@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import { useEffect, useState } from 'react';
 
 import Center from '@/components/Center';
-import ProductsGrid from '@/components/ProductsGrid';
+import ProductsGrid from '@/components/products/ProductsGrid';
 import Heading from '@/components/Heading';
 import ClientOnly from '@/components/ClientOnly';
 
