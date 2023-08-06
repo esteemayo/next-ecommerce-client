@@ -10,4 +10,8 @@ const CartInfo = () => {
   );
 };
 
+const Heading = styled.h2`
+  
+`;
+
 export default CartInfo;
