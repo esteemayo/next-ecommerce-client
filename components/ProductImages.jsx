@@ -70,6 +70,13 @@ const Wrapper = styled.div`
   ${({ active }) => !active && css`
     border-color: transparent;
   `}
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    display: block;
+  }
 `;
 
 export default ProductImages;
