@@ -3,7 +3,6 @@
 import styled from 'styled-components';
 import { useCallback, useEffect, useState } from 'react';
 
-import Button from '@/components/buttons/Button';
 import Center from '@/components/Center';
 import ClientOnly from '@/components/ClientOnly';
 import Input from '@/components/Input';
