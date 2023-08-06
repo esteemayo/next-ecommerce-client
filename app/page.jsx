@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import { useEffect, useState } from 'react';
 
 import Featured from '@/components/Featured';
-import NewProducts from '@/components/NewProducts';
+import NewProducts from '@/components/products/NewProducts';
 import ClientOnly from '@/components/ClientOnly';
 
 import { getNewProducts, getProductById } from '@/services/productService';
