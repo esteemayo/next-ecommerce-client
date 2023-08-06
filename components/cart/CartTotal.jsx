@@ -17,7 +17,10 @@ const CartTotal = ({ total }) => {
   );
 };
 
-const Container = styled.div``;
+const Container = styled.div`
+  font-weight: 700;
+  color: inherit;
+`;
 
 CartTotal.propTypes = {
   total: PropTypes.number.isRequired,
