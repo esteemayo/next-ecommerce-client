@@ -2,7 +2,7 @@
 
 import { NumericFormat } from 'react-number-format';
 
-const CartTotal = () => {
+const CartTotal = ({ total }) => {
   return (
     <div>CartTotal</div>
   );
