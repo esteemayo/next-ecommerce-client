@@ -5,7 +5,6 @@ import { useCallback, useEffect, useState } from 'react';
 
 import Center from '@/components/Center';
 import ClientOnly from '@/components/ClientOnly';
-import Input from '@/components/Input';
 import CartItems from '@/components/cart/CartItems';
 import WhiteBox from '@/components/WhiteBox';
 import CartInfo from '@/components/cart/CartInfo';
