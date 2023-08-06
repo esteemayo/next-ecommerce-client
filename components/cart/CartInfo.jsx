@@ -70,7 +70,7 @@ const Form = styled.form``;
 const CityHolder = styled.div`
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 1rem;
 `;
 
 export default CartInfo;
