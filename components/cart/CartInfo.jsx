@@ -59,9 +59,7 @@ const CartInfo = ({ onChange, onSubmit }) => {
   );
 };
 
-const Container = styled.div`
-  
-`;
+const Container = styled.div``;
 
 const Heading = styled.h2`
   font-weight: 700;
