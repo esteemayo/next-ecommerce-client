@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import styled, { css } from 'styled-components';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 const ProductImages = ({ images }) => {
   const [activeImage, setActiveImage] = useState(images?.[0]);
