@@ -7,7 +7,7 @@ import { useEffect, useState } from 'react';
 import Center from '@/components/Center';
 import ClientOnly from '@/components/ClientOnly';
 import Heading from '@/components/Heading';
-import ProductImages from '@/components/ProductImages';
+import ProductImages from '@/components/products/ProductImages';
 import Button from '@/components/buttons/Button';
 import CartIcon from '@/components/icons/CartIcon';
 import WhiteBox from '@/components/WhiteBox';
