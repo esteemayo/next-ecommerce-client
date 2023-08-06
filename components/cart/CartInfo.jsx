@@ -49,6 +49,13 @@ const CartInfo = ({ onChange, onSubmit }) => {
           placeholder='Country'
           onChange={onChange}
         />
+        <Button
+          type='submit'
+          black={1}
+          block={1}
+        >
+          Continue to payment
+        </Button>
       </Form>
     </WhiteBox>
   );
