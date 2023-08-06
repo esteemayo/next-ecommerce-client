@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 import { NumericFormat } from 'react-number-format';
 
 import CartItem from './CartItem';
+import CartTotal from './CartTotal';
 import Table from '@/components/Table';
 
 const CartItems = ({
