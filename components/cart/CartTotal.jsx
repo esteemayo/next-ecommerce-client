@@ -6,12 +6,14 @@ import { NumericFormat } from 'react-number-format';
 
 const CartTotal = ({ total }) => {
   return (
-    <NumericFormat
-      value={total}
-      displayType={'text'}
-      thousandSeparator={true}
-      prefix={'$'}
-    />
+    <Container>
+      <NumericFormat
+        value={total}
+        displayType={'text'}
+        thousandSeparator={true}
+        prefix={'$'}
+      />
+    </Container>
   );
 };
 
