@@ -15,7 +15,7 @@ import { useGlobalContext } from '@/context/CartContext';
 
 const Header = () => {
   const { cart } = useGlobalContext();
-  const [mobileNavActive, setMobileNavActive] = useState(false);
+  const [mobileNavActive, setMobileNavActive] = useState(true);
 
   const toggleHandler = useCallback((e) => {
     e.stopPropagation();
