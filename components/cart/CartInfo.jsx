@@ -3,6 +3,7 @@
 import styled from 'styled-components';
 
 import Input from '@/components/Input';
+import Button from '@/components/buttons/Button';
 import WhiteBox from '@/components/WhiteBox';
 
 const CartInfo = ({ onChange, onSubmit }) => {
