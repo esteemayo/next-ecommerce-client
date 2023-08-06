@@ -1,6 +1,7 @@
 'use client';
 
 import styled from 'styled-components';
+import Input from '@/components/Input';
 
 const CartInfo = () => {
   return (
