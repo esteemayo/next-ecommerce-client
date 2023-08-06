@@ -39,11 +39,11 @@ const CartReducer = (state, { payload, type }) => {
       };
 
     case actions.GET_TOTALS:
-      let total;
+      let total = 0;
       for (const productId of state.cart) {
         const price = state.products.find((item) => item._id === productId)?.price || 0;
-        state.total += price;
-        total = state.total;
+        total += price;
+        state.total = total;
       }
 
       return {
