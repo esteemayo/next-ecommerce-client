@@ -10,6 +10,10 @@ import ClientOnly from '@/components/ClientOnly';
 
 import { getProducts } from '@/services/productService';
 
+export const metadata = {
+  title: 'All products',
+};
+
 const Products = () => {
   const [products, setProducts] = useState([]);
 
