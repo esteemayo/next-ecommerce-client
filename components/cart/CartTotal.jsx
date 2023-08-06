@@ -4,7 +4,12 @@ import { NumericFormat } from 'react-number-format';
 
 const CartTotal = ({ total }) => {
   return (
-    <div>CartTotal</div>
+    <NumericFormat
+      value={total}
+      displayType={'text'}
+      thousandSeparator={true}
+      prefix={'$'}
+    />
   );
 };
 
