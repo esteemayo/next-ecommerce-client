@@ -8,10 +8,6 @@ const ProductImages = ({ images }) => {
   const [productImages, setProductImages] = useState([]);
   const [activeImage, setActiveImage] = useState(images?.[0]);
 
-  useEffect(() => {
-    setProductImages(images);
-  }, [images]);
-
   return (
     <>
       <StyledImage
