@@ -127,56 +127,10 @@ const Cart = () => {
               />
             </WhiteBox>
             {!!cart?.length && (
-              <WhiteBox>
-                <Heading>Order information</Heading>
-                <Form onSubmit={handleSubmit}>
-                  <Input
-                    type='text'
-                    name='name'
-                    placeholder='Name'
-                    onChange={handleChange}
-                  />
-                  <Input
-                    type='email'
-                    name='email'
-                    placeholder='Email'
-                    onChange={handleChange}
-                  />
-                  <CityHolder>
-                    <Input
-                      type='text'
-                      name='city'
-                      placeholder='City'
-                      onChange={handleChange}
-                    />
-                    <Input
-                      type='text'
-                      name='postalCode'
-                      placeholder='Postal Code'
-                      onChange={handleChange}
-                    />
-                  </CityHolder>
-                  <Input
-                    type='text'
-                    name='streetAddress'
-                    placeholder='Street Address'
-                    onChange={handleChange}
-                  />
-                  <Input
-                    type='text'
-                    name='country'
-                    placeholder='Country'
-                    onChange={handleChange}
-                  />
-                  <Button
-                    type='submit'
-                    black={1}
-                    block={1}
-                  >
-                    Continue to payment
-                  </Button>
-                </Form>
-              </WhiteBox>
+              <CartInfo
+                onChange={handleChange}
+                onSubmit={handleSubmit}
+              />
             )}
           </Wrapper>
         </Center>
