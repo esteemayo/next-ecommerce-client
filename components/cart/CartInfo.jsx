@@ -6,7 +6,9 @@ import WhiteBox from '@/components/WhiteBox';
 
 const CartInfo = () => {
   return (
-    <WhiteBox>CartInfo</WhiteBox>
+    <WhiteBox>
+      <Heading>Order information</Heading>
+    </WhiteBox>
   );
 };
 
