@@ -18,6 +18,7 @@ const CartTotal = ({ total }) => {
 };
 
 const Container = styled.div`
+  display: inline-block;
   font-weight: 700;
   color: inherit;
 `;
