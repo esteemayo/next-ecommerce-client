@@ -1,5 +1,6 @@
 'use client';
 
+import styled from 'styled-components';
 import PropTypes from 'prop-types';
 import { NumericFormat } from 'react-number-format';
 
