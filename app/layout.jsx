@@ -24,7 +24,7 @@ const GlobalStyles = createGlobalStyle`
     --clr-white: #fff;
     --clr-primary-black: #000;
     --clr-secondary-black: #222;
-    --clr-primary-blue: #0d3d29;
+    --clr-primary-green: #0d3d29;
   }
 
   *,
