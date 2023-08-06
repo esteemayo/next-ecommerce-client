@@ -53,15 +53,15 @@ export const ButtonStyle = css`
   `}
 
   ${({ primary, outline }) => primary && !outline && css`
-    background-color: var(--clr-primary-blue);
+    background-color: var(--clr-primary-green);
     color: var(--clr-white);
-    border: 1px solid var(--clr-primary-blue);
+    border: 1px solid var(--clr-primary-green);
   `}
 
   ${({ primary, outline }) => primary && outline && css`
     background-color: transparent;
-    color: var(--clr-primary-blue);
-    border: 1px solid var(--clr-primary-blue);
+    color: var(--clr-primary-green);
+    border: 1px solid var(--clr-primary-green);
   `}
 
   ${({ size }) => size === 'lg' && css`
