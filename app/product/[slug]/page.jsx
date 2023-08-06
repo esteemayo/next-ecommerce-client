@@ -20,7 +20,7 @@ const Product = ({ params: { slug } }) => {
   const [product, setProduct] = useState({});
 
   useEffect(() => {
-    (async () => {
+    slug && (async () => {
       try {
         const { data } = await getProductBySlug(slug);
         setProduct(data);
