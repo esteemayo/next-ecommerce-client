@@ -5,7 +5,7 @@ import styled, { css } from 'styled-components';
 import { useState } from 'react';
 
 const ProductImages = ({ images }) => {
-  const [activeImage, setActiveImage] = useState(images[0]);
+  const [activeImage, setActiveImage] = useState(images?.[0]);
   console.log(images)
 
   return (
