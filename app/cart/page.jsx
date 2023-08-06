@@ -5,8 +5,8 @@ import { useCallback, useEffect, useState } from 'react';
 
 import Center from '@/components/Center';
 import ClientOnly from '@/components/ClientOnly';
-import CartItems from '@/components/cart/CartItems';
 import WhiteBox from '@/components/WhiteBox';
+import CartItems from '@/components/cart/CartItems';
 import CartInfo from '@/components/cart/CartInfo';
 
 import { useGlobalContext } from '@/context/CartContext';
