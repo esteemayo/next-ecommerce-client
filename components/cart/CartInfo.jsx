@@ -5,10 +5,11 @@ import styled from 'styled-components';
 import Input from '@/components/Input';
 import WhiteBox from '@/components/WhiteBox';
 
-const CartInfo = () => {
+const CartInfo = ({ onSubmit }) => {
   return (
     <WhiteBox>
       <Heading>Order information</Heading>
+      <Form onSubmit={onSubmit}></Form>
     </WhiteBox>
   );
 };
