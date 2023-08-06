@@ -1,5 +1,6 @@
 'use client';
 
+import PropTypes from 'prop-types';
 import { NumericFormat } from 'react-number-format';
 
 const CartTotal = ({ total }) => {
