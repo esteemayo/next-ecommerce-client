@@ -50,12 +50,7 @@ const CartItems = ({
               <Td></Td>
               <Td></Td>
               <Td>
-                <NumericFormat
-                  value={total}
-                  displayType={'text'}
-                  thousandSeparator={true}
-                  prefix={'$'}
-                />
+                <CartTotal total={total} />
               </Td>
             </Tr>
           </Tbody>
