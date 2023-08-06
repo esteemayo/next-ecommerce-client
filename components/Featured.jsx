@@ -142,7 +142,7 @@ const Right = styled.div`
 
 Featured.propTypes = {
   product: PropTypes.shape({
-    _id: PropTypes.string,
+    _id: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     slug: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
