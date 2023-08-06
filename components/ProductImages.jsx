@@ -10,7 +10,7 @@ const ProductImages = ({ images }) => {
 
   useEffect(() => {
     setProductImages(images);
-  }, []);
+  }, [images]);
 
   return (
     <>
