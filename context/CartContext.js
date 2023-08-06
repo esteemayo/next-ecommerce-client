@@ -74,7 +74,7 @@ const CartProvider = ({ children }) => {
     dispatch({
       type: actions.GET_TOTALS,
     });
-  }, [state.products]);
+  }, [state.products, state.total]);
 
   return (
     <CartContext.Provider
