@@ -87,7 +87,7 @@ CartItems.propTypes = {
       images: PropTypes.array.isRequired,
     }),
   ),
-  total: PropTypes.number,
+  total: PropTypes.number.isRequired,
   totalPrice: PropTypes.func.isRequired,
   numberOfProducts: PropTypes.func.isRequired,
 };
