@@ -12,6 +12,10 @@ import CartInfo from '@/components/cart/CartInfo';
 import { useGlobalContext } from '@/context/CartContext';
 import { createCheckout } from '@/services/checkoutService';
 
+export const metadata = {
+  title: 'Cart',
+};
+
 const initialState = {
   name: '',
   email: '',
