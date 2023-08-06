@@ -9,6 +9,7 @@ import ClientOnly from '@/components/ClientOnly';
 import Input from '@/components/Input';
 import CartItems from '@/components/cart/CartItems';
 import WhiteBox from '@/components/WhiteBox';
+import CartInfo from '@/components/cart/CartInfo';
 
 import { useGlobalContext } from '@/context/CartContext';
 import { createCheckout } from '@/services/checkoutService';
