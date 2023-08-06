@@ -15,7 +15,7 @@ const ProductImages = ({ images }) => {
   return (
     <>
       <StyledImage
-        src={activeImage}
+        src={images?.[0]}
         width={228}
         height={121}
         alt=''
@@ -28,7 +28,7 @@ const ProductImages = ({ images }) => {
               active={image === activeImage}
               onClick={() => setActiveImage(image)}
             >
-              <StyledImage
+              <Image
                 src={image}
                 width={80}
                 height={80}
