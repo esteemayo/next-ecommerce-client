@@ -14,7 +14,7 @@ const CartInfo = () => {
 };
 
 const Heading = styled.h2`
-  
+  font-weight: 700;
 `;
 
 export default CartInfo;
