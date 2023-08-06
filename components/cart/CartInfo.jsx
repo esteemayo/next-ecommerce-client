@@ -17,4 +17,6 @@ const Heading = styled.h2`
   font-weight: 700;
 `;
 
+const Form = styled.form``;
+
 export default CartInfo;
