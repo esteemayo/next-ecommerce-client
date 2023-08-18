@@ -68,7 +68,7 @@ export const POST = async (request) => {
       metadata: {
         orderId: String(order._id),
       },
-    })
+    });
 
     return NextResponse.json({ url: session.url }, {
       status: 201,
